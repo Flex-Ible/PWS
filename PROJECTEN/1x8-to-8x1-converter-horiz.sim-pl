@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="1x8-to-8x1-converter" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="190.0" POSY="130.0"
+            WIDTH="230.0" HEIGHT="50.0" RADIUSX="5.0" RADIUSY="5.0">
+            <STROKE/>
+        </RECTANGLE>
+        <TEXT POSX="300.0" POSY="160.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">1x8 --&gt; 8x1</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="8" SIGNED="false" POSX="310.0" POSY="180.0" NAME="i">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="380.0" POSY="130.0" NAME="o6">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="410.0" POSY="130.0" NAME="o7">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="350.0" POSY="130.0" NAME="o5">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="320.0" POSY="130.0" NAME="o4">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="290.0" POSY="130.0" NAME="o3">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="260.0" POSY="130.0" NAME="o2">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="230.0" POSY="130.0" NAME="o1">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="200.0" POSY="130.0" NAME="o0">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">{
+o0 = i &gt;&gt; 0;
+o1 = i &gt;&gt; 1;
+o2 = i &gt;&gt; 2;
+o3 = i &gt;&gt; 3;
+o4 = i &gt;&gt; 4;
+o5 = i &gt;&gt; 5;
+o6 = i &gt;&gt; 6;
+o7 = i &gt;&gt; 7;
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

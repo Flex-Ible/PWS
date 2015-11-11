@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <COMPLEX NAME="Decoder" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
     <PARAMETERS/>
-    <FORMS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="60.0" POSY="10.0" WIDTH="360.0"
+            HEIGHT="490.0" RADIUSX="10.0" RADIUSY="10.0">
+            <STROKE/>
+        </RECTANGLE>
+    </FORMS>
     <IO>
         <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="30.0" NAME="IN_A">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
