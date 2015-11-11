@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="Asynchronous counter" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="20">
+    <PARAMETERS/>
+    <FORMS>
+        <TEXT POSX="250.0" POSY="-15.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,15.0">Asynchronous counter</TEXT>
+        <RECTANGLE COLOR="#666666" POSX="70.0" POSY="-25.0"
+            WIDTH="350.0" HEIGHT="165.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="250.0" POSY="150.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,13.0">Figuur 6.7</TEXT>
+        <TEXT POSX="115.0" POSY="50.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">FFD</TEXT>
+        <TEXT POSX="200.0" POSY="50.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">FFC</TEXT>
+        <TEXT POSX="290.0" POSY="50.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">FFB</TEXT>
+        <TEXT POSX="370.0" POSY="50.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">FFA</TEXT>
+    </FORMS>
+    <IO>
+        <OUTPUT BITS="1" SIGNED="false" POSX="420.0" POSY="0.0" NAME="FFD">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="420.0" POSY="20.0" NAME="FFC">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="420.0" POSY="40.0" NAME="FFB">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="420.0" POSY="60.0" NAME="FFA">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="Klok" DATA="clock.xml" POSX="-80.0"
+            POSY="70.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="130.0" POSY="60.0" PIN="Clock"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="FFA" DATA="JK-flipflop.xml" POSX="320.0"
+            POSY="50.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="80.0" POSY="20.0" PIN="Q"/>
+                <STUB POSX="20.0" POSY="40.0" PIN="CLK"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="FFB" DATA="JK-flipflop.xml" POSX="235.0"
+            POSY="50.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="80.0" POSY="20.0" PIN="Q"/>
+                <STUB POSX="20.0" POSY="40.0" PIN="CLK"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="FFC" DATA="JK-flipflop.xml" POSX="150.0"
+            POSY="50.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="80.0" POSY="20.0" PIN="Q"/>
+                <STUB POSX="20.0" POSY="40.0" PIN="CLK"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="FFD" DATA="JK-flipflop.xml" POSX="65.0"
+            POSY="50.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="20.0" POSY="40.0" PIN="CLK"/>
+                <STUB POSX="80.0" POSY="20.0" PIN="Q"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire (11)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="ad7a0854f24ea5f2" SUBCOMPONENT="FFB" PIN="CLK"/>
+                <SUBPIN ID="835cb839f8074a1c" SUBCOMPONENT="FFA" PIN="Q"/>
+                <SPLIT ID="421b77b6628b24e2" POSX="400.0" POSY="30.0"/>
+                <SPLIT ID="88415bfd16dab281" POSX="250.0" POSY="90.0"/>
+                <SPLIT ID="61b3453dc2dddd8c" POSX="250.0" POSY="30.0"/>
+                <SPLIT ID="ced7b344a4aa31cc" POSX="400.0" POSY="30.0"/>
+                <SPLIT ID="4c7f62bc3ba067bb" POSX="400.0" POSY="60.0"/>
+                <MAINPIN ID="3bb538393c9231ec" PIN="FFA"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="835cb839f8074a1c"/>
+                    <NODEREF NODE="4c7f62bc3ba067bb"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="ad7a0854f24ea5f2"/>
+                    <NODEREF NODE="88415bfd16dab281"/>
+                    <NODEREF NODE="61b3453dc2dddd8c"/>
+                    <NODEREF NODE="ced7b344a4aa31cc"/>
+                    <NODEREF NODE="421b77b6628b24e2"/>
+                    <NODEREF NODE="4c7f62bc3ba067bb"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="3bb538393c9231ec"/>
+                    <NODEREF NODE="4c7f62bc3ba067bb"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (13)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="aba2319082112a30" SUBCOMPONENT="FFC" PIN="CLK"/>
+                <SUBPIN ID="66670076f3d09b08" SUBCOMPONENT="FFB" PIN="Q"/>
+                <SPLIT ID="c23f7195cadb82e1" POSX="315.0" POSY="40.0"/>
+                <SPLIT ID="f9c0766edaf4a986" POSX="165.0" POSY="90.0"/>
+                <SPLIT ID="54cb2094e09d52be" POSX="165.0" POSY="40.0"/>
+                <SPLIT ID="b0fbe1753a4c4136" POSX="315.0" POSY="40.0"/>
+                <SPLIT ID="99bde6846a425ba6" POSX="315.0" POSY="40.0"/>
+                <MAINPIN ID="dd90b14d9f877875" PIN="FFB"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="66670076f3d09b08"/>
+                    <NODEREF NODE="99bde6846a425ba6"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="aba2319082112a30"/>
+                    <NODEREF NODE="f9c0766edaf4a986"/>
+                    <NODEREF NODE="54cb2094e09d52be"/>
+                    <NODEREF NODE="b0fbe1753a4c4136"/>
+                    <NODEREF NODE="c23f7195cadb82e1"/>
+                    <NODEREF NODE="99bde6846a425ba6"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="dd90b14d9f877875"/>
+                    <NODEREF NODE="99bde6846a425ba6"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (15)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="407e33d956910af9" SUBCOMPONENT="FFD" PIN="CLK"/>
+                <SUBPIN ID="280866b35d33320" SUBCOMPONENT="FFC" PIN="Q"/>
+                <SPLIT ID="c525a9a83ab4d490" POSX="230.0" POSY="20.0"/>
+                <SPLIT ID="ff1a2d81a3d0d1ba" POSX="80.0" POSY="90.0"/>
+                <SPLIT ID="c4913077dc414806" POSX="80.0" POSY="20.0"/>
+                <SPLIT ID="b0f4af66ce6965c1" POSX="225.0" POSY="20.0"/>
+                <SPLIT ID="8b216bb68307b556" POSX="230.0" POSY="20.0"/>
+                <MAINPIN ID="c4a2000b9e9f467c" PIN="FFC"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="280866b35d33320"/>
+                    <NODEREF NODE="8b216bb68307b556"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="407e33d956910af9"/>
+                    <NODEREF NODE="ff1a2d81a3d0d1ba"/>
+                    <NODEREF NODE="c4913077dc414806"/>
+                    <NODEREF NODE="b0f4af66ce6965c1"/>
+                    <NODEREF NODE="c525a9a83ab4d490"/>
+                    <NODEREF NODE="8b216bb68307b556"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="8b216bb68307b556"/>
+                    <NODEREF NODE="c4a2000b9e9f467c"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Clock" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="fcb3c8aaf210f215" SUBCOMPONENT="FFA" PIN="CLK"/>
+                <SUBPIN ID="513f0980393694fb" SUBCOMPONENT="Klok" PIN="Clock"/>
+                <SPLIT ID="41b20a127a385062" POSX="335.0" POSY="90.0"/>
+                <SPLIT ID="447391d099dac503" POSX="335.0" POSY="130.0"/>
+                <SPLIT ID="d1852fdf3473c43b" POSX="50.0" POSY="130.0"/>
+                <SPLIT ID="7a18ca98f3bf0672" POSX="60.0" POSY="130.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="513f0980393694fb"/>
+                    <NODEREF NODE="d1852fdf3473c43b"/>
+                    <NODEREF NODE="7a18ca98f3bf0672"/>
+                    <NODEREF NODE="447391d099dac503"/>
+                    <NODEREF NODE="41b20a127a385062"/>
+                    <NODEREF NODE="fcb3c8aaf210f215"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="3bca5843a85cf257" SUBCOMPONENT="FFD" PIN="Q"/>
+                <MAINPIN ID="ad6e9d81afb92ca7" PIN="FFD"/>
+                <SPLIT ID="899cfaf32d101710" POSX="145.0" POSY="0.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="3bca5843a85cf257"/>
+                    <NODEREF NODE="899cfaf32d101710"/>
+                    <NODEREF NODE="ad6e9d81afb92ca7"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

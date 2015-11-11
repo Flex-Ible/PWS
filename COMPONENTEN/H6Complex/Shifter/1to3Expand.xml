@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="1to3Expand" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <LINE COLOR="#000000" FROMX="90" FROMY="80" TOX="100" TOY="80">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="90" FROMY="90" TOX="100" TOY="90">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="90" FROMY="100" TOX="100" TOY="100">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="90" FROMY="80" TOX="90" TOY="100">
+            <STROKE LINEWIDTH="2.0"/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="80" FROMY="100" TOX="90" TOY="100">
+            <STROKE LINEWIDTH="3.0"/>
+        </LINE>
+    </FORMS>
+    <IO>
+        <INPUT BITS="3" SIGNED="false" POSX="80.0" POSY="100.0" NAME="S">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="100.0" POSY="80.0" NAME="s2">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="100.0" POSY="90.0" NAME="s1">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="100.0" POSY="100.0" NAME="s0">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">{
+ s0 = S;
+ s1 = S &gt;&gt; 0d1;
+ s2 = S &gt;&gt; 0d2;
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

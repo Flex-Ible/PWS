@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="MultiAND" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <POLYGON COLOR="#000000">
+            <STROKE LINEWIDTH="1.5"/>
+            <POINT POSX="60.0" POSY="30.0"/>
+            <POINT POSX="60.0" POSY="60.0"/>
+            <POINT POSX="85.0" POSY="60.0"/>
+            <POINT POSX="85.0" POSY="30.0"/>
+        </POLYGON>
+        <TEXT POSX="73.0" POSY="43.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">&amp;</TEXT>
+    </FORMS>
+    <IO>
+        <OUTPUT BITS="4" SIGNED="false" POSX="85.0" POSY="45.0" NAME="Out">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="4" SIGNED="false" POSX="60.0" POSY="40.0" NAME="Mcand">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="50.0" NAME="Mplier">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">{
+  Out = Mcand * Mplier;
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

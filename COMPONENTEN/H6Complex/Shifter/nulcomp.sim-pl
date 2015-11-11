@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="nulcomp" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="154.0" POSY="3.0" WIDTH="11.0"
+            HEIGHT="14.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+            <FILL COLOR="#00FF00"/>
+        </RECTANGLE>
+        <TEXT POSX="159.0" POSY="9.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">0</TEXT>
+    </FORMS>
+    <IO>
+        <OUTPUT BITS="1" SIGNED="false" POSX="165.0" POSY="10.0" NAME="Out">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INIT">Out = 0;</ACTION>
+    </INTERNALS>
+</SIMPLE>

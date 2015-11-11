@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="8-inputOR" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="70.0" POSY="15.0" WIDTH="30.0"
+            HEIGHT="80.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="50" TOX="70" TOY="50">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="60" TOX="70" TOY="60">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="70" TOX="70" TOY="70">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="85.0" POSY="25.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="DialogInput,plain,12.0">&#x2265;1</TEXT>
+        <LINE COLOR="#000000" FROMX="110" FROMY="55" TOX="100" TOY="55">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="20" TOX="70" TOY="20">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="30" TOX="70" TOY="30">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="40" TOX="70" TOY="40">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="80" TOX="70" TOY="80">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="90" TOX="70" TOY="90">
+            <STROKE/>
+        </LINE>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="50.0" NAME="v">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="60.0" NAME="w">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="70.0" NAME="x">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="110.0" POSY="55.0" NAME="Z">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="80.0" NAME="y">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="90.0" NAME="z">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="20.0" NAME="s">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="30.0" NAME="t">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="40.0" NAME="u">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">Z = s || t || u || v || w || x || y || z;</ACTION>
+    </INTERNALS>
+</SIMPLE>

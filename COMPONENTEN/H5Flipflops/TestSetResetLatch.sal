@@ -1,0 +1,8 @@
+# Testprogram SetResetLatch
+
+0:   Set =   0x0; Reset = 0x1;
+100:   Set =   0x0; Reset = 0x0;
+200:   Set =   0x1; Reset = 0x0;
+300:   Set =   0x0; Reset = 0x0;
+400:   Set =   0x1; Reset = 0x1;
+500:   Set =   0x0; Reset = 0x0;

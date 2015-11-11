@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="3-inputNAND" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="120.0" POSY="20.0" WIDTH="40.0"
+            HEIGHT="40.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="110" FROMY="30" TOX="120" TOY="30">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="110" FROMY="50" TOX="120" TOY="50">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="130.0" POSY="30.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="DialogInput,plain,18.0">&amp;</TEXT>
+        <ELLIPSE COLOR="#000000" POSX="163.5" POSY="40.0" RADIUSX="3.0" RADIUSY="3.0">
+            <STROKE/>
+        </ELLIPSE>
+        <LINE COLOR="#000000" FROMX="167" FROMY="40" TOX="170" TOY="40">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="110" FROMY="40" TOX="120" TOY="40">
+            <STROKE/>
+        </LINE>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="110.0" POSY="30.0" NAME="v">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="110.0" POSY="50.0" NAME="w">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="170.0" POSY="40.0" NAME="Z">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="110.0" POSY="40.0" NAME="x">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">Z = !(v &amp;&amp; x &amp;&amp; w);</ACTION>
+    </INTERNALS>
+</SIMPLE>

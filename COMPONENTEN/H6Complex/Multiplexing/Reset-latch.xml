@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="Reset latch" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="30.0" POSY="10.0" WIDTH="30.0"
+            HEIGHT="20.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="20" FROMY="20" TOX="30" TOY="20">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="20" TOX="70" TOY="20">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="52.0" POSY="18.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">Q</TEXT>
+        <TEXT POSX="37.0" POSY="18.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">S</TEXT>
+    </FORMS>
+    <IO>
+        <OUTPUT BITS="1" SIGNED="false" POSX="70.0" POSY="20.0" NAME="Q">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="20.0" POSY="20.0" NAME="R">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <MEMORY>
+        <STORAGE NAME="m" SIZE="1" BITS="1" SIGNED="false"/>
+        <STORAGE NAME="OldVal" SIZE="1" BITS="1" SIGNED="false"/>
+    </MEMORY>
+    <INTERNALS DELAY="2">
+        <ACTION EVENT="INPUT_CHANGE">{
+if ( R == 1 &amp;&amp; OldVal[0] == 1) m[0] = 1;  
+if( R == 0) OldVal[0] = 1;
+  Q = m[0];
+}
+</ACTION>
+        <ACTION EVENT="INIT">{
+	m[0] = 0;
+	OldVal[0] = 0; 
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

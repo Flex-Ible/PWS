@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="4-inputAND" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="40.0" POSY="10.0" WIDTH="50.0"
+            HEIGHT="30.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="50" FROMY="0" TOX="50" TOY="10">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="0" TOX="60" TOY="10">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="70" FROMY="0" TOX="70" TOY="10">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="80" FROMY="0" TOX="80" TOY="10">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="60" FROMY="40" TOX="60" TOY="50">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="80.0" POSY="20.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">&amp;</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="50.0" POSY="0.0" NAME="a">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="0.0" NAME="b">
+            <LABEL POSX="0.0" POSY="-10.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="70.0" POSY="0.0" NAME="c">
+            <LABEL POSX="0.0" POSY="-10.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="80.0" POSY="0.0" NAME="d">
+            <LABEL POSX="20.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="60.0" POSY="50.0" NAME="Y">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">Y = a &amp;&amp; b &amp;&amp; c &amp;&amp; d;</ACTION>
+    </INTERNALS>
+</SIMPLE>

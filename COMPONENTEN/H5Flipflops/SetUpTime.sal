@@ -1,0 +1,10 @@
+# Set-up & Hold-time measurement
+# Author B. Bruidegom
+
+0:    J =     0x0; K =     0x0;
+22:   J =     0x0; K =     0x1;
+24:   J =     0x0; K =     0x0;
+72:   J =     0x1; K =     0x0;
+74:   J =     0x0; K =     0x0;
+
+

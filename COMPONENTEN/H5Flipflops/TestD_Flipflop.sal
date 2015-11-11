@@ -1,0 +1,12 @@
+# Time table for D-Flipflop
+# SIM-PL V2.1.8
+# Wed Jul 09 11:19:39 CEST 2008
+
+0:    D =  0x1; Clock = 0x0;
+10:   D =  0x1; Clock = 0x1;
+20:   D =  0x0; Clock = 0x0;
+30:   D =  0x0; Clock = 0x1;
+40:   D =  0x1; Clock = 0x0;
+50:   D =  0x1; Clock = 0x1;
+60:   D =  0x0; Clock = 0x0;
+70:   D =  0x0; Clock = 0x1;

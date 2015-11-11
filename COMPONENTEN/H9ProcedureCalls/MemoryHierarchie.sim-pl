@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="MemoryHierarchie" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="225.0" POSY="15.0" WIDTH="70.0"
+            HEIGHT="30.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE/>
+            <FILL COLOR="#FF3300"/>
+        </RECTANGLE>
+        <TEXT POSX="260.0" POSY="25.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Registers</TEXT>
+        <RECTANGLE COLOR="#000000" POSX="200.0" POSY="75.0"
+            WIDTH="120.0" HEIGHT="45.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE/>
+            <FILL COLOR="#FF6600"/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="170.0" POSY="150.0"
+            WIDTH="180.0" HEIGHT="60.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE/>
+            <FILL COLOR="#FFCC00"/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="130.0" POSY="240.0"
+            WIDTH="260.0" HEIGHT="70.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE/>
+            <FILL COLOR="#FFFF99"/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="260" FROMY="45" TOX="260" TOY="75">
+            <STROKE LINEWIDTH="2.0"/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="260" FROMY="120" TOX="260" TOY="150">
+            <STROKE LINEWIDTH="2.0"/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="260" FROMY="210" TOX="260" TOY="240">
+            <STROKE LINEWIDTH="2.0"/>
+        </LINE>
+        <TEXT POSX="270.0" POSY="225.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Page     4k byte</TEXT>
+        <TEXT POSX="270.0" POSY="135.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Block    128 byte</TEXT>
+        <TEXT POSX="255.0" POSY="60.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Operand    4 bytes</TEXT>
+        <TEXT POSX="170.0" POSY="-25.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,16.0">Access time</TEXT>
+        <TEXT POSX="340.0" POSY="-25.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,16.0">Size </TEXT>
+        <TEXT POSX="260.0" POSY="-25.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,16.0">Device</TEXT>
+        <TEXT POSX="400.0" POSY="170.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">1 GB</TEXT>
+        <TEXT POSX="130.0" POSY="170.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">40 ns</TEXT>
+        <TEXT POSX="160.0" POSY="90.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">1 ns </TEXT>
+        <TEXT POSX="360.0" POSY="25.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">128 bytes</TEXT>
+        <TEXT POSX="180.0" POSY="25.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">0.1 ns</TEXT>
+        <TEXT POSX="260.0" POSY="100.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Cache
+SRAM</TEXT>
+        <TEXT POSX="260.0" POSY="180.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Memory
+DRAM</TEXT>
+        <TEXT POSX="260.0" POSY="270.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Disk</TEXT>
+        <TEXT POSX="430.0" POSY="270.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">1 TB</TEXT>
+        <TEXT POSX="90.0" POSY="270.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">3 ms</TEXT>
+        <TEXT POSX="380.0" POSY="90.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">64 kB </TEXT>
+        <TEXT POSX="260.0" POSY="-70.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,22.0">Memory hierarchy</TEXT>
+    </FORMS>
+    <IO/>
+    <MEMORY/>
+    <INTERNALS DELAY="1"/>
+</SIMPLE>

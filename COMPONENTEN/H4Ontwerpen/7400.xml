@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="7400" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="80.0" POSY="40.0" WIDTH="160.0"
+            HEIGHT="80.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="95.0" POSY="120.0" WIDTH="10.0"
+            HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="115.0" POSY="120.0"
+            WIDTH="10.0" HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="135.0" POSY="120.0"
+            WIDTH="10.0" HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="155.0" POSY="120.0"
+            WIDTH="10.0" HEIGHT="10.0" RADIUSX="5.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="175.0" POSY="120.0"
+            WIDTH="10.0" HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <TEXT POSX="120.0" POSY="125.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">2</TEXT>
+        <TEXT POSX="100.0" POSY="125.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">1</TEXT>
+        <TEXT POSX="140.0" POSY="125.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">3</TEXT>
+        <TEXT POSX="160.0" POSY="125.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">4</TEXT>
+        <TEXT POSX="180.0" POSY="125.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">5</TEXT>
+        <TEXT POSX="160.0" POSY="80.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,16.0">SN7400</TEXT>
+        <ELLIPSE COLOR="#000000" POSX="85.0" POSY="77.5" RADIUSX="4.0" RADIUSY="7.5">
+            <STROKE/>
+        </ELLIPSE>
+        <RECTANGLE COLOR="#000000" POSX="195.0" POSY="120.0"
+            WIDTH="10.0" HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="215.0" POSY="120.0"
+            WIDTH="10.0" HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <TEXT POSX="200.0" POSY="125.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">6</TEXT>
+        <TEXT POSX="220.0" POSY="125.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">7</TEXT>
+        <RECTANGLE COLOR="#000000" POSX="120.0" POSY="95.0" WIDTH="15.0"
+            HEIGHT="15.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="180.0" POSY="95.0" WIDTH="15.0"
+            HEIGHT="15.0" RADIUSX="5.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="100" FROMY="100" TOX="100" TOY="120">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="200" FROMY="103" TOX="200" TOY="120">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="100" FROMY="100" TOX="120" TOY="100">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="130.0" POSY="100.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,10.0">&amp;</TEXT>
+        <TEXT POSX="190.0" POSY="100.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,10.0">&amp;</TEXT>
+        <LINE COLOR="#000000" FROMX="175" FROMY="105" TOX="180" TOY="105">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="140" FROMY="103" TOX="140" TOY="120">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="120" FROMY="105" TOX="115" TOY="105">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="115" FROMY="105" TOX="115" TOY="115">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="115" FROMY="115" TOX="120" TOY="115">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="180" FROMY="115" TOX="180" TOY="120">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="120" FROMY="115" TOX="120" TOY="120">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="175" FROMY="115" TOX="180" TOY="115">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="175" FROMY="105" TOX="175" TOY="115">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="160" FROMY="100" TOX="160" TOY="120">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="160" FROMY="100" TOX="180" TOY="100">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="220" FROMY="130" TOX="220" TOY="145">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="215" FROMY="145" TOX="225" TOY="145">
+            <STROKE LINEWIDTH="3.0"/>
+        </LINE>
+        <RECTANGLE COLOR="#000000" POSX="95.0" POSY="30.0" WIDTH="10.0"
+            HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <TEXT POSX="100.0" POSY="-5.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">5 Volt</TEXT>
+        <LINE COLOR="#CC0033" FROMX="100" FROMY="5" TOX="100" TOY="30">
+            <STROKE/>
+        </LINE>
+        <RECTANGLE COLOR="#000000" POSX="115.0" POSY="30.0" WIDTH="10.0"
+            HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="135.0" POSY="30.0" WIDTH="10.0"
+            HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="155.0" POSY="30.0" WIDTH="10.0"
+            HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="175.0" POSY="30.0" WIDTH="10.0"
+            HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="195.0" POSY="30.0" WIDTH="10.0"
+            HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="215.0" POSY="30.0" WIDTH="10.0"
+            HEIGHT="10.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <TEXT POSX="220.0" POSY="35.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">8</TEXT>
+        <TEXT POSX="200.0" POSY="35.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">9</TEXT>
+        <TEXT POSX="180.0" POSY="35.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">10</TEXT>
+        <TEXT POSX="160.0" POSY="35.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">11</TEXT>
+        <TEXT POSX="140.0" POSY="35.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">12</TEXT>
+        <TEXT POSX="120.0" POSY="35.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">13</TEXT>
+        <TEXT POSX="100.0" POSY="35.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,8.0">14</TEXT>
+        <RECTANGLE COLOR="#000000" POSX="140.0" POSY="55.0" WIDTH="15.0"
+            HEIGHT="15.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="200.0" POSY="55.0" WIDTH="15.0"
+            HEIGHT="15.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="120" FROMY="65" TOX="140" TOY="65">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="135" FROMY="60" TOX="140" TOY="60">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="160" FROMY="40" TOX="160" TOY="62">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="220" FROMY="40" TOX="220" TOY="62">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="145.0" POSY="60.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,10.0">&amp;</TEXT>
+        <TEXT POSX="205.0" POSY="60.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,10.0">&amp;</TEXT>
+        <LINE COLOR="#000000" FROMX="135" FROMY="45" TOX="135" TOY="60">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="180" FROMY="40" TOX="180" TOY="65">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="140" FROMY="40" TOX="140" TOY="45">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="200" FROMY="40" TOX="200" TOY="45">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="140" FROMY="45" TOX="135" TOY="45">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="180" FROMY="65" TOX="200" TOY="65">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="190" FROMY="45" TOX="200" TOY="45">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="190" FROMY="45" TOX="190" TOY="60">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="190" FROMY="60" TOX="200" TOY="60">
+            <STROKE/>
+        </LINE>
+        <ELLIPSE COLOR="#000000" POSX="137.5" POSY="102.5" RADIUSX="2.0" RADIUSY="2.0">
+            <STROKE/>
+        </ELLIPSE>
+        <ELLIPSE COLOR="#000000" POSX="198.0" POSY="102.0" RADIUSX="2.5" RADIUSY="2.5">
+            <STROKE/>
+        </ELLIPSE>
+        <ELLIPSE COLOR="#000000" POSX="220.5" POSY="65.5" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </ELLIPSE>
+        <ELLIPSE COLOR="#000000" POSX="217.5" POSY="62.5" RADIUSX="2.0" RADIUSY="2.0">
+            <STROKE/>
+        </ELLIPSE>
+        <ELLIPSE COLOR="#000000" POSX="157.5" POSY="62.5" RADIUSX="2.0" RADIUSY="2.0">
+            <STROKE/>
+        </ELLIPSE>
+        <LINE COLOR="#000000" FROMX="120" FROMY="40" TOX="120" TOY="65">
+            <STROKE/>
+        </LINE>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="100.0" POSY="130.0" NAME="p1">
+            <LABEL POSX="0.0" POSY="10.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="120.0" POSY="130.0" NAME="p2">
+            <LABEL POSX="0.0" POSY="10.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="160.0" POSY="130.0" NAME="p4">
+            <LABEL POSX="5.0" POSY="10.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="180.0" POSY="130.0" NAME="p5">
+            <LABEL POSX="5.0" POSY="10.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="140.0" POSY="130.0" NAME="p3">
+            <LABEL POSX="-5.0" POSY="10.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="200.0" POSY="130.0" NAME="p6">
+            <LABEL POSX="0.0" POSY="10.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="120.0" POSY="30.0" NAME="p13">
+            <LABEL POSX="5.0" POSY="-15.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="140.0" POSY="30.0" NAME="p12">
+            <LABEL POSX="10.0" POSY="-15.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="180.0" POSY="30.0" NAME="p10">
+            <LABEL POSX="10.0" POSY="-15.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="200.0" POSY="30.0" NAME="p9">
+            <LABEL POSX="10.0" POSY="-15.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="160.0" POSY="30.0" NAME="p11">
+            <LABEL POSX="-10.0" POSY="-15.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="220.0" POSY="30.0" NAME="p8">
+            <LABEL POSX="-5.0" POSY="-15.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">{
+  p3 = !(p1 &amp;&amp; p2);
+  p6 =  !(p4 &amp;&amp; p5);
+  p11 = !(p12 &amp;&amp; p13);
+  p8 = !(p9 &amp;&amp; p10);
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

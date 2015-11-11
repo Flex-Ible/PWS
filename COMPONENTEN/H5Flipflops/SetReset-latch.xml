@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="Set-Reset latch" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="30.0" POSY="10.0" WIDTH="40.0"
+            HEIGHT="60.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="20" FROMY="20" TOX="30" TOY="20">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="20" FROMY="60" TOX="30" TOY="60">
+            <STROKE/>
+        </LINE>
+        <ELLIPSE COLOR="#000000" POSX="73.0" POSY="60.0" RADIUSX="3.0" RADIUSY="3.0">
+            <STROKE/>
+        </ELLIPSE>
+        <LINE COLOR="#000000" FROMX="77" FROMY="60" TOX="80" TOY="60">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="70" FROMY="20" TOX="80" TOY="20">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="62.0" POSY="18.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">Q</TEXT>
+        <TEXT POSX="37.0" POSY="18.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">S</TEXT>
+        <TEXT POSX="37.0" POSY="58.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">R</TEXT>
+        <TEXT POSX="63.0" POSY="58.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">Q</TEXT>
+    </FORMS>
+    <IO>
+        <OUTPUT BITS="1" SIGNED="false" POSX="80.0" POSY="20.0" NAME="Q">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="80.0" POSY="60.0" NAME="NQ">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="20.0" POSY="20.0" NAME="S">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="20.0" POSY="60.0" NAME="R">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <MEMORY>
+        <STORAGE NAME="m" SIZE="1" BITS="1" SIGNED="false"/>
+        <STORAGE NAME="LastCLK" SIZE="1" BITS="1" SIGNED="false"/>
+    </MEMORY>
+    <INTERNALS DELAY="2">
+        <ACTION EVENT="INPUT_CHANGE">{
+  if(S == 1 &amp;&amp; R == 0) m[0] = 1;
+  if(S == 0 &amp;&amp; R == 1) m[0] = 0;
+Q = m[0];
+  NQ =!m[0]; 
+  LastCLK[0] = 0;
+}
+</ACTION>
+        <ACTION EVENT="INIT">LastCLK[0] = 0;</ACTION>
+    </INTERNALS>
+</SIMPLE>

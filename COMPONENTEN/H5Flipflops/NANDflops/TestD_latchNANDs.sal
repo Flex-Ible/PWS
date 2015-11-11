@@ -1,0 +1,11 @@
+# Time table for D-latchNANDs
+# SIM-PL V2.1.8
+# Tue Jul 29 15:31:42 CEST 2008
+
+0:    Data =   0; Enable = 1;
+10:   Data =   0; Enable = 0;
+20:   Data =   1; Enable = 0;
+30:   Data =   0; Enable = 0;
+40:   Data =   1; Enable = 0;
+50:   Data =   1; Enable = 1;
+60:   Data =   0; Enable = 1;

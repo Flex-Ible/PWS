@@ -1,0 +1,27 @@
+@include "16bitJumper.wasm"
+# int func(int j, int k, int l, int m)
+# {
+# int f;
+# f = (j+k) - (l+m);
+# return f;
+# }
+
+.data MyData : REGISTERS
+@include "register_constants.wasm"
+
+.code MyCode : REGSTACK, MyData
+# this is the main program
+# v = func(10,20,3,4);
+LOADI $arg1, 10
+LOADI $arg2, 20
+LOADI $arg3, 3
+LOADI $arg4, 4
+JSR func 		# stores PC+1 in register $ra and jumps to func
+HALT 		# the result is now in $val1
+
+func:  #------- procedure func ----------
+ADD $tmp1, $arg1, $arg2  # compute j + k
+ADD $tmp2, $arg3, $arg4  # compute l + m
+SUB $s1, $tmp1, $tmp2    # compute v=(j+k)-(l+m)
+COPY $val1, $s1 	# transfer result to $val1.
+RETURN $ra 	# return to caller

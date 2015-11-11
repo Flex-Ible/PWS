@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="Memory" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS/>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="110.0" POSY="150.0" NAME="s">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="110.0" POSY="30.0" NAME="i">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="390.0" POSY="40.0" NAME="o">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="2-inputNAND"
+            DATA="..\Componenten\H4Ontwerpen\2-inputNAND.xml"
+            POSX="60.0" POSY="0.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="170.0" POSY="40.0" PIN="Z"/>
+                <STUB POSX="110.0" POSY="30.0" PIN="v"/>
+                <STUB POSX="110.0" POSY="50.0" PIN="w"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="2-inputNAND (2)"
+            DATA="..\Componenten\H4Ontwerpen\2-inputNAND.xml"
+            POSX="120.0" POSY="100.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="170.0" POSY="40.0" PIN="Z"/>
+                <STUB POSX="110.0" POSY="50.0" PIN="w"/>
+                <STUB POSX="110.0" POSY="30.0" PIN="v"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="2-inputNAND (3)"
+            DATA="..\Componenten\H4Ontwerpen\2-inputNAND.xml"
+            POSX="190.0" POSY="0.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="110.0" POSY="30.0" PIN="v"/>
+                <STUB POSX="110.0" POSY="50.0" PIN="w"/>
+                <STUB POSX="170.0" POSY="40.0" PIN="Z"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="2-inputNAND (4)"
+            DATA="..\Componenten\H4Ontwerpen\2-inputNAND.xml"
+            POSX="190.0" POSY="100.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="170.0" POSY="40.0" PIN="Z"/>
+                <STUB POSX="110.0" POSY="30.0" PIN="v"/>
+                <STUB POSX="110.0" POSY="50.0" PIN="w"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="1d9864deb01ea8da" SUBCOMPONENT="2-inputNAND" PIN="Z"/>
+                <SUBPIN ID="1a6e1eeba9c2ac05"
+                    SUBCOMPONENT="2-inputNAND (3)" PIN="v"/>
+                <SPLIT ID="425eafd24100582a" POSX="250.0" POSY="40.0"/>
+                <SPLIT ID="618fba3363e23544" POSX="250.0" POSY="30.0"/>
+                <SUBPIN ID="c3785bbb8b1b8f01"
+                    SUBCOMPONENT="2-inputNAND (2)" PIN="v"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="1d9864deb01ea8da"/>
+                    <NODEREF NODE="425eafd24100582a"/>
+                    <NODEREF NODE="618fba3363e23544"/>
+                    <NODEREF NODE="1a6e1eeba9c2ac05"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="c3785bbb8b1b8f01"/>
+                    <NODEREF NODE="1d9864deb01ea8da"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (2)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="26a6246260e20a8d"
+                    SUBCOMPONENT="2-inputNAND (3)" PIN="w"/>
+                <SUBPIN ID="957021b206467893"
+                    SUBCOMPONENT="2-inputNAND (4)" PIN="Z"/>
+                <SPLIT ID="f31be1e39b7828cd" POSX="300.0" POSY="70.0"/>
+                <SPLIT ID="2efc016f3c99dc1f" POSX="360.0" POSY="110.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="26a6246260e20a8d"/>
+                    <NODEREF NODE="f31be1e39b7828cd"/>
+                    <NODEREF NODE="2efc016f3c99dc1f"/>
+                    <NODEREF NODE="957021b206467893"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (3)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="2d583979a323d12e"
+                    SUBCOMPONENT="2-inputNAND (4)" PIN="v"/>
+                <SUBPIN ID="3d216cb8342bdc7c"
+                    SUBCOMPONENT="2-inputNAND (3)" PIN="Z"/>
+                <SPLIT ID="ee7969432546f9b" POSX="300.0" POSY="110.0"/>
+                <SPLIT ID="720c6442806a81fc" POSX="360.0" POSY="70.0"/>
+                <MAINPIN ID="5c61785dd62cb2b9" PIN="o"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="2d583979a323d12e"/>
+                    <NODEREF NODE="ee7969432546f9b"/>
+                    <NODEREF NODE="720c6442806a81fc"/>
+                    <NODEREF NODE="3d216cb8342bdc7c"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="3d216cb8342bdc7c"/>
+                    <NODEREF NODE="5c61785dd62cb2b9"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (4)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="eddaebb88f6e2522"
+                    SUBCOMPONENT="2-inputNAND (4)" PIN="w"/>
+                <SUBPIN ID="44231a958fed5744"
+                    SUBCOMPONENT="2-inputNAND (2)" PIN="Z"/>
+                <SPLIT ID="946ba785836ab2a2" POSX="300.0" POSY="150.0"/>
+                <SPLIT ID="f9579aa8b120b51b" POSX="300.0" POSY="140.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="eddaebb88f6e2522"/>
+                    <NODEREF NODE="946ba785836ab2a2"/>
+                    <NODEREF NODE="f9579aa8b120b51b"/>
+                    <NODEREF NODE="44231a958fed5744"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (5)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="a5b3a2dc51fc4c1a" PIN="i"/>
+                <SUBPIN ID="6bd3c04489fcd041" SUBCOMPONENT="2-inputNAND" PIN="v"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="a5b3a2dc51fc4c1a"/>
+                    <NODEREF NODE="6bd3c04489fcd041"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (6)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="4ae7618eb66f553d" SUBCOMPONENT="2-inputNAND" PIN="w"/>
+                <SPLIT ID="7dfd8f24b9a61c6c" POSX="150.0" POSY="50.0"/>
+                <SPLIT ID="bfdfa08d4dba30ec" POSX="150.0" POSY="150.0"/>
+                <SUBPIN ID="8edbe0f090acdcb"
+                    SUBCOMPONENT="2-inputNAND (2)" PIN="w"/>
+                <SPLIT ID="d71fa5fe3939a742" POSX="150.0" POSY="150.0"/>
+                <MAINPIN ID="7a35a1e7415a1b1e" PIN="s"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="4ae7618eb66f553d"/>
+                    <NODEREF NODE="7dfd8f24b9a61c6c"/>
+                    <NODEREF NODE="d71fa5fe3939a742"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="8edbe0f090acdcb"/>
+                    <NODEREF NODE="bfdfa08d4dba30ec"/>
+                    <NODEREF NODE="d71fa5fe3939a742"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="7a35a1e7415a1b1e"/>
+                    <NODEREF NODE="d71fa5fe3939a742"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

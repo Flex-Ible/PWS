@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="4-bitsRegister" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="20">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#666666" POSX="125.0" POSY="-10.0"
+            WIDTH="290.0" HEIGHT="415.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="280.0" POSY="5.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,16.0">4-bits register</TEXT>
+        <TEXT POSX="280.0" POSY="415.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,13.0">Figuur 6.6</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="125.0" POSY="55.0" NAME="Load">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="125.0" POSY="90.0" NAME="D3">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="125.0" POSY="185.0" NAME="D2">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="125.0" POSY="280.0" NAME="D1">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="125.0" POSY="375.0" NAME="D0">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="415.0" POSY="65.0" NAME="Q3">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="415.0" POSY="160.0" NAME="Q2">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="415.0" POSY="255.0" NAME="Q1">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="415.0" POSY="350.0" NAME="Q0">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="Figuur66Registercel" DATA="Registercel.xml"
+            POSX="80.0" POSY="-40.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="80.0" POSY="95.0" PIN="Load"/>
+                <STUB POSX="80.0" POSY="145.0" PIN="Clock"/>
+                <STUB POSX="80.0" POSY="130.0" PIN="Data"/>
+                <STUB POSX="315.0" POSY="105.0" PIN="Q"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Figuur66Registercel (2)"
+            DATA="Registercel.xml" POSX="80.0" POSY="55.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="80.0" POSY="95.0" PIN="Load"/>
+                <STUB POSX="80.0" POSY="145.0" PIN="Clock"/>
+                <STUB POSX="80.0" POSY="130.0" PIN="Data"/>
+                <STUB POSX="315.0" POSY="105.0" PIN="Q"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Figuur66Registercel (3)"
+            DATA="Registercel.xml" POSX="80.0" POSY="150.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="80.0" POSY="95.0" PIN="Load"/>
+                <STUB POSX="80.0" POSY="145.0" PIN="Clock"/>
+                <STUB POSX="80.0" POSY="130.0" PIN="Data"/>
+                <STUB POSX="315.0" POSY="105.0" PIN="Q"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Figuur66Registercel (4)"
+            DATA="Registercel.xml" POSX="80.0" POSY="245.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="80.0" POSY="95.0" PIN="Load"/>
+                <STUB POSX="80.0" POSY="145.0" PIN="Clock"/>
+                <STUB POSX="80.0" POSY="130.0" PIN="Data"/>
+                <STUB POSX="315.0" POSY="105.0" PIN="Q"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="clock" DATA="clock.xml" POSX="-70.0"
+            POSY="330.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="130.0" POSY="60.0" PIN="Clock"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="dff6be85674b589c" PIN="Load"/>
+                <SUBPIN ID="d73b196320b49203"
+                    SUBCOMPONENT="Figuur66Registercel" PIN="Load"/>
+                <SPLIT ID="5c9edba5b87cf586" POSX="150.0" POSY="55.0"/>
+                <SUBPIN ID="bd058dd8f68e1d93"
+                    SUBCOMPONENT="Figuur66Registercel (2)" PIN="Load"/>
+                <SPLIT ID="8a355123b384b5c9" POSX="150.0" POSY="150.0"/>
+                <SPLIT ID="adca653ebf14bf34" POSX="150.0" POSY="150.0"/>
+                <SUBPIN ID="cea0e14f9e300aa5"
+                    SUBCOMPONENT="Figuur66Registercel (3)" PIN="Load"/>
+                <SPLIT ID="9d95eb643b51dd4d" POSX="150.0" POSY="245.0"/>
+                <SPLIT ID="f1fe5398e80f7400" POSX="150.0" POSY="245.0"/>
+                <SUBPIN ID="3247d33cb7fa73c7"
+                    SUBCOMPONENT="Figuur66Registercel (4)" PIN="Load"/>
+                <SPLIT ID="645f1d66a3c2daae" POSX="150.0" POSY="340.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="dff6be85674b589c"/>
+                    <NODEREF NODE="5c9edba5b87cf586"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="d73b196320b49203"/>
+                    <NODEREF NODE="5c9edba5b87cf586"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="5c9edba5b87cf586"/>
+                    <NODEREF NODE="adca653ebf14bf34"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="bd058dd8f68e1d93"/>
+                    <NODEREF NODE="8a355123b384b5c9"/>
+                    <NODEREF NODE="adca653ebf14bf34"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="adca653ebf14bf34"/>
+                    <NODEREF NODE="9d95eb643b51dd4d"/>
+                    <NODEREF NODE="f1fe5398e80f7400"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="cea0e14f9e300aa5"/>
+                    <NODEREF NODE="f1fe5398e80f7400"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="f1fe5398e80f7400"/>
+                    <NODEREF NODE="645f1d66a3c2daae"/>
+                    <NODEREF NODE="3247d33cb7fa73c7"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (2)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="308944270a3acaf1"
+                    SUBCOMPONENT="Figuur66Registercel (4)" PIN="Clock"/>
+                <SPLIT ID="ab4d426843b0a2a4" POSX="140.0" POSY="390.0"/>
+                <SUBPIN ID="ff444ba20c4d8b52"
+                    SUBCOMPONENT="Figuur66Registercel (3)" PIN="Clock"/>
+                <SPLIT ID="24d838fe92b9694f" POSX="140.0" POSY="295.0"/>
+                <SPLIT ID="6a336b9df66d074b" POSX="140.0" POSY="295.0"/>
+                <SUBPIN ID="2ff52c3ed49cc774"
+                    SUBCOMPONENT="Figuur66Registercel (2)" PIN="Clock"/>
+                <SPLIT ID="45ff7bf4ce16bb5b" POSX="140.0" POSY="200.0"/>
+                <SPLIT ID="a474c1b39845207d" POSX="140.0" POSY="200.0"/>
+                <SUBPIN ID="66d75d31c26d1372"
+                    SUBCOMPONENT="Figuur66Registercel" PIN="Clock"/>
+                <SPLIT ID="a0e5eef8cf21a1d2" POSX="140.0" POSY="105.0"/>
+                <SPLIT ID="9046a9bf617727b7" POSX="140.0" POSY="390.0"/>
+                <SUBPIN ID="61026aeda53cf393" SUBCOMPONENT="clock" PIN="Clock"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="308944270a3acaf1"/>
+                    <NODEREF NODE="ab4d426843b0a2a4"/>
+                    <NODEREF NODE="9046a9bf617727b7"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="ff444ba20c4d8b52"/>
+                    <NODEREF NODE="6a336b9df66d074b"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="6a336b9df66d074b"/>
+                    <NODEREF NODE="a474c1b39845207d"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="2ff52c3ed49cc774"/>
+                    <NODEREF NODE="45ff7bf4ce16bb5b"/>
+                    <NODEREF NODE="a474c1b39845207d"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="a474c1b39845207d"/>
+                    <NODEREF NODE="a0e5eef8cf21a1d2"/>
+                    <NODEREF NODE="66d75d31c26d1372"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="6a336b9df66d074b"/>
+                    <NODEREF NODE="24d838fe92b9694f"/>
+                    <NODEREF NODE="9046a9bf617727b7"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="61026aeda53cf393"/>
+                    <NODEREF NODE="9046a9bf617727b7"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (3)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="d2d15e9e1f454349" PIN="D0"/>
+                <SUBPIN ID="2f8fa36ce3db3c7d"
+                    SUBCOMPONENT="Figuur66Registercel (4)" PIN="Data"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="d2d15e9e1f454349"/>
+                    <NODEREF NODE="2f8fa36ce3db3c7d"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (4)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="6072e1189ca212a6" PIN="D1"/>
+                <SUBPIN ID="b7eed926892d1510"
+                    SUBCOMPONENT="Figuur66Registercel (3)" PIN="Data"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="6072e1189ca212a6"/>
+                    <NODEREF NODE="b7eed926892d1510"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (5)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="1b8ed32cef58a9de" PIN="D2"/>
+                <SUBPIN ID="a6504125fef98dc5"
+                    SUBCOMPONENT="Figuur66Registercel (2)" PIN="Data"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="1b8ed32cef58a9de"/>
+                    <NODEREF NODE="a6504125fef98dc5"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (6)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="27875a600e97229b" PIN="D3"/>
+                <SUBPIN ID="58dbfeccf1a34ee7"
+                    SUBCOMPONENT="Figuur66Registercel" PIN="Data"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="27875a600e97229b"/>
+                    <NODEREF NODE="58dbfeccf1a34ee7"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (7)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="49f03dc8bf3ce0df"
+                    SUBCOMPONENT="Figuur66Registercel" PIN="Q"/>
+                <MAINPIN ID="5bdd268d4643f171" PIN="Q3"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="49f03dc8bf3ce0df"/>
+                    <NODEREF NODE="5bdd268d4643f171"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (8)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="8254e5e4c670f848"
+                    SUBCOMPONENT="Figuur66Registercel (2)" PIN="Q"/>
+                <MAINPIN ID="6575f3e283d02ff4" PIN="Q2"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="8254e5e4c670f848"/>
+                    <NODEREF NODE="6575f3e283d02ff4"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (9)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="1cbe05aa18e32195"
+                    SUBCOMPONENT="Figuur66Registercel (3)" PIN="Q"/>
+                <MAINPIN ID="9e8cea849fd3c1bd" PIN="Q1"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="1cbe05aa18e32195"/>
+                    <NODEREF NODE="9e8cea849fd3c1bd"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (10)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="e1c040dca7e80468"
+                    SUBCOMPONENT="Figuur66Registercel (4)" PIN="Q"/>
+                <MAINPIN ID="5ace56d6b36d4436" PIN="Q0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="e1c040dca7e80468"/>
+                    <NODEREF NODE="5ace56d6b36d4436"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

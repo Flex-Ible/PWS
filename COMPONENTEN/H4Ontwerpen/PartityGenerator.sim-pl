@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="Parity Generator" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <TEXT POSX="150.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Parity bit generator</TEXT>
+        <RECTANGLE COLOR="#666666" POSX="50.0" POSY="-10.0"
+            WIDTH="190.0" HEIGHT="90.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="160.0" POSY="27.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="DialogInput,plain,14.0">Y</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="50.0" POSY="100.0" NAME="a">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="50.0" POSY="120.0" NAME="b">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="50.0" POSY="140.0" NAME="c">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="240.0" POSY="50.0" NAME="P">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="240.0" POSY="100.0" NAME="A">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="240.0" POSY="120.0" NAME="B">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="240.0" POSY="140.0" NAME="C">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="XORLB" DATA="XOR.xml" POSX="30.0"
+            POSY="10.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="120.0" POSY="30.0" PIN="Y"/>
+                <STUB POSX="60.0" POSY="20.0" PIN="a"/>
+                <STUB POSX="60.0" POSY="40.0" PIN="b"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="XORRO" DATA="XOR.xml" POSX="110.0"
+            POSY="20.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="120.0" POSY="30.0" PIN="Y"/>
+                <STUB POSX="60.0" POSY="20.0" PIN="a"/>
+                <STUB POSX="60.0" POSY="40.0" PIN="b"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="d85acae1a9e16872" SUBCOMPONENT="XORRO" PIN="Y"/>
+                <MAINPIN ID="c6c5c850f0b710bf" PIN="P"/>
+                <SPLIT ID="1def43e76fc2eb4" POSX="240.0" POSY="50.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="d85acae1a9e16872"/>
+                    <NODEREF NODE="1def43e76fc2eb4"/>
+                    <NODEREF NODE="c6c5c850f0b710bf"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (3)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="afd509770620682a" SUBCOMPONENT="XORLB" PIN="Y"/>
+                <SUBPIN ID="341b80a1b08c10b" SUBCOMPONENT="XORRO" PIN="a"/>
+                <SPLIT ID="b35de83c8fdbea91" POSX="160.0" POSY="40.0">
+                    <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
+                </SPLIT>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="afd509770620682a"/>
+                    <NODEREF NODE="b35de83c8fdbea91"/>
+                    <NODEREF NODE="341b80a1b08c10b"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (11)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="843eb8096b94d6d4" SUBCOMPONENT="XORLB" PIN="a"/>
+                <MAINPIN ID="7572c2ae7c03673" PIN="A"/>
+                <MAINPIN ID="f8d17f338c461488" PIN="a"/>
+                <SPLIT ID="850229331f2ef576" POSX="70.0" POSY="100.0"/>
+                <SPLIT ID="c1a2e9cab7234b45" POSX="70.0" POSY="30.0"/>
+                <SPLIT ID="dedb22f658fef565" POSX="240.0" POSY="100.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="f8d17f338c461488"/>
+                    <NODEREF NODE="850229331f2ef576"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="7572c2ae7c03673"/>
+                    <NODEREF NODE="dedb22f658fef565"/>
+                    <NODEREF NODE="850229331f2ef576"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="843eb8096b94d6d4"/>
+                    <NODEREF NODE="c1a2e9cab7234b45"/>
+                    <NODEREF NODE="850229331f2ef576"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (13)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="b93d1aca8e3e9f9e" SUBCOMPONENT="XORLB" PIN="b"/>
+                <MAINPIN ID="f749e6104fffe723" PIN="B"/>
+                <MAINPIN ID="db366e3604d7f24c" PIN="b"/>
+                <SPLIT ID="c2a063d19f672cfe" POSX="80.0" POSY="120.0"/>
+                <SPLIT ID="c04c9e53b1df76ef" POSX="80.0" POSY="50.0"/>
+                <SPLIT ID="a6ce00b52e16b092" POSX="240.0" POSY="120.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="db366e3604d7f24c"/>
+                    <NODEREF NODE="c2a063d19f672cfe"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="f749e6104fffe723"/>
+                    <NODEREF NODE="a6ce00b52e16b092"/>
+                    <NODEREF NODE="c2a063d19f672cfe"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="b93d1aca8e3e9f9e"/>
+                    <NODEREF NODE="c04c9e53b1df76ef"/>
+                    <NODEREF NODE="c2a063d19f672cfe"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (15)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="1c3fb6bceca54144" SUBCOMPONENT="XORRO" PIN="b"/>
+                <MAINPIN ID="303c7a8e30235cf7" PIN="C"/>
+                <MAINPIN ID="64953ac8a111a168" PIN="c"/>
+                <SPLIT ID="34e2ca3d9634e941" POSX="170.0" POSY="140.0"/>
+                <SPLIT ID="1d80d9c41b89adf5" POSX="170.0" POSY="60.0"/>
+                <SPLIT ID="eb1d390930560b75" POSX="240.0" POSY="140.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="64953ac8a111a168"/>
+                    <NODEREF NODE="34e2ca3d9634e941"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="303c7a8e30235cf7"/>
+                    <NODEREF NODE="eb1d390930560b75"/>
+                    <NODEREF NODE="34e2ca3d9634e941"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="1c3fb6bceca54144"/>
+                    <NODEREF NODE="1d80d9c41b89adf5"/>
+                    <NODEREF NODE="34e2ca3d9634e941"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

@@ -1,0 +1,12 @@
+# Rekenmachine_I WASM demo program #-teken is commentaar
+@include "Rekenmachine_I.wasm" # Deze regel altijd toevoegen 
+
+.data MyData : REGISTERS # Het programma start met data in registers 
+3: WORD  7		# register 3 krijgt waarde 7 
+4: WORD  5		# register 4 krijgt waarde 5 
+
+.code MyCode : REKENMACHINE_I, MyData # Hier begint het programma
+ADD $6, $3, $4  	# register 6 wordt reg 3 + reg 4 
+SUB $7, $3, $4	# register 7 wordt reg 3 - reg 4
+COPY $8, $6	# register 8 krijgt waarde van reg 6
+

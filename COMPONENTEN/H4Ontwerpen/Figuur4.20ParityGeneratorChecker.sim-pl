@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="Parity Generator Checker"
+    PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#666666" POSX="20.0" POSY="0.0" WIDTH="570.0"
+            HEIGHT="210.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="310.0" POSY="10.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,16.0">Data transmission with parity check</TEXT>
+        <TEXT POSX="285.0" POSY="81.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">P</TEXT>
+        <LINE COLOR="#000000" FROMX="280" FROMY="160" TOX="330" TOY="160">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="150.0" POSY="195.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Sender side</TEXT>
+        <TEXT POSX="460.0" POSY="195.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Receiver side</TEXT>
+        <LINE COLOR="#000000" FROMX="240" FROMY="160" TOX="270" TOY="160">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="285.0" POSY="130.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">A</TEXT>
+        <TEXT POSX="285.0" POSY="150.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">B</TEXT>
+        <TEXT POSX="285.0" POSY="170.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">C</TEXT>
+        <TEXT POSX="290.0" POSY="220.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,13.0">Figuur 4.20</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="20.0" POSY="140.0" NAME="a">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="20.0" POSY="160.0" NAME="b">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="20.0" POSY="180.0" NAME="c">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="590.0" POSY="90.0" NAME="Data NOT OK">
+            <LABEL POSX="-30.0" POSY="-20.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="590.0" POSY="140.0" NAME="A">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="590.0" POSY="160.0" NAME="B">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="590.0" POSY="180.0" NAME="C">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="Parity Checker" DATA="PartityChecker.sim-pl"
+            POSX="280.0" POSY="40.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="40.0" POSY="50.0" PIN="Parity bit"/>
+                <STUB POSX="40.0" POSY="100.0" PIN="ar"/>
+                <STUB POSX="40.0" POSY="140.0" PIN="cr"/>
+                <STUB POSX="270.0" POSY="100.0" PIN="Ar"/>
+                <STUB POSX="270.0" POSY="120.0" PIN="Br"/>
+                <STUB POSX="270.0" POSY="140.0" PIN="Cr"/>
+                <STUB POSX="270.0" POSY="50.0" PIN="Data Not OK"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Parity Generator"
+            DATA="PartityGenerator.sim-pl" POSX="0.0" POSY="40.0"
+            ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="240.0" POSY="50.0" PIN="P"/>
+                <STUB POSX="50.0" POSY="100.0" PIN="a"/>
+                <STUB POSX="50.0" POSY="120.0" PIN="b"/>
+                <STUB POSX="50.0" POSY="140.0" PIN="c"/>
+                <STUB POSX="240.0" POSY="100.0" PIN="A"/>
+                <STUB POSX="240.0" POSY="140.0" PIN="C"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="df5b2d88b1ebb7cc"
+                    SUBCOMPONENT="Parity Generator" PIN="P"/>
+                <SUBPIN ID="28ff77b9d8941b92"
+                    SUBCOMPONENT="Parity Checker" PIN="Parity bit"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="df5b2d88b1ebb7cc"/>
+                    <NODEREF NODE="28ff77b9d8941b92"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (2)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="2b349a8c016602f" PIN="a"/>
+                <SUBPIN ID="a4548631b8d3ebfa"
+                    SUBCOMPONENT="Parity Generator" PIN="a"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="2b349a8c016602f"/>
+                    <NODEREF NODE="a4548631b8d3ebfa"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (3)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="7aa8c59231b3392d" PIN="b"/>
+                <SUBPIN ID="6dc64efa7e0a6eac"
+                    SUBCOMPONENT="Parity Generator" PIN="b"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="7aa8c59231b3392d"/>
+                    <NODEREF NODE="6dc64efa7e0a6eac"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (4)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="d6fe25873fbb9278" PIN="c"/>
+                <SUBPIN ID="98d9254e0189d965"
+                    SUBCOMPONENT="Parity Generator" PIN="c"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="d6fe25873fbb9278"/>
+                    <NODEREF NODE="98d9254e0189d965"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (5)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="e9e76163aee056ce"
+                    SUBCOMPONENT="Parity Generator" PIN="A"/>
+                <SUBPIN ID="1fb5e1fed2b9405c"
+                    SUBCOMPONENT="Parity Checker" PIN="ar"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="e9e76163aee056ce"/>
+                    <NODEREF NODE="1fb5e1fed2b9405c"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (6)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="49a31a29718a6d23"
+                    SUBCOMPONENT="Parity Generator" PIN="C"/>
+                <SUBPIN ID="e897fe9ab0887c93"
+                    SUBCOMPONENT="Parity Checker" PIN="cr"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="49a31a29718a6d23"/>
+                    <NODEREF NODE="e897fe9ab0887c93"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (7)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="553323b86ee3791c"
+                    SUBCOMPONENT="Parity Checker" PIN="Ar"/>
+                <MAINPIN ID="645fbeca3f0ba370" PIN="A"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="553323b86ee3791c"/>
+                    <NODEREF NODE="645fbeca3f0ba370"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (8)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="c96d66dcf9c5aec4"
+                    SUBCOMPONENT="Parity Checker" PIN="Br"/>
+                <MAINPIN ID="ecd30bfa219de38c" PIN="B"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="c96d66dcf9c5aec4"/>
+                    <NODEREF NODE="ecd30bfa219de38c"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (9)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="9faa5f8ec528ad79"
+                    SUBCOMPONENT="Parity Checker" PIN="Cr"/>
+                <MAINPIN ID="149de73e2794dac9" PIN="C"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="9faa5f8ec528ad79"/>
+                    <NODEREF NODE="149de73e2794dac9"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (10)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="e7e6bb74928c9627"
+                    SUBCOMPONENT="Parity Checker" PIN="Data Not OK"/>
+                <MAINPIN ID="b0cd9572e88ab9a9" PIN="Data NOT OK"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="e7e6bb74928c9627"/>
+                    <NODEREF NODE="b0cd9572e88ab9a9"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

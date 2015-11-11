@@ -1,0 +1,8 @@
+# Testprogram for Verkeerslicht
+
+0:    "OW-auto" = 0; "NZ-auto" = 0;
+20:   "OW-auto" = 0; "NZ-auto" = 1;
+40:   "OW-auto" = 1; "NZ-auto" = 0;
+60:   "OW-auto" = 1; "NZ-auto" = 1;
+80:   "OW-auto" = 0; "NZ-auto" = 1;
+100:   "OW-auto" = 1; "NZ-auto" = 1;

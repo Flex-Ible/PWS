@@ -1,0 +1,10 @@
+# Testprogram for the Shifter
+# Operation: A << ShiftAmount
+10: A= 0x0F; S = 0x0; # 0F << 0
+20: A= 0x0F; S = 0x1; # 0F << 1
+30: A= 0x0F; S = 0x2; # 0F << 2
+40: A= 0x0F; S = 0x3; # 0F << 3
+50: A= 0x0F; S = 0x7; # 0F << 7
+60: A= 0x33; S = 0x2; # 33 << 2
+70: A= 0xAA; S = 4; # AA << 4
+80: A= 0x55; S = 1; # 55 << 1

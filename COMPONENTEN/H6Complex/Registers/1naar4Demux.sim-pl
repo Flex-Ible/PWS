@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="1naar4Demux" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#666666" POSX="110.0" POSY="65.0" WIDTH="50.0"
+            HEIGHT="115.0" RADIUSX="10.0" RADIUSY="10.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="135.0" POSY="85.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">1 naar 4
+Demux</TEXT>
+    </FORMS>
+    <IO/>
+    <MEMORY/>
+    <INTERNALS DELAY="1"/>
+</SIMPLE>

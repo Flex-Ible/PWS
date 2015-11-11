@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="2inputOR" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="70.0" POSY="15.0" WIDTH="25.0"
+            HEIGHT="30.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="65" FROMY="25" TOX="70" TOY="25">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="65" FROMY="35" TOX="70" TOY="35">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="80.0" POSY="25.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">&#x2265;1</TEXT>
+        <LINE COLOR="#000000" FROMX="100" FROMY="30" TOX="95" TOY="30">
+            <STROKE/>
+        </LINE>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="65.0" POSY="25.0" NAME="v">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="65.0" POSY="35.0" NAME="w">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="100.0" POSY="30.0" NAME="Z">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">Z = v || w;</ACTION>
+    </INTERNALS>
+</SIMPLE>

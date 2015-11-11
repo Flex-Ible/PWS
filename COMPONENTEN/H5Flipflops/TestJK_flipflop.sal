@@ -1,0 +1,10 @@
+# Time table for Opdracht2JK-flipflop
+# SIM-PL V2.1.8
+# Thu Jul 17 18:45:26 CEST 2008
+
+0:    J =     0x0; K =     0x0;
+50:   J =     0x0; K =     0x1;
+100:  J =     0x1; K =     0x0;
+150:  J =     0x1; K =     0x1;
+200:  J =     0x1; K =     0x1;
+

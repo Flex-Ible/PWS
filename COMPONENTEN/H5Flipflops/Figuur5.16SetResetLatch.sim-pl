@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="Figuur516SetResetLatch"
+    PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="100">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#666666" POSX="65.0" POSY="45.0" WIDTH="130.0"
+            HEIGHT="140.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="130.0" POSY="55.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Set-Reset latch</TEXT>
+        <TEXT POSX="135.0" POSY="195.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">Figuur 5.16</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="65.0" POSY="160.0" NAME="Set">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="65.0" POSY="80.0" NAME="Reset">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="195.0" POSY="90.0" NAME="Q">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="195.0" POSY="150.0" NAME="NQ">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="2inputNOR" DATA="2-inputNOR.xml" POSX="40.0"
+            POSY="60.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="120.0" POSY="30.0" PIN="Z"/>
+                <STUB POSX="60.0" POSY="40.0" PIN="w"/>
+                <STUB POSX="60.0" POSY="20.0" PIN="v"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="2inputNOR (2)" DATA="2-inputNOR.xml"
+            POSX="40.0" POSY="120.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="60.0" POSY="20.0" PIN="v"/>
+                <STUB POSX="120.0" POSY="30.0" PIN="Z"/>
+                <STUB POSX="60.0" POSY="40.0" PIN="w"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="5c3c0812a65e698f" SUBCOMPONENT="2inputNOR" PIN="Z"/>
+                <MAINPIN ID="3e6c565e1347ded8" PIN="Q"/>
+                <SPLIT ID="ecf671739d1a2b8c" POSX="170.0" POSY="90.0"/>
+                <SUBPIN ID="b2a568d8e8b355bd"
+                    SUBCOMPONENT="2inputNOR (2)" PIN="v"/>
+                <SPLIT ID="4b22780ebe3f7afe" POSX="170.0" POSY="110.0"/>
+                <SPLIT ID="1b642f7ddcefbcb" POSX="90.0" POSY="130.0"/>
+                <SPLIT ID="e6f28427f7bc16ca" POSX="90.0" POSY="140.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="5c3c0812a65e698f"/>
+                    <NODEREF NODE="ecf671739d1a2b8c"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="3e6c565e1347ded8"/>
+                    <NODEREF NODE="ecf671739d1a2b8c"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="ecf671739d1a2b8c"/>
+                    <NODEREF NODE="4b22780ebe3f7afe"/>
+                    <NODEREF NODE="1b642f7ddcefbcb"/>
+                    <NODEREF NODE="e6f28427f7bc16ca"/>
+                    <NODEREF NODE="b2a568d8e8b355bd"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (2)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="dd05b76a3ae484af"
+                    SUBCOMPONENT="2inputNOR (2)" PIN="Z"/>
+                <MAINPIN ID="2b814803c93cf98e" PIN="NQ"/>
+                <SPLIT ID="651d29824b9a7ecf" POSX="170.0" POSY="150.0"/>
+                <SUBPIN ID="4a755304dd67f12d" SUBCOMPONENT="2inputNOR" PIN="w"/>
+                <SPLIT ID="4afea87218fea067" POSX="170.0" POSY="130.0"/>
+                <SPLIT ID="8e241f5fc98aa8a" POSX="90.0" POSY="110.0"/>
+                <SPLIT ID="d3e509b7950542f5" POSX="90.0" POSY="100.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="dd05b76a3ae484af"/>
+                    <NODEREF NODE="651d29824b9a7ecf"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="2b814803c93cf98e"/>
+                    <NODEREF NODE="651d29824b9a7ecf"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="651d29824b9a7ecf"/>
+                    <NODEREF NODE="4afea87218fea067"/>
+                    <NODEREF NODE="8e241f5fc98aa8a"/>
+                    <NODEREF NODE="d3e509b7950542f5"/>
+                    <NODEREF NODE="4a755304dd67f12d"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (3)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="459c20a8747c3592" PIN="Reset"/>
+                <SUBPIN ID="dac6b6d77dfab0d7" SUBCOMPONENT="2inputNOR" PIN="v"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="459c20a8747c3592"/>
+                    <NODEREF NODE="dac6b6d77dfab0d7"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (4)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="6766d0bd3c124580" PIN="Set"/>
+                <SUBPIN ID="7b4b224a19092931"
+                    SUBCOMPONENT="2inputNOR (2)" PIN="w"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="6766d0bd3c124580"/>
+                    <NODEREF NODE="7b4b224a19092931"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

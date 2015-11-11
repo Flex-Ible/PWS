@@ -1,0 +1,9 @@
+@include "Rekenmachine_II.wasm"
+
+.code MyCode : REKENMACHINE_II, REGISTERS
+LOADI $1, 0x3000 # Laad 3000hex in Register 1
+LOADI $2, 0x2000 # Laad 2000hex in Register 2
+SUB $3, $1, $2   # Register 3 <-- Reg1 - Reg2
+ADDI $4, $3, 0x200 # Register 4 <-- Reg3 + 0200hex
+
+

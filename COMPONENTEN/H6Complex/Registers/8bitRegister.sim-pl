@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="8bitRegister" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#666666" POSX="110.0" POSY="50.0" WIDTH="90.0"
+            HEIGHT="40.0" RADIUSX="10.0" RADIUSY="10.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="155.0" POSY="60.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">Register</TEXT>
+        <LINE COLOR="#666666" FROMX="110" FROMY="75" TOX="115" TOY="80">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#666666" FROMX="115" FROMY="80" TOX="110" TOY="85">
+            <STROKE/>
+        </LINE>
+    </FORMS>
+    <IO/>
+    <MEMORY/>
+    <INTERNALS DELAY="1"/>
+</SIMPLE>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="Figuur41SchemaALU" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#666666" POSX="-110.0" POSY="-20.0"
+            WIDTH="340.0" HEIGHT="270.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="60.0" POSY="260.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,13.0">Figuur 4.17</TEXT>
+        <TEXT POSX="60.0" POSY="-10.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,16.0">Schema ALU</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="-110.0" POSY="40.0" NAME="a">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="-110.0" POSY="60.0" NAME="b">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="-110.0" POSY="100.0" NAME="S0">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="230.0" POSY="40.0" NAME="Carry">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="230.0" POSY="120.0" NAME="Y">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="-110.0" POSY="220.0" NAME="S1">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="ArithmeticUnit" DATA="ArithmeticUnit.sim-pl"
+            POSX="-110.0" POSY="20.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="190.0" POSY="50.0" PIN="Carry"/>
+                <STUB POSX="40.0" POSY="20.0" PIN="a"/>
+                <STUB POSX="40.0" POSY="40.0" PIN="b"/>
+                <STUB POSX="40.0" POSY="80.0" PIN="SUB_ADD"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire (2)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="9c5b977b41f83ee1"
+                    SUBCOMPONENT="ArithmeticUnit" PIN="Carry"/>
+                <MAINPIN ID="4bdcbed7b4f0545d" PIN="Carry"/>
+                <SPLIT ID="47402cd7ac4c34a1" POSX="90.0" POSY="70.0"/>
+                <SPLIT ID="7adcec1148709b0e" POSX="90.0" POSY="40.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="9c5b977b41f83ee1"/>
+                    <NODEREF NODE="47402cd7ac4c34a1"/>
+                    <NODEREF NODE="7adcec1148709b0e"/>
+                    <NODEREF NODE="4bdcbed7b4f0545d"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (3)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="b94eb9ae9c75e129" PIN="a"/>
+                <SUBPIN ID="7a15bbc8a3fd28a8"
+                    SUBCOMPONENT="ArithmeticUnit" PIN="a"/>
+                <SPLIT ID="273279e6088f029a" POSX="-80.0" POSY="40.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="b94eb9ae9c75e129"/>
+                    <NODEREF NODE="273279e6088f029a"/>
+                    <NODEREF NODE="7a15bbc8a3fd28a8"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="427477dc916cb158" PIN="b"/>
+                <SUBPIN ID="a5a2c70f432658c1"
+                    SUBCOMPONENT="ArithmeticUnit" PIN="b"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="427477dc916cb158"/>
+                    <NODEREF NODE="a5a2c70f432658c1"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (4)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="3443dfbbd1e2cae8" PIN="S0"/>
+                <SUBPIN ID="639ad23d764c9cf8"
+                    SUBCOMPONENT="ArithmeticUnit" PIN="SUB_ADD"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="3443dfbbd1e2cae8"/>
+                    <NODEREF NODE="639ad23d764c9cf8"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

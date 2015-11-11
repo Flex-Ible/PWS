@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="D-flipflop" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="30.0" POSY="10.0" WIDTH="35.0"
+            HEIGHT="50.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <LINE COLOR="#000000" FROMX="20" FROMY="20" TOX="30" TOY="20">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="20" FROMY="35" TOX="30" TOY="35">
+            <STROKE/>
+        </LINE>
+        <ELLIPSE COLOR="#000000" POSX="68.0" POSY="50.0" RADIUSX="3.0" RADIUSY="3.0">
+            <STROKE/>
+        </ELLIPSE>
+        <LINE COLOR="#000000" FROMX="72" FROMY="50" TOX="75" TOY="50">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="65" FROMY="20" TOX="75" TOY="20">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="30" FROMY="30" TOX="35" TOY="35">
+            <STROKE/>
+        </LINE>
+        <LINE COLOR="#000000" FROMX="35" FROMY="35" TOX="30" TOY="40">
+            <STROKE/>
+        </LINE>
+        <TEXT POSX="57.0" POSY="18.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">Q</TEXT>
+        <TEXT POSX="40.0" POSY="18.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">1D</TEXT>
+        <TEXT POSX="45.0" POSY="33.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">C1</TEXT>
+        <TEXT POSX="57.0" POSY="48.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">Q</TEXT>
+    </FORMS>
+    <IO>
+        <OUTPUT BITS="1" SIGNED="false" POSX="75.0" POSY="20.0" NAME="Q">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="75.0" POSY="50.0" NAME="NQ">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="20.0" POSY="20.0" NAME="D">
+            <LABEL POSX="-15.0" POSY="-5.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="20.0" POSY="35.0" NAME="CLK">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <MEMORY>
+        <STORAGE NAME="m" SIZE="1" BITS="1" SIGNED="false"/>
+        <STORAGE NAME="LastCLK" SIZE="1" BITS="1" SIGNED="false"/>
+    </MEMORY>
+    <INTERNALS DELAY="2">
+        <ACTION EVENT="INPUT_CHANGE">{
+  if( !LastCLK[0] &amp;&amp; CLK ) //positive edge
+  { 
+     m[0] = D;
+  }
+  Q = m[0];
+  NQ =!m[0]; 
+  LastCLK[0] = CLK;
+}
+</ACTION>
+        <ACTION EVENT="INIT">{
+	LastCLK[0] = 0;
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="Adder" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <POLYGON COLOR="#000000">
+            <STROKE LINEWIDTH="1.5"/>
+            <POINT POSX="-20.0" POSY="-30.0"/>
+            <POINT POSX="5.0" POSY="-10.0"/>
+            <POINT POSX="5.0" POSY="20.0"/>
+            <POINT POSX="-20.0" POSY="40.0"/>
+            <POINT POSX="-20.0" POSY="10.0"/>
+            <POINT POSX="-12.0" POSY="5.0"/>
+            <POINT POSX="-20.0" POSY="0.0"/>
+            <POINT POSX="-20.0" POSY="-20.0"/>
+            <POINT POSX="-20.0" POSY="-10.0"/>
+        </POLYGON>
+        <TEXT POSX="-8.0" POSY="-7.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,12.0">Add</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="4" SIGNED="false" POSX="-20.0" POSY="-20.0" NAME="Arg0">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="4" SIGNED="true" POSX="-20.0" POSY="30.0" NAME="Arg1">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="4" SIGNED="false" POSX="5.0" POSY="15.0" NAME="Sum">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="5.0" POSY="-5.0" NAME="lsb">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="4">
+        <ACTION EVENT="INPUT_CHANGE">{	
+ 	Sum = ((0d5 bit)Arg0 + (0d5 bit)Arg1)&gt;&gt;1;
+	lsb = Arg0 + Arg1;
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

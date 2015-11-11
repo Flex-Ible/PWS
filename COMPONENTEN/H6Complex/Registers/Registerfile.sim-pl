@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="Registerfile" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="15">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#666666" POSX="60.0" POSY="-25.0"
+            WIDTH="335.0" HEIGHT="280.0" RADIUSX="15.0" RADIUSY="15.0">
+            <STROKE LINEWIDTH="2.0"/>
+        </RECTANGLE>
+        <TEXT POSX="220.0" POSY="-10.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,18.0">Register file</TEXT>
+        <TEXT POSX="215.0" POSY="130.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,13.0">3
+
+
+2
+
+
+1
+
+
+0</TEXT>
+        <TEXT POSX="230.0" POSY="265.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,13.0">Figuur 6.7</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="8" SIGNED="false" POSX="60.0" POSY="200.0" NAME="Data_in">
+            <LABEL POSX="-15.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="60.0" POSY="90.0" NAME="Load">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="2" SIGNED="false" POSX="60.0" POSY="160.0" NAME="ADestReg">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="2" SIGNED="false" POSX="60.0" POSY="5.0" NAME="AFirstReg">
+            <LABEL POSX="-35.0" POSY="-5.0" HALIGN="CENTER" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="2" SIGNED="false" POSX="60.0" POSY="20.0" NAME="ASecReg">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="8" SIGNED="false" POSX="395.0" POSY="70.0" NAME="DFirstReg">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <OUTPUT BITS="8" SIGNED="false" POSX="395.0" POSY="190.0" NAME="DSecReg">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="8bitRegister" DATA="8bitRegister.sim-pl"
+            POSX="60.0" POSY="-20.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS/>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="8bitRegister (2)" DATA="8bitRegister.sim-pl"
+            POSX="60.0" POSY="30.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS/>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="8bitRegister (3)" DATA="8bitRegister.sim-pl"
+            POSX="60.0" POSY="80.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS/>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="8bitRegister (4)" DATA="8bitRegister.sim-pl"
+            POSX="60.0" POSY="130.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS/>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="clock" DATA="clock.xml" POSX="-80.0"
+            POSY="180.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS/>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="1naar4Demux" DATA="1naar4Demux.sim-pl"
+            POSX="-35.0" POSY="0.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS/>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="1uit4Mux" DATA="1uit4Mux.sim-pl"
+            POSX="195.0" POSY="0.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS/>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="1uit4Mux (2)" DATA="1uit4Mux.sim-pl"
+            POSX="195.0" POSY="120.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS/>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES/>
+</COMPLEX>

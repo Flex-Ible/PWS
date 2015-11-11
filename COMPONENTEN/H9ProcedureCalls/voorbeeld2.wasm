@@ -1,0 +1,38 @@
+@include "16bitJumper.wasm"
+# int leaf_example(int j, int k, int l, int m)
+# {
+# int f;
+# f = (j+k) - (l+m);
+# return f;
+# }
+
+.data MyData : REGISTERS
+@include "register_constantsLeaf.wasm"
+# $s1 = 0x001E; $s2 = 0x0028; $s3 = 0x0032
+# these values must be restored
+
+.code MyCode : REGSTACK, MyData
+# this is the main program
+# v = leaf_example(10,20,3,4);
+LOADI $arg1, 10
+LOADI $arg2, 20
+LOADI $arg3, 3
+LOADI $arg4, 4
+JSR leaf_example 	# stores PC in register $ra
+HALT 		# the result is now in $val0
+
+#----------- procedure leaf_exemple ----------
+leaf_example:
+SUBI $sp, $sp, 3 	# make space for 3 items on stack
+SW $s1, 2, $sp 	# save $s1 for use afterward
+SW $s2, 1, $sp 	# save $s2 for use afterward
+SW $s3, 0, $sp 	# save $s1 for use afterward
+ADD $s1, $arg1, $arg2  # compute j + k
+ADD $s2, $arg3, $arg4  # compute l + m
+SUB $s3, $tmp1, $tmp2  # compute (j + k)-(l + m)
+COPY $val1, $s3 	# transfer result to return value reg.
+LW $s1, 0, $sp 	# restore $s1
+LW $s2, 1, $sp 	# restore $s2
+LW $s3, 2, $sp 	# restore $s3
+ADDI $sp, $sp, 3 	# remove top 3 items from stack
+RETURN $ra 	# return to caller
