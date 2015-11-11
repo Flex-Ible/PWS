@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="test" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="70.0" POSY="-110.0"
+            WIDTH="190.0" HEIGHT="150.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+    </FORMS>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="90.0" POSY="-70.0" NAME="in">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="90.0" POSY="-20.0" NAME="set">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="220.0" POSY="-70.0" NAME="o">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <MEMORY>
+        <STORAGE NAME="mem" SIZE="1" BITS="1" SIGNED="false"/>
+    </MEMORY>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">if (set == 0d1) {
+	mem[0d0] = in;
+}</ACTION>
+        <ACTION EVENT="INIT">o = mem[0d0];</ACTION>
+    </INTERNALS>
+</SIMPLE>
