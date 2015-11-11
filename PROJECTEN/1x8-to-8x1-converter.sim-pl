@@ -13,28 +13,28 @@
         <INPUT BITS="8" SIGNED="false" POSX="180.0" POSY="210.0" NAME="i">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="160.0" NAME="o1">
+        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="160.0" NAME="o6">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="140.0" NAME="o0">
+        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="140.0" NAME="o7">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="180.0" NAME="o2">
+        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="180.0" NAME="o5">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="200.0" NAME="o3">
+        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="200.0" NAME="o4">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="220.0" NAME="o4">
+        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="220.0" NAME="o3">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="240.0" NAME="o5">
+        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="240.0" NAME="o2">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="260.0" NAME="o6">
+        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="260.0" NAME="o1">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="280.0" NAME="o7">
+        <OUTPUT BITS="1" SIGNED="false" POSX="270.0" POSY="280.0" NAME="o0">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
     </IO>
