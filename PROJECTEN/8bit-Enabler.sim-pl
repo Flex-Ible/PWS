@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="8bit-Enabler" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="330.0" POSY="180.0"
+            WIDTH="60.0" HEIGHT="20.0" RADIUSX="5.0" RADIUSY="5.0">
+            <STROKE/>
+        </RECTANGLE>
+        <TEXT POSX="360.0" POSY="190.0" HALIGN="CENTER" VALIGN="CENTER"
+            COLOR="#000000" FONT="Serif,plain,14.0">E
+</TEXT>
+    </FORMS>
+    <IO>
+        <INPUT BITS="8" SIGNED="false" POSX="330.0" POSY="190.0" NAME="i">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="8" SIGNED="false" POSX="390.0" POSY="190.0" NAME="o">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="340.0" POSY="200.0" NAME="e">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <MEMORY/>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">{
+	if (e == 1) {
+	o = i;
+}
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

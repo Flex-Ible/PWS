@@ -20,13 +20,13 @@
         <INPUT BITS="8" SIGNED="false" POSX="-10.0" POSY="860.0" NAME="b">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <INPUT BITS="8" SIGNED="false" POSX="0.0" POSY="-20.0" NAME="a">
+        <INPUT BITS="8" SIGNED="false" POSX="-10.0" POSY="-20.0" NAME="a">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <OUTPUT BITS="8" SIGNED="false" POSX="560.0" POSY="970.0" NAME="a larger">
+        <OUTPUT BITS="1" SIGNED="false" POSX="560.0" POSY="970.0" NAME="a larger">
             <LABEL POSX="-10.0" POSY="10.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="8" SIGNED="false" POSX="470.0" POSY="970.0" NAME="equal">
+        <OUTPUT BITS="1" SIGNED="false" POSX="470.0" POSY="970.0" NAME="equal">
             <LABEL POSX="-20.0" POSY="10.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
         <OUTPUT BITS="8" SIGNED="false" POSX="770.0" POSY="420.0" NAME="c">
