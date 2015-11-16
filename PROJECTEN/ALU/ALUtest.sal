@@ -1,0 +1,8 @@
+2: op1 = 0; op2 = 0; op3 = 0; carryin = 0; a = 50; b = 50;
+4: op1 = 1; op2 = 0; op3 = 0; carryin = 0; a = 50; b = 50;
+6: op1 = 1; op2 = 1; op3 = 0; carryin = 0; a = 50; b = 50;
+8: op1 = 1; op2 = 0; op3 = 1; carryin = 0; a = 50; b = 50;
+10: op1 = 1; op2 = 1; op3 = 1; carryin = 0; a = 50; b = 50;
+12: op1 = 0; op2 = 1; op3 = 0; carryin = 0; a = 50; b = 50;
+14: op1 = 0; op2 = 1; op3 = 1; carryin = 0; a = 50; b = 50;
+16: op1 = 0; op2 = 0; op3 = 1; carryin = 0; a = 50; b = 50;

@@ -26,7 +26,10 @@
         <ACTION EVENT="INPUT_CHANGE">{
 	if (e == 1) {
 	o = i;
-}
+	}
+	else {
+	o;
+	}
 }</ACTION>
     </INTERNALS>
 </SIMPLE>

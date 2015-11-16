@@ -1,0 +1,4 @@
+2: carryin = 0; a = 10;
+4: carryin = 1; a = 10;
+6: carryin = 1; a = 0b10000000;
+8: carryin = 0; a = 0b01101101;
