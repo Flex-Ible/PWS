@@ -13,15 +13,22 @@
         <INPUT BITS="8" SIGNED="false" POSX="180.0" POSY="50.0" NAME="a">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <INPUT BITS="8" SIGNED="false" POSX="180.0" POSY="70.0" NAME="b">
+        <OUTPUT BITS="8" SIGNED="false" POSX="240.0" POSY="70.0" NAME="c">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="180.0" POSY="70.0" NAME="carryin">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <OUTPUT BITS="8" SIGNED="false" POSX="240.0" POSY="60.0" NAME="c">
-            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        <OUTPUT BITS="1" SIGNED="false" POSX="240.0" POSY="50.0" NAME="carryout">
+            <LABEL POSX="60.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </OUTPUT>
     </IO>
     <MEMORY/>
     <INTERNALS DELAY="1">
-        <ACTION EVENT="INPUT_CHANGE">c = a &lt;&lt; b;</ACTION>
+        <ACTION EVENT="INPUT_CHANGE">{
+carryout = (a &amp; 0b10000000) &gt;&gt; 7;
+c = (a &lt;&lt; 1) + carryin;
+}
+</ACTION>
     </INTERNALS>
 </SIMPLE>

@@ -39,7 +39,7 @@
     </IO>
     <SUBCOMPONENTS>
         <SUBCOMPONENT NAME="Inverter"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="220.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="220.0"
             POSY="0.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -48,7 +48,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (2)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="30.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="30.0"
             POSY="40.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -57,7 +57,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (3)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="130.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="130.0"
             POSY="20.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -66,83 +66,91 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="0.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="110.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="50.0" PIN="w"/>
                 <STUB POSX="110.0" POSY="70.0" PIN="x"/>
+                <STUB POSX="170.0" POSY="50.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (2)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="60.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="110.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="50.0" PIN="w"/>
                 <STUB POSX="110.0" POSY="70.0" PIN="x"/>
+                <STUB POSX="170.0" POSY="50.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (3)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="120.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="110.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="50.0" PIN="w"/>
                 <STUB POSX="110.0" POSY="70.0" PIN="x"/>
+                <STUB POSX="170.0" POSY="50.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (4)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="180.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="110.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="50.0" PIN="w"/>
                 <STUB POSX="110.0" POSY="70.0" PIN="x"/>
+                <STUB POSX="170.0" POSY="50.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (5)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="240.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="110.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="50.0" PIN="w"/>
                 <STUB POSX="110.0" POSY="70.0" PIN="x"/>
+                <STUB POSX="170.0" POSY="50.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (6)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="300.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="110.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="50.0" PIN="w"/>
                 <STUB POSX="110.0" POSY="70.0" PIN="x"/>
+                <STUB POSX="170.0" POSY="50.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (7)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="360.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="110.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="50.0" PIN="w"/>
                 <STUB POSX="110.0" POSY="70.0" PIN="x"/>
+                <STUB POSX="170.0" POSY="50.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (8)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="420.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="110.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="50.0" PIN="w"/>
                 <STUB POSX="110.0" POSY="70.0" PIN="x"/>
+                <STUB POSX="170.0" POSY="50.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
     </SUBCOMPONENTS>
@@ -475,6 +483,117 @@
                     <NODEREF NODE="dc2d326bb56b684e"/>
                     <NODEREF NODE="f630eeab1076548b"/>
                     <NODEREF NODE="9998a326d4fb553e"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (7)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="a1b5d1fc0d7a6ec6" SUBCOMPONENT="3-inputAND" PIN="Z"/>
+                <MAINPIN ID="23a6a1495b1d442b" PIN="0/0/0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="a1b5d1fc0d7a6ec6"/>
+                    <NODEREF NODE="23a6a1495b1d442b"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (8)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="2f60f09e4c311106"
+                    SUBCOMPONENT="3-inputAND (2)" PIN="Z"/>
+                <MAINPIN ID="f22afbd266cc86b0" PIN="0/0/1"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="2f60f09e4c311106"/>
+                    <NODEREF NODE="f22afbd266cc86b0"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (9)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="69d7cdf83f76338b"
+                    SUBCOMPONENT="3-inputAND (3)" PIN="Z"/>
+                <MAINPIN ID="fab775840bd65e31" PIN="0/1/0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="69d7cdf83f76338b"/>
+                    <NODEREF NODE="fab775840bd65e31"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (10)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="5691877717356a89"
+                    SUBCOMPONENT="3-inputAND (4)" PIN="Z"/>
+                <MAINPIN ID="73d0e431ffa23cb6" PIN="0/1/1"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="5691877717356a89"/>
+                    <NODEREF NODE="73d0e431ffa23cb6"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (11)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="145387a7954a3408"
+                    SUBCOMPONENT="3-inputAND (5)" PIN="Z"/>
+                <MAINPIN ID="e8d4f7fee478885b" PIN="1/0/0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="145387a7954a3408"/>
+                    <NODEREF NODE="e8d4f7fee478885b"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (12)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="6d3f0e903751e7e"
+                    SUBCOMPONENT="3-inputAND (6)" PIN="Z"/>
+                <MAINPIN ID="b4307338c11dc9b" PIN="1/0/1"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="6d3f0e903751e7e"/>
+                    <NODEREF NODE="b4307338c11dc9b"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (13)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="50b7f63622a35b9"
+                    SUBCOMPONENT="3-inputAND (7)" PIN="Z"/>
+                <MAINPIN ID="30a5435360029bd0" PIN="1/1/0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="50b7f63622a35b9"/>
+                    <NODEREF NODE="30a5435360029bd0"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (14)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="116f1636d1deda02"
+                    SUBCOMPONENT="3-inputAND (8)" PIN="Z"/>
+                <MAINPIN ID="a52fab6b9a8f94fa" PIN="1/1/1"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="116f1636d1deda02"/>
+                    <NODEREF NODE="a52fab6b9a8f94fa"/>
                 </SPAN>
             </SPANS>
         </WIRE>
