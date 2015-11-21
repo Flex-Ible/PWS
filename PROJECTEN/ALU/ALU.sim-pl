@@ -1,39 +1,50 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <COMPLEX NAME="ALU" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
     <PARAMETERS/>
-    <FORMS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="-730.0" POSY="-2270.0"
+            WIDTH="1570.0" HEIGHT="3330.0" RADIUSX="10.0" RADIUSY="10.0">
+            <STROKE/>
+        </RECTANGLE>
+        <RECTANGLE COLOR="#000000" POSX="-600.0" POSY="-2260.0"
+            WIDTH="0.0" HEIGHT="0.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+        <TEXT POSX="-550.0" POSY="-2150.0" HALIGN="CENTER"
+            VALIGN="CENTER" COLOR="#000000" FONT="Serif,plain,150.0">ALU</TEXT>
+    </FORMS>
     <IO>
-        <INPUT BITS="8" SIGNED="false" POSX="-350.0" POSY="-1430.0" NAME="a">
+        <INPUT BITS="8" SIGNED="false" POSX="-730.0" POSY="-1430.0" NAME="a">
             <LABEL POSX="-20.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
         </INPUT>
-        <INPUT BITS="8" SIGNED="false" POSX="-350.0" POSY="-1400.0" NAME="b">
+        <INPUT BITS="8" SIGNED="false" POSX="-730.0" POSY="-1400.0" NAME="b">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <OUTPUT BITS="8" SIGNED="false" POSX="990.0" POSY="-950.0" NAME="c">
+        <OUTPUT BITS="8" SIGNED="false" POSX="840.0" POSY="-950.0" NAME="c">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <INPUT BITS="1" SIGNED="false" POSX="-890.0" POSY="-460.0" NAME="op1">
+        <INPUT BITS="1" SIGNED="false" POSX="-730.0" POSY="-460.0" NAME="op1">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <INPUT BITS="1" SIGNED="false" POSX="-890.0" POSY="-440.0" NAME="op2">
+        <INPUT BITS="1" SIGNED="false" POSX="-730.0" POSY="-440.0" NAME="op2">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <INPUT BITS="1" SIGNED="false" POSX="-890.0" POSY="-420.0" NAME="op3">
+        <INPUT BITS="1" SIGNED="false" POSX="-730.0" POSY="-420.0" NAME="op3">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <INPUT BITS="1" SIGNED="false" POSX="-560.0" POSY="-870.0" NAME="carryin">
+        <INPUT BITS="1" SIGNED="false" POSX="-730.0" POSY="-870.0" NAME="carryin">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="990.0" POSY="-820.0" NAME="carry out">
+        <OUTPUT BITS="1" SIGNED="false" POSX="840.0" POSY="-820.0" NAME="carry out">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="990.0" POSY="-1080.0" NAME="a larger">
+        <OUTPUT BITS="1" SIGNED="false" POSX="840.0" POSY="-1080.0" NAME="a larger">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="990.0" POSY="-1040.0" NAME="equal">
+        <OUTPUT BITS="1" SIGNED="false" POSX="840.0" POSY="-1040.0" NAME="equal">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="990.0" POSY="-990.0" NAME="zero">
+        <OUTPUT BITS="1" SIGNED="false" POSX="840.0" POSY="-990.0" NAME="zero">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
     </IO>
@@ -179,7 +190,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Decoder" DATA="..\Decoder.sim-pl"
-            POSX="-820.0" POSY="-490.0" ZOOM="1.0" FLIP="NONE">
+            POSX="-780.0" POSY="-490.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="420.0" POSY="50.0" PIN="0/0/0"/>
@@ -210,7 +221,7 @@
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND"
             DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
-            POSX="630.0" POSY="-900.0" ZOOM="1.0" FLIP="NONE">
+            POSX="580.0" POSY="-900.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="70.0" POSY="40.0" PIN="w"/>
@@ -220,7 +231,7 @@
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (2)"
             DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
-            POSX="630.0" POSY="-800.0" ZOOM="1.0" FLIP="NONE">
+            POSX="580.0" POSY="-800.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="70.0" POSY="20.0" PIN="v"/>
@@ -230,7 +241,7 @@
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (3)"
             DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
-            POSX="630.0" POSY="-850.0" ZOOM="1.0" FLIP="NONE">
+            POSX="580.0" POSY="-850.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="70.0" POSY="40.0" PIN="w"/>
@@ -239,7 +250,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="7Byte-OR" DATA="..\7Byte-OR.sim-pl"
-            POSX="550.0" POSY="-1120.0" ZOOM="1.0" FLIP="NONE">
+            POSX="440.0" POSY="-1120.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="280.0" POSY="110.0" PIN="a"/>
@@ -252,7 +263,7 @@
                 <STUB POSX="330.0" POSY="170.0" PIN="out"/>
             </STUBS>
         </SUBCOMPONENT>
-        <SUBCOMPONENT NAME="zero" DATA="zero.sim-pl" POSX="700.0"
+        <SUBCOMPONENT NAME="zero" DATA="zero.sim-pl" POSX="560.0"
             POSY="-1160.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -262,7 +273,7 @@
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputOR"
             DATA="..\..\COMPONENTEN\H1Poorten\3-inputOR.xml"
-            POSX="800.0" POSY="-860.0" ZOOM="1.0" FLIP="NONE">
+            POSX="660.0" POSY="-860.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="60.0" POSY="20.0" PIN="v"/>
@@ -570,8 +581,8 @@
                 <SPLIT ID="5483b0c141d6e2c6" POSX="240.0" POSY="-800.0"/>
                 <SUBPIN ID="be5fecf34e89babd"
                     SUBCOMPONENT="2inputAND (3)" PIN="w"/>
-                <SPLIT ID="ccc69957d325e401" POSX="670.0" POSY="-800.0"/>
-                <SPLIT ID="439bf915a433816a" POSX="670.0" POSY="-810.0"/>
+                <SPLIT ID="ccc69957d325e401" POSX="650.0" POSY="-800.0"/>
+                <SPLIT ID="439bf915a433816a" POSX="650.0" POSY="-810.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -763,8 +774,8 @@
                 <MAINPIN ID="d3f3240374caaa37" PIN="carryin"/>
                 <SPLIT ID="45aa203d6be5cd86" POSX="-330.0" POSY="-870.0"/>
                 <SUBPIN ID="9dbeae2986db352b" SUBCOMPONENT="Adder" PIN="carry in"/>
-                <SPLIT ID="c875e52b8e53969d" POSX="-330.0" POSY="1040.0"/>
-                <SPLIT ID="d131f076e947b096" POSX="150.0" POSY="1040.0"/>
+                <SPLIT ID="c875e52b8e53969d" POSX="-330.0" POSY="1050.0"/>
+                <SPLIT ID="d131f076e947b096" POSX="170.0" POSY="1050.0"/>
                 <SPLIT ID="a421a9a922d37c52" POSX="-330.0" POSY="-830.0"/>
                 <SPLIT ID="a4b1b712aacfae17" POSX="-330.0" POSY="-870.0"/>
                 <SUBPIN ID="9a554102173ae871" SUBCOMPONENT="ShiftL" PIN="carryin"/>
@@ -915,14 +926,14 @@
             <NODES>
                 <SUBPIN ID="729d0779d65bfa3e" SUBCOMPONENT="ShiftL" PIN="carryout"/>
                 <SUBPIN ID="74abc2681878ec1d" SUBCOMPONENT="2inputAND" PIN="v"/>
-                <SPLIT ID="1ec67189f9e3230d" POSX="220.0" POSY="-890.0"/>
-                <SPLIT ID="cf900e6cebaf4227" POSX="220.0" POSY="-900.0"/>
-                <SPLIT ID="4821aa26cfd49368" POSX="700.0" POSY="-900.0"/>
-                <SPLIT ID="d94ac6e25bbb4061" POSX="700.0" POSY="-880.0"/>
-                <SPLIT ID="f814de63a3424411" POSX="140.0" POSY="-890.0">
+                <SPLIT ID="1ec67189f9e3230d" POSX="190.0" POSY="-890.0"/>
+                <SPLIT ID="cf900e6cebaf4227" POSX="190.0" POSY="-900.0"/>
+                <SPLIT ID="4821aa26cfd49368" POSX="650.0" POSY="-900.0"/>
+                <SPLIT ID="d94ac6e25bbb4061" POSX="650.0" POSY="-880.0"/>
+                <SPLIT ID="f814de63a3424411" POSX="150.0" POSY="-890.0">
                     <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
                 </SPLIT>
-                <SPLIT ID="9ebadb381435206d" POSX="540.0" POSY="-900.0">
+                <SPLIT ID="9ebadb381435206d" POSX="510.0" POSY="-900.0">
                     <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
                 </SPLIT>
             </NODES>
@@ -947,8 +958,8 @@
                     SUBCOMPONENT="2inputAND (3)" PIN="v"/>
                 <SPLIT ID="dcd01980971919c6" POSX="170.0" POSY="-810.0"/>
                 <SPLIT ID="bf43233be8b468ea" POSX="170.0" POSY="-840.0"/>
-                <SPLIT ID="1e69dcdddfd9c680" POSX="670.0" POSY="-840.0"/>
-                <SPLIT ID="a5a814eabf05c2c2" POSX="670.0" POSY="-830.0"/>
+                <SPLIT ID="1e69dcdddfd9c680" POSX="650.0" POSY="-840.0"/>
+                <SPLIT ID="a5a814eabf05c2c2" POSX="650.0" POSY="-830.0"/>
                 <SPLIT ID="d61a8c7d6acbd14f" POSX="540.0" POSY="-840.0">
                     <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
                 </SPLIT>
@@ -1015,8 +1026,8 @@
                 <SUBPIN ID="6cc8df0bc24d448f" SUBCOMPONENT="7Byte-OR" PIN="b"/>
                 <SPLIT ID="b1964f7cb53af3ac" POSX="300.0" POSY="-1060.0"/>
                 <SPLIT ID="76a6d3cd8a23e0b0" POSX="300.0" POSY="-1030.0"/>
-                <SPLIT ID="b29c3bfd15b6613c" POSX="660.0" POSY="-1030.0"/>
-                <SPLIT ID="ccd7fea19ca7486e" POSX="660.0" POSY="-990.0"/>
+                <SPLIT ID="b29c3bfd15b6613c" POSX="630.0" POSY="-1030.0"/>
+                <SPLIT ID="ccd7fea19ca7486e" POSX="630.0" POSY="-990.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -1035,8 +1046,8 @@
                 <SUBPIN ID="4044bc3aac14cf0" SUBCOMPONENT="7Byte-OR" PIN="c"/>
                 <SUBPIN ID="fbb557fd076e6261"
                     SUBCOMPONENT="8bit-Enabler (3)" PIN="o"/>
-                <SPLIT ID="e30c6de7fd27af92" POSX="640.0" POSY="-970.0"/>
-                <SPLIT ID="efb4571ec2fbad29" POSX="640.0" POSY="-1000.0"/>
+                <SPLIT ID="e30c6de7fd27af92" POSX="620.0" POSY="-970.0"/>
+                <SPLIT ID="efb4571ec2fbad29" POSX="620.0" POSY="-1000.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -1071,8 +1082,8 @@
                 <SUBPIN ID="69c18e18fafd87ea"
                     SUBCOMPONENT="8bit-Enabler (5)" PIN="o"/>
                 <SUBPIN ID="ca7d0ecbfc27ef57" SUBCOMPONENT="7Byte-OR" PIN="e"/>
-                <SPLIT ID="64095a0dececa30a" POSX="640.0" POSY="-880.0"/>
-                <SPLIT ID="ca4fc07a82213377" POSX="640.0" POSY="-930.0"/>
+                <SPLIT ID="64095a0dececa30a" POSX="630.0" POSY="-880.0"/>
+                <SPLIT ID="ca4fc07a82213377" POSX="630.0" POSY="-930.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -1089,8 +1100,8 @@
                 <SUBPIN ID="35e9121a9f2d55b2"
                     SUBCOMPONENT="8bit-Enabler (6)" PIN="o"/>
                 <SUBPIN ID="9b8b2aafb5a98498" SUBCOMPONENT="7Byte-OR" PIN="f"/>
-                <SPLIT ID="b27e7630e3d6bb23" POSX="660.0" POSY="-820.0"/>
-                <SPLIT ID="9ea01b4187d1a8c" POSX="660.0" POSY="-910.0"/>
+                <SPLIT ID="b27e7630e3d6bb23" POSX="640.0" POSY="-820.0"/>
+                <SPLIT ID="9ea01b4187d1a8c" POSX="640.0" POSY="-910.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -1107,8 +1118,8 @@
                 <SUBPIN ID="857bba59d597732a" SUBCOMPONENT="7Byte-OR" PIN="g"/>
                 <SUBPIN ID="fb8b6b022f43052d"
                     SUBCOMPONENT="8bit-Enabler (7)" PIN="o"/>
-                <SPLIT ID="67e9aac55538f6a5" POSX="800.0" POSY="-890.0"/>
-                <SPLIT ID="417c91859f37fe7c" POSX="800.0" POSY="110.0"/>
+                <SPLIT ID="67e9aac55538f6a5" POSX="710.0" POSY="-890.0"/>
+                <SPLIT ID="417c91859f37fe7c" POSX="710.0" POSY="110.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -1124,9 +1135,9 @@
             <NODES>
                 <MAINPIN ID="2bdf7d21fe653045" PIN="c"/>
                 <SUBPIN ID="23cac90764b1bb0c" SUBCOMPONENT="7Byte-OR" PIN="out"/>
-                <SPLIT ID="ec5225f62709eb13" POSX="920.0" POSY="-950.0"/>
+                <SPLIT ID="ec5225f62709eb13" POSX="780.0" POSY="-950.0"/>
                 <SUBPIN ID="4e803292b6957c3a" SUBCOMPONENT="zero" PIN="a"/>
-                <SPLIT ID="f76fb5ea57abc77b" POSX="920.0" POSY="-990.0"/>
+                <SPLIT ID="f76fb5ea57abc77b" POSX="780.0" POSY="-990.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -1162,8 +1173,8 @@
             <NODES>
                 <SUBPIN ID="1b2aa3e49905f778" SUBCOMPONENT="2inputAND" PIN="Z"/>
                 <SUBPIN ID="9c727b2161700a03" SUBCOMPONENT="3-inputOR" PIN="v"/>
-                <SPLIT ID="6ab7d57bac5dcd81" POSX="820.0" POSY="-870.0"/>
-                <SPLIT ID="86e033032000c7e5" POSX="820.0" POSY="-840.0"/>
+                <SPLIT ID="6ab7d57bac5dcd81" POSX="720.0" POSY="-870.0"/>
+                <SPLIT ID="86e033032000c7e5" POSX="720.0" POSY="-840.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -1194,8 +1205,8 @@
                 <SUBPIN ID="14a7f83a331b167b" SUBCOMPONENT="3-inputOR" PIN="x"/>
                 <SUBPIN ID="98c3029a4b39aae5"
                     SUBCOMPONENT="2inputAND (2)" PIN="Z"/>
-                <SPLIT ID="f7b7847d3d11d9eb" POSX="820.0" POSY="-800.0"/>
-                <SPLIT ID="cf61c8035c43d4d6" POSX="820.0" POSY="-770.0"/>
+                <SPLIT ID="f7b7847d3d11d9eb" POSX="720.0" POSY="-800.0"/>
+                <SPLIT ID="cf61c8035c43d4d6" POSX="720.0" POSY="-770.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
