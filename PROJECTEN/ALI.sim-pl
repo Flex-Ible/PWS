@@ -3,16 +3,16 @@
     <PARAMETERS/>
     <FORMS/>
     <IO>
-        <OUTPUT BITS="1" SIGNED="false" POSX="70.0" POSY="70.0" NAME="R1">
+        <OUTPUT BITS="1" SIGNED="false" POSX="60.0" POSY="70.0" NAME="R1">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="70.0" POSY="130.0" NAME="R2">
+        <OUTPUT BITS="1" SIGNED="false" POSX="60.0" POSY="130.0" NAME="R2">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="70.0" POSY="190.0" NAME="R3">
+        <OUTPUT BITS="1" SIGNED="false" POSX="60.0" POSY="190.0" NAME="R3">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="70.0" POSY="250.0" NAME="R4">
+        <OUTPUT BITS="1" SIGNED="false" POSX="60.0" POSY="250.0" NAME="R4">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
         <INPUT BITS="1" SIGNED="false" POSX="250.0" POSY="-10.0" NAME="naar clock/ram/acc/rega/regb">
@@ -157,6 +157,7 @@
             <STUBS>
                 <STUB POSX="60.0" POSY="20.0" PIN="v"/>
                 <STUB POSX="60.0" POSY="40.0" PIN="w"/>
+                <STUB POSX="120.0" POSY="30.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputOR (2)"
@@ -166,6 +167,7 @@
             <STUBS>
                 <STUB POSX="60.0" POSY="20.0" PIN="v"/>
                 <STUB POSX="60.0" POSY="40.0" PIN="w"/>
+                <STUB POSX="120.0" POSY="30.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputOR (3)"
@@ -175,6 +177,7 @@
             <STUBS>
                 <STUB POSX="60.0" POSY="20.0" PIN="v"/>
                 <STUB POSX="60.0" POSY="40.0" PIN="w"/>
+                <STUB POSX="120.0" POSY="30.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputOR (4)"
@@ -184,6 +187,7 @@
             <STUBS>
                 <STUB POSX="60.0" POSY="20.0" PIN="v"/>
                 <STUB POSX="60.0" POSY="40.0" PIN="w"/>
+                <STUB POSX="120.0" POSY="30.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
     </SUBCOMPONENTS>
@@ -694,6 +698,60 @@
                     <NODEREF NODE="ec12809dbce4cd2b"/>
                     <NODEREF NODE="cd85270e65e35a1e"/>
                     <NODEREF NODE="117d49b4af7f6cb8"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (41)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="657ae32f1fbb9744" PIN="R1"/>
+                <SUBPIN ID="adbe38a1ab30bade" SUBCOMPONENT="2inputOR" PIN="Z"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="657ae32f1fbb9744"/>
+                    <NODEREF NODE="adbe38a1ab30bade"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (42)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="a774c71213cdd636"
+                    SUBCOMPONENT="2inputOR (2)" PIN="Z"/>
+                <MAINPIN ID="54f1e41bb300d233" PIN="R2"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="a774c71213cdd636"/>
+                    <NODEREF NODE="54f1e41bb300d233"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (43)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="a8a43e1d058ed83d"
+                    SUBCOMPONENT="2inputOR (3)" PIN="Z"/>
+                <MAINPIN ID="f476dc07d20b2e16" PIN="R3"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="a8a43e1d058ed83d"/>
+                    <NODEREF NODE="f476dc07d20b2e16"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (44)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="d14985792f9bdf0" SUBCOMPONENT="2inputOR (4)" PIN="Z"/>
+                <MAINPIN ID="283ebfefd1f5a57f" PIN="R4"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="d14985792f9bdf0"/>
+                    <NODEREF NODE="283ebfefd1f5a57f"/>
                 </SPAN>
             </SPANS>
         </WIRE>

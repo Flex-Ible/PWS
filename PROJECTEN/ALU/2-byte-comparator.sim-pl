@@ -147,7 +147,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="1x8-to-8x1-converter"
-            DATA="..\1x8-to-8x1-converter.sim-pl" POSX="-170.0"
+            DATA="../1x8-to-8x1-converter.sim-pl" POSX="-170.0"
             POSY="-230.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -163,7 +163,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="1x8-to-8x1-converter (2)"
-            DATA="..\1x8-to-8x1-converter.sim-pl" POSX="-180.0"
+            DATA="../1x8-to-8x1-converter.sim-pl" POSX="-180.0"
             POSY="650.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -179,7 +179,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8x1-to-1x8-converter"
-            DATA="..\8x1-to-1x8-converter.sim-pl" POSX="490.0"
+            DATA="../8x1-to-1x8-converter.sim-pl" POSX="490.0"
             POSY="260.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>

@@ -19,7 +19,7 @@
         <INPUT BITS="1" SIGNED="false" POSX="120.0" POSY="100.0" NAME="enable">
             <LABEL POSX="40.0" POSY="20.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="130.0" POSY="90.0" NAME="out">
+        <OUTPUT BITS="8" SIGNED="false" POSX="130.0" POSY="90.0" NAME="out">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
     </IO>
