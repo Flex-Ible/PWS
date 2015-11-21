@@ -39,7 +39,7 @@
     </IO>
     <SUBCOMPONENTS>
         <SUBCOMPONENT NAME="Inverter"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="220.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="220.0"
             POSY="0.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -48,7 +48,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (2)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="30.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="30.0"
             POSY="40.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -57,7 +57,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (3)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="130.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="130.0"
             POSY="20.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -66,7 +66,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="0.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -77,7 +77,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (2)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="60.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -88,7 +88,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (3)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="120.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -99,7 +99,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (4)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="180.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -110,7 +110,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (5)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="240.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -121,7 +121,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (6)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="300.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -132,7 +132,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (7)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="360.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -143,7 +143,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND (8)"
-            DATA="../COMPONENTEN/H1Poorten/3-inputAND.xml" POSX="250.0"
+            DATA="..\COMPONENTEN\H1Poorten\3-inputAND.xml" POSX="250.0"
             POSY="420.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
