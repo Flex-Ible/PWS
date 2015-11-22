@@ -2,22 +2,16 @@
 <COMPLEX NAME="ALU" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
     <PARAMETERS/>
     <FORMS>
-        <RECTANGLE COLOR="#000000" POSX="-730.0" POSY="-2270.0"
-            WIDTH="1570.0" HEIGHT="3330.0" RADIUSX="10.0" RADIUSY="10.0">
-            <STROKE/>
-        </RECTANGLE>
         <RECTANGLE COLOR="#000000" POSX="-600.0" POSY="-2260.0"
             WIDTH="0.0" HEIGHT="0.0" RADIUSX="0.0" RADIUSY="0.0">
             <STROKE/>
         </RECTANGLE>
-        <TEXT POSX="-550.0" POSY="-2150.0" HALIGN="CENTER"
-            VALIGN="CENTER" COLOR="#000000" FONT="Serif,plain,150.0">ALU</TEXT>
     </FORMS>
     <IO>
         <INPUT BITS="8" SIGNED="false" POSX="-730.0" POSY="-1430.0" NAME="a">
             <LABEL POSX="-20.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
         </INPUT>
-        <INPUT BITS="8" SIGNED="false" POSX="-730.0" POSY="-1400.0" NAME="b">
+        <INPUT BITS="8" SIGNED="false" POSX="-490.0" POSY="-1400.0" NAME="b">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
         <OUTPUT BITS="8" SIGNED="false" POSX="840.0" POSY="-950.0" NAME="c">
@@ -120,7 +114,7 @@
                 <STUB POSX="200.0" POSY="50.0" PIN="carryout"/>
             </STUBS>
         </SUBCOMPONENT>
-        <SUBCOMPONENT NAME="8bit-Enabler" DATA="..\8bit-Enabler.sim-pl"
+        <SUBCOMPONENT NAME="8bit-Enabler" DATA="../8bit-Enabler.sim-pl"
             POSX="280.0" POSY="-1840.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -130,7 +124,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8bit-Enabler (2)"
-            DATA="..\8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1250.0"
+            DATA="../8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1250.0"
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -140,7 +134,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8bit-Enabler (3)"
-            DATA="..\8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1190.0"
+            DATA="../8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1190.0"
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -150,7 +144,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8bit-Enabler (4)"
-            DATA="..\8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1130.0"
+            DATA="../8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1130.0"
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -160,7 +154,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8bit-Enabler (5)"
-            DATA="..\8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1070.0"
+            DATA="../8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1070.0"
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -170,7 +164,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8bit-Enabler (6)"
-            DATA="..\8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1010.0"
+            DATA="../8bit-Enabler.sim-pl" POSX="-100.0" POSY="-1010.0"
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -180,7 +174,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8bit-Enabler (7)"
-            DATA="..\8bit-Enabler.sim-pl" POSX="280.0" POSY="-80.0"
+            DATA="../8bit-Enabler.sim-pl" POSX="280.0" POSY="-80.0"
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -189,7 +183,7 @@
                 <STUB POSX="390.0" POSY="190.0" PIN="o"/>
             </STUBS>
         </SUBCOMPONENT>
-        <SUBCOMPONENT NAME="Decoder" DATA="..\Decoder.sim-pl"
+        <SUBCOMPONENT NAME="Decoder" DATA="../Decoder.sim-pl"
             POSX="-780.0" POSY="-490.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -205,14 +199,14 @@
                 <STUB POSX="60.0" POSY="70.0" PIN="IN_C"/>
             </STUBS>
         </SUBCOMPONENT>
-        <SUBCOMPONENT NAME="0" DATA="..\0.sim-pl" POSX="10.0"
+        <SUBCOMPONENT NAME="0" DATA="../0.sim-pl" POSX="10.0"
             POSY="-2450.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="270.0" POSY="210.0" PIN="out"/>
             </STUBS>
         </SUBCOMPONENT>
-        <SUBCOMPONENT NAME="1" DATA="..\1.sim-pl" POSX="-100.0"
+        <SUBCOMPONENT NAME="1" DATA="../1.sim-pl" POSX="-100.0"
             POSY="-2390.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -220,7 +214,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND"
-            DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
+            DATA="../../COMPONENTEN/H1Poorten/2-inputAND.xml"
             POSX="580.0" POSY="-900.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -230,7 +224,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (2)"
-            DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
+            DATA="../../COMPONENTEN/H1Poorten/2-inputAND.xml"
             POSX="580.0" POSY="-800.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -240,7 +234,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (3)"
-            DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
+            DATA="../../COMPONENTEN/H1Poorten/2-inputAND.xml"
             POSX="580.0" POSY="-850.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -249,7 +243,7 @@
                 <STUB POSX="130.0" POSY="30.0" PIN="Z"/>
             </STUBS>
         </SUBCOMPONENT>
-        <SUBCOMPONENT NAME="7Byte-OR" DATA="..\7Byte-OR.sim-pl"
+        <SUBCOMPONENT NAME="7Byte-OR" DATA="../7Byte-OR.sim-pl"
             POSX="440.0" POSY="-1120.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -272,7 +266,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputOR"
-            DATA="..\..\COMPONENTEN\H1Poorten\3-inputOR.xml"
+            DATA="../../COMPONENTEN/H1Poorten/3-inputOR.xml"
             POSX="660.0" POSY="-860.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>

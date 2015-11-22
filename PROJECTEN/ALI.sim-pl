@@ -302,11 +302,15 @@
                     SUBCOMPONENT="3-inputAND (3)" PIN="w"/>
                 <SPLIT ID="ebc8e29ab7c49397" POSX="260.0" POSY="60.0"/>
                 <MAINPIN ID="af4bc02e98105310" PIN="naar xor"/>
+                <SPLIT ID="aa229bea31e8a24b" POSX="260.0" POSY="220.0">
+                    <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
+                </SPLIT>
             </NODES>
             <SPANS>
                 <SPAN>
                     <NODEREF NODE="2d63c70a0688187e"/>
                     <NODEREF NODE="1b9749ed00d8c34e"/>
+                    <NODEREF NODE="aa229bea31e8a24b"/>
                     <NODEREF NODE="f96d2207511bf0fa"/>
                 </SPAN>
                 <SPAN>
@@ -353,6 +357,9 @@
                     SUBCOMPONENT="3-inputAND (5)" PIN="w"/>
                 <SPLIT ID="a44dd27d95721d33" POSX="270.0" POSY="300.0"/>
                 <MAINPIN ID="30b7f299c6febfd8" PIN="xor"/>
+                <SPLIT ID="c90d498fe1ab4bd5" POSX="270.0" POSY="230.0">
+                    <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
+                </SPLIT>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -383,6 +390,7 @@
                 </SPAN>
                 <SPAN>
                     <NODEREF NODE="a44dd27d95721d33"/>
+                    <NODEREF NODE="c90d498fe1ab4bd5"/>
                     <NODEREF NODE="30b7f299c6febfd8"/>
                 </SPAN>
             </SPANS>
@@ -691,12 +699,14 @@
                     SUBCOMPONENT="3-inputAND (8)" PIN="Z"/>
                 <SPLIT ID="ec12809dbce4cd2b" POSX="140.0" POSY="260.0"/>
                 <SPLIT ID="cd85270e65e35a1e" POSX="140.0" POSY="480.0"/>
+                <SPLIT ID="f52e026097fc2367" POSX="170.0" POSY="480.0"/>
             </NODES>
             <SPANS>
                 <SPAN>
                     <NODEREF NODE="53f242756e0e12f3"/>
                     <NODEREF NODE="ec12809dbce4cd2b"/>
                     <NODEREF NODE="cd85270e65e35a1e"/>
+                    <NODEREF NODE="f52e026097fc2367"/>
                     <NODEREF NODE="117d49b4af7f6cb8"/>
                 </SPAN>
             </SPANS>

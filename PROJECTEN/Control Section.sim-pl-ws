@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<WORKSHEET CYCLELENGTH="10" COMPONENT_FILE="Control Section.sim-pl">
+    <LAYOUT>
+rO0ABXoAAAQAAAAABAEAAAAEAAAFTaztAAV3KQEADUNvbXBvbmVudFZpZXf/////AAAAAQAAAAAA
+AQEABEljb24AAAAAc3IAFWphdmF4LnN3aW5nLkltYWdlSWNvbvKmNW7eDA4yAwAFSQAGaGVpZ2h0
+SQAFd2lkdGhMABFhY2Nlc3NpYmxlQ29udGV4dHQAK0xqYXZheC9zd2luZy9JbWFnZUljb24kQWNj
+ZXNzaWJsZUltYWdlSWNvbjtMAAtkZXNjcmlwdGlvbnQAEkxqYXZhL2xhbmcvU3RyaW5nO0wADWlt
+YWdlT2JzZXJ2ZXJ0AB5MamF2YS9hd3QvaW1hZ2UvSW1hZ2VPYnNlcnZlcjt4cAAAABAAAAAQcHBw
+dwgAAAAQAAAAEHVyAAJbSU26YCZ26rKlAgAAeHAAAAEA////////////////////////////////
+//////////////////////////////////////////////////////////////////////8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD///////////////////////////8A
+AAD//////////////////////////////////////////////////////wAAAP//////////////
+////////AAAA//////////////////////////////////////////////////////8AAAD/////
+//////8AAAD/AAAA/wAAAP///////////9fX1/9LS0v/Dw8P/wcHB/8+Pj7/s7Oz////////////
+AAAA//////////////////////8AAAD///////////8oKCj/hoaG/+rq6v/4+Pj/wMDA/0tLS///
+/////////wAAAP//////////////////////AAAA////////////CwsL/+Dg4P//////////////
+//////////////////8AAAD//////////////////////wAAAP///////////4uLi/8PDw//RkZG
+/3Nzc/+6urr/////////////////AAAA/wAAAP8AAAD///////////8AAAD/////////////////
+6+vr/7Kysv+Ghob/Kioq/21tbf///////////wAAAP//////////////////////AAAA////////
+/////////////////////////+vr6/8JCQn///////////8AAAD//////////////////////wAA
+AP///////////0pKSv+/v7//9/f3//Ly8v+Pj4//JCQk////////////AAAA////////////AAAA
+/wAAAP8AAHoAAAQAAP///////////7W1tf8+Pj7/BwcH/wwMDP9CQkL/zs7O////////////AAAA
+//////////////////////8AAAD/////////////////////////////////////////////////
+/////wAAAP//////////////////////AAAA////////////////////////////////////////
+//////////////8AAAD///////////////////////////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/////////////////////////////////////////////////////
+////////////////////////////////////////////////eHcMAQAFVGl0bGUAAAAAdAAPQ29u
+dHJvbCBTZWN0aW9udwIAAAAABVms7QAFdy8BABNUaW1lU2VxdWVuY2VEaWFncmFt/////wAAAAEA
+AAAAAAEBAARJY29uAAAAAHNyABVqYXZheC5zd2luZy5JbWFnZUljb27ypjVu3gwOMgMABUkABmhl
+aWdodEkABXdpZHRoTAARYWNjZXNzaWJsZUNvbnRleHR0ACtMamF2YXgvc3dpbmcvSW1hZ2VJY29u
+JEFjY2Vzc2libGVJbWFnZUljb247TAALZGVzY3JpcHRpb250ABJMamF2YS9sYW5nL1N0cmluZztM
+AA1pbWFnZU9ic2VydmVydAAeTGphdmEvYXd0L2ltYWdlL0ltYWdlT2JzZXJ2ZXI7eHAAAAAQAAAA
+EHBwcHcIAAAAEAAAABB1cgACW0lNumAmduqypQIAAHhwAAABAP///////////5CQkP//////////
+/////////////////////////////////5CQkP////////////////////////////////+QkJD/
+//////////////////////////////////////////+QkJD/////////////////////////////
+////kJCQ////////////AAAA/wAAAP8AAAD/AAAA////////////kJCQ////////////////////
+/////////////5CQkP///////////wAAAP///////////wAAAP///////////5CQkP//////////
+/////////////////wAAAP8AAAD/AAAA/wAAAP8AAAD///////////8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/////////////////kJCQ////////////////////////////////////////
+////kJCQ/////3oAAAQA////////////////////////////kJCQ////////////////////////
+////////////////////kJCQ/////////////////////////////////5CQkP//////////////
+/////////////////////////////5CQkP////////////////////////////////+QkJD/////
+//////////////////////////////////////+QkJD/////////////////////////////////
+kJCQ/wAAAP8AAAD/AAAA//////8AAAD/AAAA/wAAAP//////AAAA/wAAAP8AAAD/////////////
+/////////5CQkP8AAAD//////wAAAP//////AAAA//////8AAAD//////wAAAP//////AAAA////
+/////////////wAAAP8AAAD/AAAA//////8AAAD/AAAA/wAAAP//////AAAA/wAAAP8AAAD/////
+/wAAAP8AAAD/////////////////kJCQ////////////////////////////////////////////
+kJCQ/////////////////////////////////5CQkP//////////////////////////////////
+/////////5CQkP////////////////////////////////+QkJD/////////////////////////
+//////////////////+QkJD/////////////////////////////////kJCQ////////////////
+////////////////////////////kJCQ/////////////////////3h3DAEABVRpdGxlAAAAAHQA
+FVRpbWUgU2VxdWVuY2UgRGlhZ3JhbXcCAAAAAAVfrO0ABXcrAQAPVGltZVRhYmxlRGlhbG9n////
+/wAAAAEAAAAAAAEBAARJY29uAAAAAHNyABVqYXZheC5zd2luZy5JbWFnZUljb27ypjVu3gwOMgMA
+BUkABmhlaWdodEkABXdpZHRoTAARYWNjZXNzaWJsZUNvbnRleHR0ACtMamF2YXgvc3dpbmcvSW1h
+Z2VJY29uJEFjY2Vzc2libGVJbWFnZUljb247TAALZGVzY3JpcHRpb250ABJMamF2YS9sYW5nL1N0
+cmluZztMAA1pbWFnZU9ic2VydmVydAAeTGphdmEvYXd0L2ltYWdlL0ltYWdlT2JzZXJ2ZXI7eHAA
+AAAQAAAAEHBwcHcIAAAAEAAAABB1cgACW0lNumAmduqypQIAAHhwAAABAP//////////////////
+/////////////////3oAAAQA////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////wAAAP8AAAD//////5CQkP+QkJD/kJCQ/5CQkP+QkJD/kJCQ/5CQkP+QkJD/kJCQ
+/5CQkP//////////////////////////////////////////////////////////////////////
+////////////////////////////////AAAA/wAAAP//////kJCQ/5CQkP+QkJD/kJCQ/5CQkP+Q
+kJD/kJCQ/5CQkP+QkJD/kJCQ////////////////////////////////////////////////////
+//////////////////////////////////////////////////8AAAD/AAAA//////+QkJD/kJCQ
+/5CQkP+QkJD/kJCQ/5CQkP+QkJD/kJCQ/5CQkP+QkJD/////////////////////////////////
+/////////////////////////////////////////////////////////////////////wAAAP8A
+AAD//////5CQkP+QkJD/kJCQ/5CQkP+QkJD/kJCQ/5CQkP+QkJD/kJCQ/5CQkP//////////////
+////////////////////////////////////////////////////////////////////////////
+////////////AAAA/wAAAP//////kJCQ/5CQkP+QkJD/kJCQ/5CQkP+QkJD/kJCQ/5CQkP+QkJD/
+kJCQ////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////3h3DAEABVRpdGxl
+AAAAAHQAH1RpbWUgVGFibHoAAAQAZTogY3VycmVudCB0aW1lIGlzIDIxMHcCAAAAAAWDrO0ABXcp
+AQANUHJvZ3JhbUVkaXRvcv////8AAAABAAAAAAABAQAESWNvbgAAAABzcgAVamF2YXguc3dpbmcu
+SW1hZ2VJY29u8qY1bt4MDjIDAAVJAAZoZWlnaHRJAAV3aWR0aEwAEWFjY2Vzc2libGVDb250ZXh0
+dAArTGphdmF4L3N3aW5nL0ltYWdlSWNvbiRBY2Nlc3NpYmxlSW1hZ2VJY29uO0wAC2Rlc2NyaXB0
+aW9udAASTGphdmEvbGFuZy9TdHJpbmc7TAANaW1hZ2VPYnNlcnZlcnQAHkxqYXZhL2F3dC9pbWFn
+ZS9JbWFnZU9ic2VydmVyO3hwAAAAEAAAABBwcHB3CAAAABAAAAAQdXIAAltJTbpgJnbqsqUCAAB4
+cAAAAQD/////////////////////////////////////////////////////////////////////
+/////////////////////////////////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP////////////////////////////////8AAAD/////////////////////////////
+//////////////8AAAD/////////////////////////////////AAAA//////+IiIj/iIiI/4iI
+iP+IiIj/iIiI/4iIiP//////AAAA/////////////////////////////////wAAAP//////////
+/////////////////////////////////wAAAP////////////////////////////////8AAAD/
+/////4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI//////8AAAD/////////////////////////////
+////AAAA////////////////////////////////////////////AAAA////////////////////
+/////////////wAAAP//////iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj//////wAAAP//////////
+//////////////////////8AAAD///////////////////////////////////////////8AAAD/
+////////////////////////////////AAAA//////+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP//
+////AAAA/////////////////////////////////wAAAP//////////////////////////////
+/////////////wAAAP///////3oAAANY/////////////////////////wAAAP//////iIiI/4iI
+iP+IiIj/iIiI/4iIiP+IiIj//////wAAAP////////////////////////////////8AAAD/////
+//////////////////////////////////////8AAAD/////////////////////////////////
+AAAA////////////////////////////////////////////AAAA////////////////////////
+/////////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP//////////////
+////////////////////////////////////////////////////////////////////////////
+//////////94dwwBAAVUaXRsZQAAAAB0AEVQcm9ncmFtIEVkaXRvcjogKC9ob21lL2h1Z28vRG9j
+dW1lbnRzL1BXUy9QUk9KRUNURU4vQ29udHJvbFRlc3Quc2FsKil3AgAAAAAAAQAAAAAAAAACAAAA
+AAAAAAIAAAABAAAAAQAAAAIAAAAAAf////8AAAABAAAAAAABAAD/////AQAAAAEAAAABAAAAAgAA
+AAEB/////wAAAAEAAAAAAAEAAP////8BAD8qqqv/////AAAAAQAAAAAAAQAAAQAAAAAAAAACAAAA
+AQAAAAEAAAACAAAAAgD/////AAAAAQAAAAAAAQAA/////wAAAAABAAAAAQAAAAIAAAADAf////8A
+AAABAAAAAAABAAD/////AQA+qqqr/////wAAAAEAAAAAAAEAAAABP17Sfv////8AAAABAAAAAAAB
+AAAB/////wAAAAEAAAAAAAEAAAEAAADIAP////8AAAABAAAAAAABAAD/////AAAAAAAAAMgA////
+/wAAAAEAAAAAAAEAAP////8AAAAAAAAAyAH/////AAAAAQAAAAAAAQAA/////wAAAAAAAADIAP//
+//8AAAABAAAAAAABAAD/////AAAAAAAAAAAAAAAE/////////////////////wAAAAH/////////
+/////////////////wAAAAD//////////w==
+</LAYOUT>
+    <COMPONENTPANEL ZOOM="1.0" VIEW_VALUES="true" VIEW_LABELS="true" DRAW_PINS="true"/>
+    <TIMESEQUENCEDIAGRAM VIEW_FULLNAMES="false" ZOOM="5.0" VIEW_CYCLE_STARTS="true">
+        <PIN INSTANCE="Control Section" NAME="DATA/ADDRESS"/>
+        <PIN INSTANCE="Control Section" NAME="I/O"/>
+        <PIN INSTANCE="Control Section" NAME="4bitXOR (REGB)"/>
+        <PIN INSTANCE="Control Section" NAME="Naar ALU"/>
+        <PIN INSTANCE="Control Section" NAME="equal"/>
+        <PIN INSTANCE="Control Section" NAME="zero"/>
+        <PIN INSTANCE="Control Section" NAME="1"/>
+        <PIN INSTANCE="Control Section" NAME="2"/>
+        <PIN INSTANCE="Control Section" NAME="3"/>
+        <PIN INSTANCE="Control Section" NAME="4"/>
+        <PIN INSTANCE="Control Section" NAME="5"/>
+        <PIN INSTANCE="Control Section" NAME="7"/>
+        <PIN INSTANCE="Control Section" NAME="8"/>
+        <PIN INSTANCE="Control Section" NAME="9"/>
+        <PIN INSTANCE="Control Section" NAME="IAR"/>
+        <PIN INSTANCE="Control Section" NAME="RAM"/>
+        <PIN INSTANCE="Control Section" NAME="ACC"/>
+        <PIN INSTANCE="Control Section" NAME="I/O clock"/>
+        <PIN INSTANCE="Control Section" NAME="zerdthg"/>
+        <PIN INSTANCE="Control Section" NAME="b"/>
+        <PIN INSTANCE="Control Section" NAME="88"/>
+        <PIN INSTANCE="Control Section" NAME="8888"/>
+        <PIN INSTANCE="Control Section" NAME="666"/>
+        <PIN INSTANCE="Control Section" NAME="555"/>
+        <PIN INSTANCE="Control Section" NAME="444"/>
+        <PIN INSTANCE="Control Section" NAME="65"/>
+        <PIN INSTANCE="Control Section" NAME="45"/>
+        <PIN INSTANCE="Control Section" NAME="43"/>
+        <PIN INSTANCE="Control Section" NAME="23"/>
+        <PIN INSTANCE="Control Section" NAME="in"/>
+    </TIMESEQUENCEDIAGRAM>
+</WORKSHEET>
