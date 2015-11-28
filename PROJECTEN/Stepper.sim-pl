@@ -131,17 +131,17 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputOR"
-            DATA="../COMPONENTEN/H1Poorten/2-inputOR.xml" POSX="120.0"
+            DATA="..\COMPONENTEN\H1Poorten\2-inputOR.xml" POSX="120.0"
             POSY="190.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="60.0" POSY="20.0" PIN="v"/>
                 <STUB POSX="60.0" POSY="40.0" PIN="w"/>
                 <STUB POSX="120.0" POSY="30.0" PIN="Z"/>
+                <STUB POSX="60.0" POSY="20.0" PIN="v"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (2)"
-            DATA="../COMPONENTEN/H1Poorten/2-inputAND.xml" POSX="230.0"
+            DATA="..\COMPONENTEN\H1Poorten\2-inputAND.xml" POSX="230.0"
             POSY="180.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -151,7 +151,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (3)"
-            DATA="../COMPONENTEN/H1Poorten/2-inputAND.xml" POSX="350.0"
+            DATA="..\COMPONENTEN\H1Poorten\2-inputAND.xml" POSX="350.0"
             POSY="180.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -161,7 +161,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (4)"
-            DATA="../COMPONENTEN/H1Poorten/2-inputAND.xml" POSX="470.0"
+            DATA="..\COMPONENTEN\H1Poorten\2-inputAND.xml" POSX="470.0"
             POSY="180.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -171,7 +171,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (5)"
-            DATA="../COMPONENTEN/H1Poorten/2-inputAND.xml" POSX="590.0"
+            DATA="..\COMPONENTEN\H1Poorten\2-inputAND.xml" POSX="590.0"
             POSY="180.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -181,7 +181,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (6)"
-            DATA="../COMPONENTEN/H1Poorten/2-inputAND.xml" POSX="710.0"
+            DATA="..\COMPONENTEN\H1Poorten\2-inputAND.xml" POSX="710.0"
             POSY="180.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -200,7 +200,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="0.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="0.0"
             POSY="260.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -209,7 +209,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (7)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="-50.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="-50.0"
             POSY="350.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -218,7 +218,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputOR (2)"
-            DATA="../COMPONENTEN/H1Poorten/2-inputOR.xml" POSX="40.0"
+            DATA="..\COMPONENTEN\H1Poorten\2-inputOR.xml" POSX="40.0"
             POSY="340.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -228,7 +228,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputOR (3)"
-            DATA="../COMPONENTEN/H1Poorten/2-inputOR.xml" POSX="40.0"
+            DATA="..\COMPONENTEN\H1Poorten\2-inputOR.xml" POSX="40.0"
             POSY="400.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -238,7 +238,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (8)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="450.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="450.0"
             POSY="230.0" ZOOM="1.0" FLIP="HORIZONTAL">
             <PARAMETERVALS/>
             <STUBS>
@@ -247,7 +247,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (9)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="330.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="330.0"
             POSY="230.0" ZOOM="1.0" FLIP="HORIZONTAL">
             <PARAMETERVALS/>
             <STUBS>
@@ -256,7 +256,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (10)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="570.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="570.0"
             POSY="230.0" ZOOM="1.0" FLIP="HORIZONTAL">
             <PARAMETERVALS/>
             <STUBS>
@@ -265,7 +265,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (11)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="920.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="920.0"
             POSY="230.0" ZOOM="1.0" FLIP="HORIZONTAL">
             <PARAMETERVALS/>
             <STUBS>
@@ -274,7 +274,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (12)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="810.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="810.0"
             POSY="230.0" ZOOM="1.0" FLIP="HORIZONTAL">
             <PARAMETERVALS/>
             <STUBS>
@@ -283,12 +283,92 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter (13)"
-            DATA="../COMPONENTEN/H1Poorten/Inverter.xml" POSX="690.0"
+            DATA="..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="690.0"
             POSY="230.0" ZOOM="1.0" FLIP="HORIZONTAL">
             <PARAMETERVALS/>
             <STUBS>
                 <STUB POSX="60.0" POSY="30.0" PIN="v"/>
                 <STUB POSX="110.0" POSY="30.0" PIN="Z"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer" DATA="Delayer.sim-pl" POSX="50.0"
+            POSY="100.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (2)" DATA="Delayer.sim-pl"
+            POSX="170.0" POSY="80.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (3)" DATA="Delayer.sim-pl"
+            POSX="290.0" POSY="80.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (4)" DATA="Delayer.sim-pl"
+            POSX="410.0" POSY="80.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (5)" DATA="Delayer.sim-pl"
+            POSX="530.0" POSY="80.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (6)" DATA="Delayer.sim-pl"
+            POSX="50.0" POSY="80.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (7)" DATA="Delayer.sim-pl"
+            POSX="530.0" POSY="100.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (8)" DATA="Delayer.sim-pl"
+            POSX="170.0" POSY="100.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (9)" DATA="Delayer.sim-pl"
+            POSX="290.0" POSY="100.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (10)" DATA="Delayer.sim-pl"
+            POSX="410.0" POSY="100.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
             </STUBS>
         </SUBCOMPONENT>
     </SUBCOMPONENTS>
@@ -528,12 +608,7 @@
                 <SPLIT ID="2a1fc302f1d36a41" POSX="270.0" POSY="290.0"/>
                 <SUBPIN ID="4363463c28dd5853"
                     SUBCOMPONENT="Inverter (9)" PIN="v"/>
-                <SUBPIN ID="96643b1194ade84"
-                    SUBCOMPONENT="2inputAND (2)" PIN="v"/>
-                <SPLIT ID="2192276a8ba68ef0" POSX="270.0" POSY="200.0"/>
-                <SPLIT ID="8eff1f2a80627a" POSX="270.0" POSY="240.0">
-                    <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
-                </SPLIT>
+                <SUBPIN ID="6af57703afdfad77" SUBCOMPONENT="Delayer" PIN="in"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -549,10 +624,8 @@
                     <NODEREF NODE="2a1fc302f1d36a41"/>
                 </SPAN>
                 <SPAN>
-                    <NODEREF NODE="96643b1194ade84"/>
-                    <NODEREF NODE="2192276a8ba68ef0"/>
-                    <NODEREF NODE="8eff1f2a80627a"/>
                     <NODEREF NODE="4363463c28dd5853"/>
+                    <NODEREF NODE="6af57703afdfad77"/>
                 </SPAN>
             </SPANS>
         </WIRE>
@@ -581,12 +654,7 @@
                 <SPLIT ID="17b10ab28a44dfff" POSX="390.0" POSY="290.0"/>
                 <SUBPIN ID="1baa985976cc439e"
                     SUBCOMPONENT="Inverter (8)" PIN="v"/>
-                <SUBPIN ID="e9f2ccfd91623382"
-                    SUBCOMPONENT="2inputAND (3)" PIN="v"/>
-                <SPLIT ID="59988376f931e72c" POSX="390.0" POSY="200.0"/>
-                <SPLIT ID="41d2337de00a43b0" POSX="390.0" POSY="240.0">
-                    <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
-                </SPLIT>
+                <SUBPIN ID="56996ab36675293" SUBCOMPONENT="Delayer (8)" PIN="in"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -602,10 +670,8 @@
                     <NODEREF NODE="17b10ab28a44dfff"/>
                 </SPAN>
                 <SPAN>
-                    <NODEREF NODE="e9f2ccfd91623382"/>
-                    <NODEREF NODE="59988376f931e72c"/>
-                    <NODEREF NODE="41d2337de00a43b0"/>
                     <NODEREF NODE="1baa985976cc439e"/>
+                    <NODEREF NODE="56996ab36675293"/>
                 </SPAN>
             </SPANS>
         </WIRE>
@@ -630,9 +696,7 @@
                 <SPLIT ID="fd0f896bd6bfb098" POSX="510.0" POSY="290.0"/>
                 <SUBPIN ID="ede81167174f0823"
                     SUBCOMPONENT="Inverter (10)" PIN="v"/>
-                <SUBPIN ID="9f8f9e3ff6acb1d9"
-                    SUBCOMPONENT="2inputAND (4)" PIN="v"/>
-                <SPLIT ID="f9bbe1c0c076727f" POSX="510.0" POSY="200.0"/>
+                <SUBPIN ID="ad86ffb359b34d85" SUBCOMPONENT="Delayer (9)" PIN="in"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -648,8 +712,7 @@
                     <NODEREF NODE="fd0f896bd6bfb098"/>
                 </SPAN>
                 <SPAN>
-                    <NODEREF NODE="9f8f9e3ff6acb1d9"/>
-                    <NODEREF NODE="f9bbe1c0c076727f"/>
+                    <NODEREF NODE="ad86ffb359b34d85"/>
                     <NODEREF NODE="ede81167174f0823"/>
                 </SPAN>
             </SPANS>
@@ -675,9 +738,8 @@
                 <SPLIT ID="e77ae64a084351c9" POSX="630.0" POSY="290.0"/>
                 <SUBPIN ID="af790fa624725def"
                     SUBCOMPONENT="Inverter (13)" PIN="v"/>
-                <SUBPIN ID="b1b8da15e9306d39"
-                    SUBCOMPONENT="2inputAND (5)" PIN="v"/>
-                <SPLIT ID="ad738ac47d39b2da" POSX="630.0" POSY="200.0"/>
+                <SUBPIN ID="55e686d86536455e"
+                    SUBCOMPONENT="Delayer (10)" PIN="in"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -693,8 +755,7 @@
                     <NODEREF NODE="e77ae64a084351c9"/>
                 </SPAN>
                 <SPAN>
-                    <NODEREF NODE="b1b8da15e9306d39"/>
-                    <NODEREF NODE="ad738ac47d39b2da"/>
+                    <NODEREF NODE="55e686d86536455e"/>
                     <NODEREF NODE="af790fa624725def"/>
                 </SPAN>
             </SPANS>
@@ -723,9 +784,7 @@
                 <SPLIT ID="7d737f2ea0fc5c5d" POSX="750.0" POSY="290.0"/>
                 <SUBPIN ID="8381baeeacba693b"
                     SUBCOMPONENT="Inverter (12)" PIN="v"/>
-                <SUBPIN ID="fbc7d9b4723a547"
-                    SUBCOMPONENT="2inputAND (6)" PIN="v"/>
-                <SPLIT ID="6407ab1722823f4a" POSX="750.0" POSY="200.0"/>
+                <SUBPIN ID="afa25ef7b1971a1b" SUBCOMPONENT="Delayer (7)" PIN="in"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -741,8 +800,7 @@
                     <NODEREF NODE="7d737f2ea0fc5c5d"/>
                 </SPAN>
                 <SPAN>
-                    <NODEREF NODE="fbc7d9b4723a547"/>
-                    <NODEREF NODE="6407ab1722823f4a"/>
+                    <NODEREF NODE="afa25ef7b1971a1b"/>
                     <NODEREF NODE="8381baeeacba693b"/>
                 </SPAN>
             </SPANS>
@@ -971,61 +1029,219 @@
                 </SPAN>
             </SPANS>
         </WIRE>
-        <WIRE NAME="Wire (6) (2)" COLOR="#000000">
+        <WIRE NAME="Wire (6) (2) (2)" COLOR="#000000">
             <STROKE/>
             <NODES>
-                <SPLIT ID="fb280bbc240f0ec" POSX="860.0" POSY="260.0"/>
-                <SUBPIN ID="fa13a8c4247865e4"
-                    SUBCOMPONENT="1bitMem (12)" PIN="o"/>
-                <SUBPIN ID="766cdc1aac454802"
-                    SUBCOMPONENT="Inverter (11)" PIN="v"/>
-                <SUBPIN ID="fe1e6a0848879dc7"
-                    SUBCOMPONENT="2inputOR (3)" PIN="v"/>
-                <SPLIT ID="d96e6abd1fd141a2" POSX="60.0" POSY="210.0"/>
-                <SPLIT ID="66d22ed7d169ee0c" POSX="60.0" POSY="360.0"/>
-                <SUBPIN ID="e38746a48c1064d3" SUBCOMPONENT="2inputOR" PIN="v"/>
-                <SPLIT ID="93b4fb76ab14146b" POSX="60.0" POSY="420.0"/>
-                <SUBPIN ID="8f73e9e4bda821be" SUBCOMPONENT="Inverter" PIN="v"/>
                 <SUBPIN ID="95645f57007960b5"
                     SUBCOMPONENT="2inputOR (2)" PIN="v"/>
+                <SPLIT ID="93b4fb76ab14146b" POSX="60.0" POSY="420.0"/>
                 <SPLIT ID="c2afccba91db87fa" POSX="60.0" POSY="360.0"/>
-                <SPLIT ID="54b321b5b03d7bd3" POSX="50.0" POSY="290.0"/>
-                <SPLIT ID="29672593b83fe075" POSX="870.0" POSY="260.0"/>
+                <SUBPIN ID="fe1e6a0848879dc7"
+                    SUBCOMPONENT="2inputOR (3)" PIN="v"/>
+                <SPLIT ID="aacddff5b4fbe97f" POSX="60.0" POSY="360.0"/>
+                <SPLIT ID="fb280bbc240f0ec" POSX="860.0" POSY="260.0"/>
                 <SPLIT ID="6f9d37e6686db7c9" POSX="870.0" POSY="330.0"/>
+                <SPLIT ID="29672593b83fe075" POSX="870.0" POSY="260.0"/>
+                <SUBPIN ID="fa13a8c4247865e4"
+                    SUBCOMPONENT="1bitMem (12)" PIN="o"/>
+                <SPLIT ID="54b321b5b03d7bd3" POSX="50.0" POSY="290.0"/>
+                <SUBPIN ID="766cdc1aac454802"
+                    SUBCOMPONENT="Inverter (11)" PIN="v"/>
+                <SUBPIN ID="8f73e9e4bda821be" SUBCOMPONENT="Inverter" PIN="v"/>
                 <SPLIT ID="5abdc8882ac246a5" POSX="50.0" POSY="330.0"/>
+                <SPLIT ID="f4535c4af58ab84" POSX="50.0" POSY="310.0"/>
+                <SPLIT ID="c9eba21642782447" POSX="60.0" POSY="310.0"/>
+                <SPLIT ID="26c75e98c9b292cf" POSX="50.0" POSY="290.0"/>
+                <SUBPIN ID="4c8573ba6b05c150" SUBCOMPONENT="2inputOR" PIN="v"/>
+                <SPLIT ID="c70e6f3abd74ca71" POSX="50.0" POSY="210.0"/>
             </NODES>
             <SPANS>
+                <SPAN>
+                    <NODEREF NODE="95645f57007960b5"/>
+                    <NODEREF NODE="c2afccba91db87fa"/>
+                    <NODEREF NODE="aacddff5b4fbe97f"/>
+                </SPAN>
                 <SPAN>
                     <NODEREF NODE="766cdc1aac454802"/>
                     <NODEREF NODE="fb280bbc240f0ec"/>
                     <NODEREF NODE="fa13a8c4247865e4"/>
                 </SPAN>
                 <SPAN>
-                    <NODEREF NODE="c2afccba91db87fa"/>
                     <NODEREF NODE="8f73e9e4bda821be"/>
-                </SPAN>
-                <SPAN>
-                    <NODEREF NODE="8f73e9e4bda821be"/>
-                    <NODEREF NODE="d96e6abd1fd141a2"/>
-                    <NODEREF NODE="e38746a48c1064d3"/>
-                </SPAN>
-                <SPAN>
-                    <NODEREF NODE="95645f57007960b5"/>
-                    <NODEREF NODE="c2afccba91db87fa"/>
+                    <NODEREF NODE="26c75e98c9b292cf"/>
                 </SPAN>
                 <SPAN>
                     <NODEREF NODE="fe1e6a0848879dc7"/>
                     <NODEREF NODE="93b4fb76ab14146b"/>
-                    <NODEREF NODE="66d22ed7d169ee0c"/>
-                    <NODEREF NODE="c2afccba91db87fa"/>
+                    <NODEREF NODE="aacddff5b4fbe97f"/>
                 </SPAN>
                 <SPAN>
-                    <NODEREF NODE="8f73e9e4bda821be"/>
-                    <NODEREF NODE="54b321b5b03d7bd3"/>
-                    <NODEREF NODE="5abdc8882ac246a5"/>
-                    <NODEREF NODE="6f9d37e6686db7c9"/>
-                    <NODEREF NODE="29672593b83fe075"/>
                     <NODEREF NODE="766cdc1aac454802"/>
+                    <NODEREF NODE="29672593b83fe075"/>
+                    <NODEREF NODE="6f9d37e6686db7c9"/>
+                    <NODEREF NODE="5abdc8882ac246a5"/>
+                    <NODEREF NODE="f4535c4af58ab84"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="aacddff5b4fbe97f"/>
+                    <NODEREF NODE="c9eba21642782447"/>
+                    <NODEREF NODE="f4535c4af58ab84"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="f4535c4af58ab84"/>
+                    <NODEREF NODE="54b321b5b03d7bd3"/>
+                    <NODEREF NODE="26c75e98c9b292cf"/>
+                </SPAN>
+                <SPAN>
+                    <NODEREF NODE="26c75e98c9b292cf"/>
+                    <NODEREF NODE="c70e6f3abd74ca71"/>
+                    <NODEREF NODE="4c8573ba6b05c150"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (32)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="81f326ff967cd2b1" SUBCOMPONENT="Delayer (2)" PIN="out"/>
+                <SUBPIN ID="736538003b1a9df"
+                    SUBCOMPONENT="2inputAND (3)" PIN="v"/>
+                <SPLIT ID="54dc3ac17e4f794b" POSX="390.0" POSY="200.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="81f326ff967cd2b1"/>
+                    <NODEREF NODE="54dc3ac17e4f794b"/>
+                    <NODEREF NODE="736538003b1a9df"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (33)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="10b6af36fe970161" SUBCOMPONENT="Delayer (3)" PIN="out"/>
+                <SUBPIN ID="2309fef0d1627acb"
+                    SUBCOMPONENT="2inputAND (4)" PIN="v"/>
+                <SPLIT ID="50521c3256894eec" POSX="510.0" POSY="200.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="10b6af36fe970161"/>
+                    <NODEREF NODE="50521c3256894eec"/>
+                    <NODEREF NODE="2309fef0d1627acb"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (34)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="73cbbf4b4678c5ad" SUBCOMPONENT="Delayer (4)" PIN="out"/>
+                <SUBPIN ID="60a76bed2372a863"
+                    SUBCOMPONENT="2inputAND (5)" PIN="v"/>
+                <SPLIT ID="1a1928282d54ba19" POSX="630.0" POSY="200.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="73cbbf4b4678c5ad"/>
+                    <NODEREF NODE="1a1928282d54ba19"/>
+                    <NODEREF NODE="60a76bed2372a863"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (35)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="e0dae4fe7e0b7d91" SUBCOMPONENT="Delayer (5)" PIN="out"/>
+                <SUBPIN ID="4aa649e914c188b2"
+                    SUBCOMPONENT="2inputAND (6)" PIN="v"/>
+                <SPLIT ID="520ef357328479d5" POSX="750.0" POSY="200.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="e0dae4fe7e0b7d91"/>
+                    <NODEREF NODE="520ef357328479d5"/>
+                    <NODEREF NODE="4aa649e914c188b2"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (36)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="d740c6f51508b0ed" SUBCOMPONENT="Delayer" PIN="out"/>
+                <SUBPIN ID="9969aade9491daad" SUBCOMPONENT="Delayer (6)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="d740c6f51508b0ed"/>
+                    <NODEREF NODE="9969aade9491daad"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (37)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="59f6d1b53205c5cf" SUBCOMPONENT="Delayer (6)" PIN="out"/>
+                <SUBPIN ID="4c5467435ef85eb"
+                    SUBCOMPONENT="2inputAND (2)" PIN="v"/>
+                <SPLIT ID="de4be5480b60c38e" POSX="270.0" POSY="200.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="59f6d1b53205c5cf"/>
+                    <NODEREF NODE="de4be5480b60c38e"/>
+                    <NODEREF NODE="4c5467435ef85eb"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (38)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="bba906704457b7f7" SUBCOMPONENT="Delayer (8)" PIN="out"/>
+                <SUBPIN ID="ee005e7479c00e58" SUBCOMPONENT="Delayer (2)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="bba906704457b7f7"/>
+                    <NODEREF NODE="ee005e7479c00e58"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (39)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="94fbf1365ce70aa" SUBCOMPONENT="Delayer (9)" PIN="out"/>
+                <SUBPIN ID="e8c646887c63febb" SUBCOMPONENT="Delayer (3)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="94fbf1365ce70aa"/>
+                    <NODEREF NODE="e8c646887c63febb"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (40)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="da86a6cb7c3b015a"
+                    SUBCOMPONENT="Delayer (10)" PIN="out"/>
+                <SUBPIN ID="e121f27ac01d2949" SUBCOMPONENT="Delayer (4)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="da86a6cb7c3b015a"/>
+                    <NODEREF NODE="e121f27ac01d2949"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (41)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="4892f2960004a1b8" SUBCOMPONENT="Delayer (7)" PIN="out"/>
+                <SUBPIN ID="1fa9709f41b1bce9" SUBCOMPONENT="Delayer (5)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="4892f2960004a1b8"/>
+                    <NODEREF NODE="1fa9709f41b1bce9"/>
                 </SPAN>
             </SPANS>
         </WIRE>

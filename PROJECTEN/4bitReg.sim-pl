@@ -57,6 +57,10 @@ Co = 0;
 Ao = 0;
 Eo = 0;
 Zo = 0;
+Reg[0] = 0;
+Reg[1] = 0;
+Reg[2] = 0;
+Reg[3] = 0;
 }</ACTION>
     </INTERNALS>
 </SIMPLE>

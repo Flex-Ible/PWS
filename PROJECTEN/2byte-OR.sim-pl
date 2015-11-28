@@ -31,7 +31,7 @@
     </IO>
     <MEMORY/>
     <INTERNALS DELAY="1">
-        <ACTION EVENT="INPUT_CHANGE">Z = v || w;</ACTION>
+        <ACTION EVENT="INPUT_CHANGE">Z = v | w;</ACTION>
         <ACTION EVENT="INIT">Z = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

@@ -22,17 +22,29 @@
         <OUTPUT BITS="8" SIGNED="false" POSX="130.0" POSY="90.0" NAME="out">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
+        <OUTPUT BITS="8" SIGNED="false" POSX="120.0" POSY="70.0" NAME="checker">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
     </IO>
     <MEMORY>
         <STORAGE NAME="mem" SIZE="1" BITS="8" SIGNED="false"/>
     </MEMORY>
     <INTERNALS DELAY="1">
-        <ACTION EVENT="INPUT_CHANGE">if (set == 0d1) {
+        <ACTION EVENT="INPUT_CHANGE">{
+if (set == 0d1) {
 	mem[0d0] = in;
 }
 else if (enable == 0d1) {
 	out = mem[0d0];
+}
+else {
+	out = 0;
+}
+checker = mem[0d0];
 }</ACTION>
-        <ACTION EVENT="INIT">out = 0;</ACTION>
+        <ACTION EVENT="INIT">{
+mem[0b0] = 0;
+out = 0;
+}</ACTION>
     </INTERNALS>
 </SIMPLE>
