@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <SIMPLE NAME="2inputOR" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
     <PARAMETERS/>
     <FORMS>
         <RECTANGLE COLOR="#000000" POSX="70.0" POSY="10.0" WIDTH="40.0"
             HEIGHT="40.0" RADIUSX="0.0" RADIUSY="0.0">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </RECTANGLE>
         <LINE COLOR="#000000" FROMX="60" FROMY="20" TOX="70" TOY="20">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </LINE>
         <LINE COLOR="#000000" FROMX="60" FROMY="40" TOX="70" TOY="40">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </LINE>
         <TEXT POSX="85.0" POSY="20.0" HALIGN="CENTER" VALIGN="CENTER"
-            COLOR="#000000" FONT="DialogInput,plain,12.0">&#8805;1</TEXT>
+            COLOR="#000000" FONT="DialogInput,plain,12.0">&#x2265;1</TEXT>
         <LINE COLOR="#000000" FROMX="120" FROMY="30" TOX="110" TOY="30">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </LINE>
     </FORMS>
     <IO>
@@ -32,5 +32,6 @@
     <MEMORY/>
     <INTERNALS DELAY="1">
         <ACTION EVENT="INPUT_CHANGE">Z = v || w;</ACTION>
+        <ACTION EVENT="INIT">Z = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

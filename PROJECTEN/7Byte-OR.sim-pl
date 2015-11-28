@@ -38,5 +38,6 @@
     <MEMORY/>
     <INTERNALS DELAY="1">
         <ACTION EVENT="INPUT_CHANGE">out = a|b|c|d|e|f|g;</ACTION>
+        <ACTION EVENT="INIT">out = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

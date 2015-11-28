@@ -52,5 +52,11 @@ Ao = Reg[1];
 Eo = Reg[2];
 Zo = Reg[3];
 }</ACTION>
+        <ACTION EVENT="INIT">{
+Co = 0;
+Ao = 0;
+Eo = 0;
+Zo = 0;
+}</ACTION>
     </INTERNALS>
 </SIMPLE>

@@ -46,5 +46,6 @@
 ((0d8 bit)in4 &lt;&lt; 0d4) + ((0d8 bit)in5 &lt;&lt; 0d5) +
 ((0d8 bit)in6 &lt;&lt; 0d6) + ((0d8 bit)in7 &lt;&lt; 0d7);
 }</ACTION>
+        <ACTION EVENT="INIT">out = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

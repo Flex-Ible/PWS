@@ -31,5 +31,6 @@
 	o;
 	}
 }</ACTION>
+        <ACTION EVENT="INIT">o = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

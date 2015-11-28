@@ -28,5 +28,6 @@
 else{
 	out = in;
 }</ACTION>
+        <ACTION EVENT="INIT">out = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <SIMPLE NAME="3-inputAND" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
     <PARAMETERS/>
     <FORMS>
         <RECTANGLE COLOR="#000000" POSX="120.0" POSY="20.0" WIDTH="40.0"
             HEIGHT="60.0" RADIUSX="0.0" RADIUSY="0.0">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </RECTANGLE>
         <LINE COLOR="#000000" FROMX="110" FROMY="30" TOX="120" TOY="30">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </LINE>
         <LINE COLOR="#000000" FROMX="110" FROMY="50" TOX="120" TOY="50">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </LINE>
         <LINE COLOR="#000000" FROMX="110" FROMY="70" TOX="120" TOY="70">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </LINE>
         <LINE COLOR="#000000" FROMX="170" FROMY="50" TOX="160" TOY="50">
-            <STROKE LINEWIDTH="1.0"/>
+            <STROKE/>
         </LINE>
         <TEXT POSX="135.0" POSY="35.0" HALIGN="CENTER" VALIGN="CENTER"
             COLOR="#000000" FONT="DialogInput,plain,18.0">&amp;</TEXT>
@@ -38,5 +38,6 @@
     <MEMORY/>
     <INTERNALS DELAY="1">
         <ACTION EVENT="INPUT_CHANGE">Z = v &amp;&amp; w &amp;&amp; x;</ACTION>
+        <ACTION EVENT="INIT">Z = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>
