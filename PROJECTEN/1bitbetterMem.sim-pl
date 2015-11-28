@@ -28,6 +28,5 @@
 	mem[0d0] = in;
 	o = mem[0d0];
 }</ACTION>
-        <ACTION EVENT="INIT">o = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

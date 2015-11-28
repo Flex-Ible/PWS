@@ -33,5 +33,6 @@
 else if (enable == 0d1) {
 	out = mem[0d0];
 }</ACTION>
+        <ACTION EVENT="INIT">out = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

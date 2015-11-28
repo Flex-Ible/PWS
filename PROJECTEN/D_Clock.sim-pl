@@ -18,5 +18,6 @@
     <MEMORY/>
     <INTERNALS DELAY="1">
         <ACTION EVENT="INPUT_CHANGE">D_Clock=a;</ACTION>
+        <ACTION EVENT="INIT">D_Clock = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

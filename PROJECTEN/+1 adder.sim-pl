@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="+1 adder" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS/>
+    <IO>
+        <INPUT BITS="8" SIGNED="false" POSX="370.0" POSY="-600.0" NAME="in">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="8" SIGNED="false" POSX="1220.0" POSY="130.0" NAME="Out">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="Adder" DATA="ALU\Adder.sim-pl" POSX="380.0"
+            POSY="-710.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="40.0" POSY="110.0" PIN="a"/>
+                <STUB POSX="40.0" POSY="1550.0" PIN="b"/>
+                <STUB POSX="830.0" POSY="840.0" PIN="c"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="1-byte" DATA="1-byte.sim-pl" POSX="60.0"
+            POSY="590.0" ZOOM="1.0" FLIP="NONE">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="330.0" POSY="250.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="8f305b44f62cd335" PIN="in"/>
+                <SUBPIN ID="224a6ddf334062ad" SUBCOMPONENT="Adder" PIN="a"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="8f305b44f62cd335"/>
+                    <NODEREF NODE="224a6ddf334062ad"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (2)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="2d13a431692a5aab" SUBCOMPONENT="Adder" PIN="b"/>
+                <SUBPIN ID="3b985d833b387e12" SUBCOMPONENT="1-byte" PIN="out"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="2d13a431692a5aab"/>
+                    <NODEREF NODE="3b985d833b387e12"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (3)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="3cc751849b1835e4" PIN="Out"/>
+                <SUBPIN ID="6c3fa2eb0d00b5a2" SUBCOMPONENT="Adder" PIN="c"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="3cc751849b1835e4"/>
+                    <NODEREF NODE="6c3fa2eb0d00b5a2"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

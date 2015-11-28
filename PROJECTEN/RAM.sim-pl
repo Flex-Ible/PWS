@@ -6,12 +6,12 @@
             WIDTH="650.0" HEIGHT="3510.0" RADIUSX="0.0" RADIUSY="0.0">
             <STROKE/>
         </RECTANGLE>
-        <LINE COLOR="#000000" FROMX="350" FROMY="300" TOX="900" TOY="300">
+        <LINE COLOR="#000000" FROMX="350" FROMY="300" TOX="1000" TOY="300">
             <STROKE/>
         </LINE>
-        <TEXT POSX="620.0" POSY="160.0" HALIGN="CENTER" VALIGN="CENTER"
+        <TEXT POSX="670.0" POSY="170.0" HALIGN="CENTER" VALIGN="CENTER"
             COLOR="#000000" FONT="Serif,plain,100.0">MAR</TEXT>
-        <TEXT POSX="610.0" POSY="500.0" HALIGN="CENTER" VALIGN="CENTER"
+        <TEXT POSX="670.0" POSY="490.0" HALIGN="CENTER" VALIGN="CENTER"
             COLOR="#000000" FONT="Serif,plain,100.0">RAM
 </TEXT>
     </FORMS>
@@ -34,6 +34,15 @@
         <INPUT BITS="1" SIGNED="false" POSX="350.0" POSY="3490.0" NAME="eR">
             <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
+        <INPUT BITS="8" SIGNED="false" POSX="1000.0" POSY="370.0" NAME="RAM_INPUT">
+            <LABEL POSX="70.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="8" SIGNED="false" POSX="1000.0" POSY="440.0" NAME="RAM_ADDRESS">
+            <LABEL POSX="110.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="1000.0" POSY="530.0" NAME="RAM_SET">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
     </IO>
     <MEMORY>
         <STORAGE NAME="MAR" SIZE="1" BITS="8" SIGNED="false"/>
@@ -50,6 +59,10 @@ else if (sR == 1) {
 else if (eR == 1) {
 	O = RAM[MAR[0]];
 }
+else if (RAM_SET == 1) {
+	RAM[RAM_ADDRESS] = RAM_INPUT;
+}
 }</ACTION>
+        <ACTION EVENT="INIT">O = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>
