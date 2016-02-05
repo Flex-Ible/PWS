@@ -31,92 +31,92 @@
             POSX="170.0" POSY="1030.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="250.0" POSY="270.0" PIN="carry in"/>
-                <STUB POSX="300.0" POSY="70.0" PIN="carry out"/>
                 <STUB POSX="160.0" POSY="120.0" PIN="a"/>
                 <STUB POSX="160.0" POSY="140.0" PIN="b"/>
                 <STUB POSX="450.0" POSY="140.0" PIN="sum"/>
+                <STUB POSX="300.0" POSY="70.0" PIN="carry_out"/>
+                <STUB POSX="250.0" POSY="270.0" PIN="carry_in"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-adder (2)" DATA="2-bit-adder.sim-pl"
             POSX="170.0" POSY="810.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="250.0" POSY="270.0" PIN="carry in"/>
-                <STUB POSX="300.0" POSY="70.0" PIN="carry out"/>
                 <STUB POSX="160.0" POSY="120.0" PIN="a"/>
                 <STUB POSX="160.0" POSY="140.0" PIN="b"/>
                 <STUB POSX="450.0" POSY="140.0" PIN="sum"/>
+                <STUB POSX="300.0" POSY="70.0" PIN="carry_out"/>
+                <STUB POSX="250.0" POSY="270.0" PIN="carry_in"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-adder (3)" DATA="2-bit-adder.sim-pl"
             POSX="170.0" POSY="590.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="250.0" POSY="270.0" PIN="carry in"/>
-                <STUB POSX="300.0" POSY="70.0" PIN="carry out"/>
                 <STUB POSX="160.0" POSY="120.0" PIN="a"/>
                 <STUB POSX="160.0" POSY="140.0" PIN="b"/>
                 <STUB POSX="450.0" POSY="140.0" PIN="sum"/>
+                <STUB POSX="300.0" POSY="70.0" PIN="carry_out"/>
+                <STUB POSX="250.0" POSY="270.0" PIN="carry_in"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-adder (4)" DATA="2-bit-adder.sim-pl"
             POSX="170.0" POSY="370.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="250.0" POSY="270.0" PIN="carry in"/>
-                <STUB POSX="300.0" POSY="70.0" PIN="carry out"/>
                 <STUB POSX="160.0" POSY="120.0" PIN="a"/>
                 <STUB POSX="160.0" POSY="140.0" PIN="b"/>
                 <STUB POSX="450.0" POSY="140.0" PIN="sum"/>
+                <STUB POSX="300.0" POSY="70.0" PIN="carry_out"/>
+                <STUB POSX="250.0" POSY="270.0" PIN="carry_in"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-adder (5)" DATA="2-bit-adder.sim-pl"
             POSX="170.0" POSY="150.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="250.0" POSY="270.0" PIN="carry in"/>
-                <STUB POSX="300.0" POSY="70.0" PIN="carry out"/>
                 <STUB POSX="160.0" POSY="120.0" PIN="a"/>
                 <STUB POSX="160.0" POSY="140.0" PIN="b"/>
                 <STUB POSX="450.0" POSY="140.0" PIN="sum"/>
+                <STUB POSX="250.0" POSY="270.0" PIN="carry_in"/>
+                <STUB POSX="300.0" POSY="70.0" PIN="carry_out"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-adder (6)" DATA="2-bit-adder.sim-pl"
             POSX="170.0" POSY="-70.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="250.0" POSY="270.0" PIN="carry in"/>
-                <STUB POSX="300.0" POSY="70.0" PIN="carry out"/>
                 <STUB POSX="160.0" POSY="120.0" PIN="a"/>
                 <STUB POSX="160.0" POSY="140.0" PIN="b"/>
                 <STUB POSX="450.0" POSY="140.0" PIN="sum"/>
+                <STUB POSX="300.0" POSY="70.0" PIN="carry_out"/>
+                <STUB POSX="250.0" POSY="270.0" PIN="carry_in"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-adder (7)" DATA="2-bit-adder.sim-pl"
             POSX="170.0" POSY="1470.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="300.0" POSY="70.0" PIN="carry out"/>
-                <STUB POSX="250.0" POSY="270.0" PIN="carry in"/>
                 <STUB POSX="160.0" POSY="120.0" PIN="a"/>
                 <STUB POSX="160.0" POSY="140.0" PIN="b"/>
                 <STUB POSX="450.0" POSY="140.0" PIN="sum"/>
+                <STUB POSX="300.0" POSY="70.0" PIN="carry_out"/>
+                <STUB POSX="250.0" POSY="270.0" PIN="carry_in"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-adder (8)" DATA="2-bit-adder.sim-pl"
             POSX="170.0" POSY="1250.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="250.0" POSY="270.0" PIN="carry in"/>
-                <STUB POSX="300.0" POSY="70.0" PIN="carry out"/>
                 <STUB POSX="160.0" POSY="120.0" PIN="a"/>
                 <STUB POSX="160.0" POSY="140.0" PIN="b"/>
                 <STUB POSX="450.0" POSY="140.0" PIN="sum"/>
+                <STUB POSX="300.0" POSY="70.0" PIN="carry_out"/>
+                <STUB POSX="250.0" POSY="270.0" PIN="carry_in"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="1x8-to-8x1-converter"
-            DATA="../1x8-to-8x1-converter.sim-pl" POSX="-120.0"
+            DATA="..\1x8-to-8x1-converter.sim-pl" POSX="-120.0"
             POSY="-100.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -132,7 +132,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="1x8-to-8x1-converter (2)"
-            DATA="../1x8-to-8x1-converter.sim-pl" POSX="-120.0"
+            DATA="..\1x8-to-8x1-converter.sim-pl" POSX="-120.0"
             POSY="1340.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -148,7 +148,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8x1-to-1x8-converter"
-            DATA="../8x1-to-1x8-converter.sim-pl" POSX="550.0"
+            DATA="..\8x1-to-1x8-converter.sim-pl" POSX="550.0"
             POSY="680.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -165,165 +165,6 @@
         </SUBCOMPONENT>
     </SUBCOMPONENTS>
     <WIRES>
-        <WIRE NAME="Wire" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="f3e6eabda7857a8e"
-                    SUBCOMPONENT="2-bit-adder (7)" PIN="carry out"/>
-                <SUBPIN ID="61814e161b0dcfbc"
-                    SUBCOMPONENT="2-bit-adder (8)" PIN="carry in"/>
-                <SPLIT ID="6314e4b3bdd580f8" POSX="470.0" POSY="1530.0"/>
-                <SPLIT ID="c2ce24b1145b0685" POSX="420.0" POSY="1530.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="f3e6eabda7857a8e"/>
-                    <NODEREF NODE="6314e4b3bdd580f8"/>
-                    <NODEREF NODE="c2ce24b1145b0685"/>
-                    <NODEREF NODE="61814e161b0dcfbc"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (2)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="9f3c9a0274e2baf8"
-                    SUBCOMPONENT="2-bit-adder (8)" PIN="carry out"/>
-                <SUBPIN ID="8251f6c7838f96d4" SUBCOMPONENT="2-bit-adder" PIN="carry in"/>
-                <SPLIT ID="1e0ec63250d8038b" POSX="470.0" POSY="1310.0"/>
-                <SPLIT ID="81a0a07be70ab5e5" POSX="420.0" POSY="1310.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="9f3c9a0274e2baf8"/>
-                    <NODEREF NODE="1e0ec63250d8038b"/>
-                    <NODEREF NODE="81a0a07be70ab5e5"/>
-                    <NODEREF NODE="8251f6c7838f96d4"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (3)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="f2f975d05b1005dc" SUBCOMPONENT="2-bit-adder" PIN="carry out"/>
-                <SUBPIN ID="92d62f1dd241ca6c"
-                    SUBCOMPONENT="2-bit-adder (2)" PIN="carry in"/>
-                <SPLIT ID="3eaacf193b0669e9" POSX="470.0" POSY="1090.0"/>
-                <SPLIT ID="24923b03a1ea23d9" POSX="420.0" POSY="1090.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="f2f975d05b1005dc"/>
-                    <NODEREF NODE="3eaacf193b0669e9"/>
-                    <NODEREF NODE="24923b03a1ea23d9"/>
-                    <NODEREF NODE="92d62f1dd241ca6c"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (4)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="4a2b31f2461ca766"
-                    SUBCOMPONENT="2-bit-adder (2)" PIN="carry out"/>
-                <SUBPIN ID="f06e8aa0097061de"
-                    SUBCOMPONENT="2-bit-adder (3)" PIN="carry in"/>
-                <SPLIT ID="ef64e31ad11ea2e1" POSX="470.0" POSY="870.0"/>
-                <SPLIT ID="ead452ccee00502e" POSX="420.0" POSY="870.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="4a2b31f2461ca766"/>
-                    <NODEREF NODE="ef64e31ad11ea2e1"/>
-                    <NODEREF NODE="ead452ccee00502e"/>
-                    <NODEREF NODE="f06e8aa0097061de"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (5)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="7b9eb6a38e917926"
-                    SUBCOMPONENT="2-bit-adder (3)" PIN="carry out"/>
-                <SUBPIN ID="6d74a86bbe483a86"
-                    SUBCOMPONENT="2-bit-adder (4)" PIN="carry in"/>
-                <SPLIT ID="76d26d9e80991ce4" POSX="470.0" POSY="650.0"/>
-                <SPLIT ID="cddf72f0f4efcf0" POSX="420.0" POSY="650.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="7b9eb6a38e917926"/>
-                    <NODEREF NODE="76d26d9e80991ce4"/>
-                    <NODEREF NODE="cddf72f0f4efcf0"/>
-                    <NODEREF NODE="6d74a86bbe483a86"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (6)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="b41ebb1592e7aa90"
-                    SUBCOMPONENT="2-bit-adder (4)" PIN="carry out"/>
-                <SUBPIN ID="36f191b3de645446"
-                    SUBCOMPONENT="2-bit-adder (5)" PIN="carry in"/>
-                <SPLIT ID="ff20243f0af39689" POSX="470.0" POSY="430.0"/>
-                <SPLIT ID="6899aed552a732f5" POSX="420.0" POSY="430.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="b41ebb1592e7aa90"/>
-                    <NODEREF NODE="ff20243f0af39689"/>
-                    <NODEREF NODE="6899aed552a732f5"/>
-                    <NODEREF NODE="36f191b3de645446"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (7)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="4efb2fedc0e0197c"
-                    SUBCOMPONENT="2-bit-adder (5)" PIN="carry out"/>
-                <SUBPIN ID="de51683e1e161e03"
-                    SUBCOMPONENT="2-bit-adder (6)" PIN="carry in"/>
-                <SPLIT ID="595994a44557f09" POSX="470.0" POSY="210.0"/>
-                <SPLIT ID="52158e3edad9d652" POSX="420.0" POSY="210.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="4efb2fedc0e0197c"/>
-                    <NODEREF NODE="595994a44557f09"/>
-                    <NODEREF NODE="52158e3edad9d652"/>
-                    <NODEREF NODE="de51683e1e161e03"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (8)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="bf2379c3543d3aa6"
-                    SUBCOMPONENT="2-bit-adder (6)" PIN="carry out"/>
-                <MAINPIN ID="eb6e64e1a5bad225" PIN="carry out"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="bf2379c3543d3aa6"/>
-                    <NODEREF NODE="eb6e64e1a5bad225"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (9)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="78c5e50eeeda21d0"
-                    SUBCOMPONENT="2-bit-adder (7)" PIN="carry in"/>
-                <MAINPIN ID="8c914e630810d10f" PIN="carry in"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="78c5e50eeeda21d0"/>
-                    <NODEREF NODE="8c914e630810d10f"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
         <WIRE NAME="Wire (25)" COLOR="#000000">
             <STROKE/>
             <NODES>
@@ -816,6 +657,165 @@
                 <SPAN>
                     <NODEREF NODE="d912c71f1c08925a"/>
                     <NODEREF NODE="c1fb902252cac716"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (52)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="4245a6990677802a"
+                    SUBCOMPONENT="2-bit-adder (4)" PIN="carry_out"/>
+                <SUBPIN ID="5bd37d4bef0e0817"
+                    SUBCOMPONENT="2-bit-adder (5)" PIN="carry_in"/>
+                <SPLIT ID="51cee7cc568c5591" POSX="470.0" POSY="430.0"/>
+                <SPLIT ID="1d957a941bb99ea4" POSX="420.0" POSY="430.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="4245a6990677802a"/>
+                    <NODEREF NODE="51cee7cc568c5591"/>
+                    <NODEREF NODE="1d957a941bb99ea4"/>
+                    <NODEREF NODE="5bd37d4bef0e0817"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="c1d3a6a3df0b8456"
+                    SUBCOMPONENT="2-bit-adder (6)" PIN="carry_out"/>
+                <MAINPIN ID="fb1ae5b4eba8a01c" PIN="carry out"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="c1d3a6a3df0b8456"/>
+                    <NODEREF NODE="fb1ae5b4eba8a01c"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (53)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="ff802356af57897f"
+                    SUBCOMPONENT="2-bit-adder (5)" PIN="carry_out"/>
+                <SUBPIN ID="f1dbbea7ab7c17ec"
+                    SUBCOMPONENT="2-bit-adder (6)" PIN="carry_in"/>
+                <SPLIT ID="942799bee7a5e53c" POSX="470.0" POSY="210.0"/>
+                <SPLIT ID="ce99870a4898ef86" POSX="420.0" POSY="210.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="ff802356af57897f"/>
+                    <NODEREF NODE="942799bee7a5e53c"/>
+                    <NODEREF NODE="ce99870a4898ef86"/>
+                    <NODEREF NODE="f1dbbea7ab7c17ec"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (54)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="538bd22a15063d29"
+                    SUBCOMPONENT="2-bit-adder (3)" PIN="carry_out"/>
+                <SUBPIN ID="53e1f10f00eba43f"
+                    SUBCOMPONENT="2-bit-adder (4)" PIN="carry_in"/>
+                <SPLIT ID="6dcc6b6d7342ded0" POSX="470.0" POSY="650.0"/>
+                <SPLIT ID="c59909b5ee96f779" POSX="420.0" POSY="650.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="538bd22a15063d29"/>
+                    <NODEREF NODE="6dcc6b6d7342ded0"/>
+                    <NODEREF NODE="c59909b5ee96f779"/>
+                    <NODEREF NODE="53e1f10f00eba43f"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (55)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="7438323f67e86671"
+                    SUBCOMPONENT="2-bit-adder (2)" PIN="carry_out"/>
+                <SUBPIN ID="dfbf523e241afd04"
+                    SUBCOMPONENT="2-bit-adder (3)" PIN="carry_in"/>
+                <SPLIT ID="690c19c34a5a8e04" POSX="470.0" POSY="870.0"/>
+                <SPLIT ID="8fb7cd7fe742bc1" POSX="420.0" POSY="870.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="7438323f67e86671"/>
+                    <NODEREF NODE="690c19c34a5a8e04"/>
+                    <NODEREF NODE="8fb7cd7fe742bc1"/>
+                    <NODEREF NODE="dfbf523e241afd04"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (56)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="2ed0a965d6b8687e" SUBCOMPONENT="2-bit-adder" PIN="carry_out"/>
+                <SUBPIN ID="e5b6c09d38885488"
+                    SUBCOMPONENT="2-bit-adder (2)" PIN="carry_in"/>
+                <SPLIT ID="5bff3eb4cb28d53" POSX="470.0" POSY="1090.0"/>
+                <SPLIT ID="7a15f8c21031a34b" POSX="420.0" POSY="1090.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="2ed0a965d6b8687e"/>
+                    <NODEREF NODE="5bff3eb4cb28d53"/>
+                    <NODEREF NODE="7a15f8c21031a34b"/>
+                    <NODEREF NODE="e5b6c09d38885488"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (57)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="79ab6bc2cc99f83c"
+                    SUBCOMPONENT="2-bit-adder (8)" PIN="carry_out"/>
+                <SUBPIN ID="67090308bf960e7b" SUBCOMPONENT="2-bit-adder" PIN="carry_in"/>
+                <SPLIT ID="27a28a09c16a13a" POSX="470.0" POSY="1310.0"/>
+                <SPLIT ID="d44d11799f7bd8aa" POSX="420.0" POSY="1310.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="79ab6bc2cc99f83c"/>
+                    <NODEREF NODE="27a28a09c16a13a"/>
+                    <NODEREF NODE="d44d11799f7bd8aa"/>
+                    <NODEREF NODE="67090308bf960e7b"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (58)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="49cd724e756110d9"
+                    SUBCOMPONENT="2-bit-adder (7)" PIN="carry_out"/>
+                <SUBPIN ID="8dd5e3534f320871"
+                    SUBCOMPONENT="2-bit-adder (8)" PIN="carry_in"/>
+                <SPLIT ID="42e2a4b93fca74b9" POSX="470.0" POSY="1530.0"/>
+                <SPLIT ID="39dd193c36adfa93" POSX="420.0" POSY="1530.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="49cd724e756110d9"/>
+                    <NODEREF NODE="42e2a4b93fca74b9"/>
+                    <NODEREF NODE="39dd193c36adfa93"/>
+                    <NODEREF NODE="8dd5e3534f320871"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (59)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <MAINPIN ID="13a6c150b312f849" PIN="carry in"/>
+                <SUBPIN ID="451618bdfded7262"
+                    SUBCOMPONENT="2-bit-adder (7)" PIN="carry_in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="13a6c150b312f849"/>
+                    <NODEREF NODE="451618bdfded7262"/>
                 </SPAN>
             </SPANS>
         </WIRE>

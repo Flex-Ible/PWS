@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SIMPLE NAME="Clock_delay" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS>
+        <RECTANGLE COLOR="#000000" POSX="140.0" POSY="90.0" WIDTH="20.0"
+            HEIGHT="20.0" RADIUSX="0.0" RADIUSY="0.0">
+            <STROKE/>
+        </RECTANGLE>
+    </FORMS>
+    <IO>
+        <OUTPUT BITS="1" SIGNED="false" POSX="160.0" POSY="100.0" NAME="out">
+            <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="140.0" POSY="100.0" NAME="in">
+            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+    </IO>
+    <MEMORY>
+        <STORAGE NAME="Mem" SIZE="1" BITS="1" SIGNED="false"/>
+    </MEMORY>
+    <INTERNALS DELAY="1">
+        <ACTION EVENT="INPUT_CHANGE">{
+if (in == 1) {
+	Mem[0b0] = !Mem[0b0];
+}
+out = Mem[0b0];
+}</ACTION>
+        <ACTION EVENT="INIT">{
+Mem[0b0] = 0;
+out = 0;
+}</ACTION>
+    </INTERNALS>
+</SIMPLE>

@@ -52,6 +52,7 @@
                 <STUB POSX="-770.0" POSY="-1520.0" PIN="IAR"/>
                 <STUB POSX="880.0" POSY="-1260.0" PIN="TMP"/>
                 <STUB POSX="-470.0" POSY="-1610.0" PIN="BUS1"/>
+                <STUB POSX="-660.0" POSY="-830.0" PIN="enable"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="RAM" DATA="RAM.sim-pl" POSX="4190.0"
@@ -226,6 +227,7 @@
                 <STUB POSX="280.0" POSY="210.0" PIN="f"/>
                 <STUB POSX="280.0" POSY="230.0" PIN="g"/>
                 <STUB POSX="280.0" POSY="110.0" PIN="a"/>
+                <STUB POSX="300.0" POSY="100.0" PIN="enable"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="1" DATA="1.sim-pl" POSX="-720.0"
@@ -821,10 +823,14 @@
                 <SPLIT ID="46381d3d2751dd63" POSX="1950.0" POSY="2110.0"/>
                 <SPLIT ID="4776919eacd88e7a" POSX="3340.0" POSY="2110.0"/>
                 <SPLIT ID="88c87a1865b93b00" POSX="3340.0" POSY="2060.0"/>
+                <SPLIT ID="a8b850b4599faefe" POSX="4180.0" POSY="-1490.0">
+                    <PROBE POSX="0.0" POSY="0.0" HALIGN="CENTER" VALIGN="CENTER"/>
+                </SPLIT>
             </NODES>
             <SPANS>
                 <SPAN>
                     <NODEREF NODE="e73fa57638dc6cf5"/>
+                    <NODEREF NODE="a8b850b4599faefe"/>
                     <NODEREF NODE="51049e69df298a18"/>
                     <NODEREF NODE="8b1fc2a139f586be"/>
                 </SPAN>
@@ -1365,6 +1371,26 @@
                     <NODEREF NODE="78d638d47b20b3c4"/>
                     <NODEREF NODE="8a02cc4acd115591"/>
                     <NODEREF NODE="4f823247a893f077"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (42)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="77651f3147ae1e2b" SUBCOMPONENT="7Byte-OR" PIN="enable"/>
+                <SUBPIN ID="aeef2fe282925826"
+                    SUBCOMPONENT="Control Section" PIN="enable"/>
+                <SPLIT ID="bfa1c15d295f3339" POSX="3230.0" POSY="1800.0"/>
+                <SPLIT ID="95bf8482f632f720" POSX="1490.0" POSY="1800.0"/>
+                <SPLIT ID="3614df984a348c45" POSX="1490.0" POSY="460.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="77651f3147ae1e2b"/>
+                    <NODEREF NODE="bfa1c15d295f3339"/>
+                    <NODEREF NODE="95bf8482f632f720"/>
+                    <NODEREF NODE="3614df984a348c45"/>
+                    <NODEREF NODE="aeef2fe282925826"/>
                 </SPAN>
             </SPANS>
         </WIRE>

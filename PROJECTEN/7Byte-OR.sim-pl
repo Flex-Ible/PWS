@@ -34,10 +34,20 @@
         <OUTPUT BITS="8" SIGNED="false" POSX="330.0" POSY="170.0" NAME="out">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
+        <INPUT BITS="1" SIGNED="false" POSX="300.0" POSY="100.0" NAME="enable">
+            <LABEL POSX="20.0" POSY="20.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
     </IO>
     <MEMORY/>
     <INTERNALS DELAY="1">
-        <ACTION EVENT="INPUT_CHANGE">out = a|b|c|d|e|f|g;</ACTION>
+        <ACTION EVENT="INPUT_CHANGE">{
+if(enable == 0) {
+	out = 0;
+}
+else if (enable == 1) {
+	out = a|b|c|d|e|f|g;
+}
+}</ACTION>
         <ACTION EVENT="INIT">out = 0;</ACTION>
     </INTERNALS>
 </SIMPLE>

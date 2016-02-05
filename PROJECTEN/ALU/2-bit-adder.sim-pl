@@ -19,16 +19,16 @@
         <OUTPUT BITS="1" SIGNED="false" POSX="450.0" POSY="140.0" NAME="sum">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="300.0" POSY="70.0" NAME="carry out">
+        <OUTPUT BITS="1" SIGNED="false" POSX="300.0" POSY="70.0" NAME="carry_out">
             <LABEL POSX="-20.0" POSY="-20.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <INPUT BITS="1" SIGNED="false" POSX="250.0" POSY="270.0" NAME="carry in">
-            <LABEL POSX="-10.0" POSY="0.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        <INPUT BITS="1" SIGNED="false" POSX="250.0" POSY="270.0" NAME="carry_in">
+            <LABEL POSX="10.0" POSY="20.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
     </IO>
     <SUBCOMPONENTS>
         <SUBCOMPONENT NAME="XOR"
-            DATA="../../COMPONENTEN/H1Poorten/XOR.xml" POSX="150.0"
+            DATA="..\..\COMPONENTEN\H1Poorten\XOR.xml" POSX="150.0"
             POSY="100.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -38,7 +38,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="XOR (2)"
-            DATA="../../COMPONENTEN/H1Poorten/XOR.xml" POSX="310.0"
+            DATA="..\..\COMPONENTEN\H1Poorten\XOR.xml" POSX="310.0"
             POSY="110.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -48,7 +48,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputOR"
-            DATA="../../COMPONENTEN/H1Poorten/2-inputOR.xml"
+            DATA="..\..\COMPONENTEN\H1Poorten\2-inputOR.xml"
             POSX="320.0" POSY="180.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -58,7 +58,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND"
-            DATA="../../COMPONENTEN/H1Poorten/2-inputAND.xml"
+            DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
             POSX="220.0" POSY="150.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -68,7 +68,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (2)"
-            DATA="../../COMPONENTEN/H1Poorten/2-inputAND.xml"
+            DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
             POSX="220.0" POSY="210.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -172,7 +172,7 @@
                 <SPLIT ID="d45ac66b9fbec173" POSX="290.0" POSY="150.0"/>
                 <SPLIT ID="76f1c413f435b6fb" POSX="290.0" POSY="160.0"/>
                 <SPLIT ID="ec7667118e564cc" POSX="290.0" POSY="160.0"/>
-                <MAINPIN ID="b9d84b6b36297f01" PIN="carry in"/>
+                <MAINPIN ID="b9d84b6b36297f01" PIN="carry_in"/>
                 <SPLIT ID="6faf583802c58e9e" POSX="250.0" POSY="160.0"/>
             </NODES>
             <SPANS>
@@ -232,7 +232,7 @@
             <STROKE/>
             <NODES>
                 <SUBPIN ID="51fb86fa9aab9f88" SUBCOMPONENT="2inputOR" PIN="Z"/>
-                <MAINPIN ID="60d09629cec3ad1a" PIN="carry out"/>
+                <MAINPIN ID="60d09629cec3ad1a" PIN="carry_out"/>
                 <SPLIT ID="a48ff675277efde9" POSX="440.0" POSY="110.0"/>
                 <SPLIT ID="3e692a355f11e3f3" POSX="300.0" POSY="110.0"/>
             </NODES>

@@ -39,13 +39,11 @@
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="320.0" POSY="170.0" PIN="all equal so far"/>
-                <STUB POSX="410.0" POSY="170.0" PIN="a larger (out)"/>
                 <STUB POSX="120.0" POSY="110.0" PIN="a"/>
                 <STUB POSX="120.0" POSY="130.0" PIN="b"/>
-                <STUB POSX="260.0" POSY="50.0" PIN="all above equal"/>
-                <STUB POSX="350.0" POSY="50.0" PIN="a larger"/>
                 <STUB POSX="410.0" POSY="120.0" PIN="c"/>
+                <STUB POSX="320.0" POSY="170.0" PIN="all_equal_so_far"/>
+                <STUB POSX="410.0" POSY="170.0" PIN="a_larger_(out)"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-comparator (2)"
@@ -53,13 +51,13 @@
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="260.0" POSY="50.0" PIN="all above equal"/>
-                <STUB POSX="350.0" POSY="50.0" PIN="a larger"/>
-                <STUB POSX="320.0" POSY="170.0" PIN="all equal so far"/>
-                <STUB POSX="410.0" POSY="170.0" PIN="a larger (out)"/>
                 <STUB POSX="120.0" POSY="110.0" PIN="a"/>
                 <STUB POSX="120.0" POSY="130.0" PIN="b"/>
                 <STUB POSX="410.0" POSY="120.0" PIN="c"/>
+                <STUB POSX="260.0" POSY="50.0" PIN="all_above_equal"/>
+                <STUB POSX="350.0" POSY="50.0" PIN="a_larger"/>
+                <STUB POSX="320.0" POSY="170.0" PIN="all_equal_so_far"/>
+                <STUB POSX="410.0" POSY="170.0" PIN="a_larger_(out)"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-comparator (3)"
@@ -67,13 +65,13 @@
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="260.0" POSY="50.0" PIN="all above equal"/>
-                <STUB POSX="350.0" POSY="50.0" PIN="a larger"/>
-                <STUB POSX="320.0" POSY="170.0" PIN="all equal so far"/>
-                <STUB POSX="410.0" POSY="170.0" PIN="a larger (out)"/>
                 <STUB POSX="120.0" POSY="110.0" PIN="a"/>
                 <STUB POSX="120.0" POSY="130.0" PIN="b"/>
                 <STUB POSX="410.0" POSY="120.0" PIN="c"/>
+                <STUB POSX="260.0" POSY="50.0" PIN="all_above_equal"/>
+                <STUB POSX="350.0" POSY="50.0" PIN="a_larger"/>
+                <STUB POSX="320.0" POSY="170.0" PIN="all_equal_so_far"/>
+                <STUB POSX="410.0" POSY="170.0" PIN="a_larger_(out)"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-comparator (4)"
@@ -81,13 +79,13 @@
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="260.0" POSY="50.0" PIN="all above equal"/>
-                <STUB POSX="350.0" POSY="50.0" PIN="a larger"/>
-                <STUB POSX="320.0" POSY="170.0" PIN="all equal so far"/>
-                <STUB POSX="410.0" POSY="170.0" PIN="a larger (out)"/>
                 <STUB POSX="120.0" POSY="110.0" PIN="a"/>
                 <STUB POSX="120.0" POSY="130.0" PIN="b"/>
                 <STUB POSX="410.0" POSY="120.0" PIN="c"/>
+                <STUB POSX="260.0" POSY="50.0" PIN="all_above_equal"/>
+                <STUB POSX="350.0" POSY="50.0" PIN="a_larger"/>
+                <STUB POSX="320.0" POSY="170.0" PIN="all_equal_so_far"/>
+                <STUB POSX="410.0" POSY="170.0" PIN="a_larger_(out)"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-comparator (5)"
@@ -95,13 +93,13 @@
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="260.0" POSY="50.0" PIN="all above equal"/>
-                <STUB POSX="350.0" POSY="50.0" PIN="a larger"/>
-                <STUB POSX="320.0" POSY="170.0" PIN="all equal so far"/>
-                <STUB POSX="410.0" POSY="170.0" PIN="a larger (out)"/>
                 <STUB POSX="120.0" POSY="110.0" PIN="a"/>
                 <STUB POSX="120.0" POSY="130.0" PIN="b"/>
                 <STUB POSX="410.0" POSY="120.0" PIN="c"/>
+                <STUB POSX="260.0" POSY="50.0" PIN="all_above_equal"/>
+                <STUB POSX="350.0" POSY="50.0" PIN="a_larger"/>
+                <STUB POSX="320.0" POSY="170.0" PIN="all_equal_so_far"/>
+                <STUB POSX="410.0" POSY="170.0" PIN="a_larger_(out)"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-comparator (6)"
@@ -109,13 +107,13 @@
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="260.0" POSY="50.0" PIN="all above equal"/>
-                <STUB POSX="350.0" POSY="50.0" PIN="a larger"/>
-                <STUB POSX="320.0" POSY="170.0" PIN="all equal so far"/>
-                <STUB POSX="410.0" POSY="170.0" PIN="a larger (out)"/>
                 <STUB POSX="120.0" POSY="110.0" PIN="a"/>
                 <STUB POSX="120.0" POSY="130.0" PIN="b"/>
                 <STUB POSX="410.0" POSY="120.0" PIN="c"/>
+                <STUB POSX="260.0" POSY="50.0" PIN="all_above_equal"/>
+                <STUB POSX="350.0" POSY="50.0" PIN="a_larger"/>
+                <STUB POSX="320.0" POSY="170.0" PIN="all_equal_so_far"/>
+                <STUB POSX="410.0" POSY="170.0" PIN="a_larger_(out)"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-comparator (7)"
@@ -123,13 +121,13 @@
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="260.0" POSY="50.0" PIN="all above equal"/>
-                <STUB POSX="350.0" POSY="50.0" PIN="a larger"/>
                 <STUB POSX="120.0" POSY="110.0" PIN="a"/>
                 <STUB POSX="120.0" POSY="130.0" PIN="b"/>
-                <STUB POSX="320.0" POSY="170.0" PIN="all equal so far"/>
-                <STUB POSX="410.0" POSY="170.0" PIN="a larger (out)"/>
                 <STUB POSX="410.0" POSY="120.0" PIN="c"/>
+                <STUB POSX="260.0" POSY="50.0" PIN="all_above_equal"/>
+                <STUB POSX="350.0" POSY="50.0" PIN="a_larger"/>
+                <STUB POSX="320.0" POSY="170.0" PIN="all_equal_so_far"/>
+                <STUB POSX="410.0" POSY="170.0" PIN="a_larger_(out)"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2-bit-comparator (8)"
@@ -137,17 +135,17 @@
             ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
-                <STUB POSX="260.0" POSY="50.0" PIN="all above equal"/>
-                <STUB POSX="350.0" POSY="50.0" PIN="a larger"/>
-                <STUB POSX="320.0" POSY="170.0" PIN="all equal so far"/>
-                <STUB POSX="410.0" POSY="170.0" PIN="a larger (out)"/>
                 <STUB POSX="120.0" POSY="110.0" PIN="a"/>
                 <STUB POSX="120.0" POSY="130.0" PIN="b"/>
                 <STUB POSX="410.0" POSY="120.0" PIN="c"/>
+                <STUB POSX="260.0" POSY="50.0" PIN="all_above_equal"/>
+                <STUB POSX="350.0" POSY="50.0" PIN="a_larger"/>
+                <STUB POSX="320.0" POSY="170.0" PIN="all_equal_so_far"/>
+                <STUB POSX="410.0" POSY="170.0" PIN="a_larger_(out)"/>
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="1x8-to-8x1-converter"
-            DATA="../1x8-to-8x1-converter.sim-pl" POSX="-170.0"
+            DATA="..\1x8-to-8x1-converter.sim-pl" POSX="-170.0"
             POSY="-230.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -163,7 +161,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="1x8-to-8x1-converter (2)"
-            DATA="../1x8-to-8x1-converter.sim-pl" POSX="-180.0"
+            DATA="..\1x8-to-8x1-converter.sim-pl" POSX="-180.0"
             POSY="650.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -179,7 +177,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="8x1-to-1x8-converter"
-            DATA="../8x1-to-1x8-converter.sim-pl" POSX="490.0"
+            DATA="..\8x1-to-1x8-converter.sim-pl" POSX="490.0"
             POSY="260.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -196,272 +194,6 @@
         </SUBCOMPONENT>
     </SUBCOMPONENTS>
     <WIRES>
-        <WIRE NAME="Wire" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="6db573144f822e50"
-                    SUBCOMPONENT="2-bit-comparator" PIN="all equal so far"/>
-                <SUBPIN ID="6a8ed33b99783856"
-                    SUBCOMPONENT="2-bit-comparator (2)" PIN="all above equal"/>
-                <SPLIT ID="2d7ae4b90ff30a0" POSX="470.0" POSY="-10.0"/>
-                <SPLIT ID="420444a93f7a8dfc" POSX="410.0" POSY="-10.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="6db573144f822e50"/>
-                    <NODEREF NODE="2d7ae4b90ff30a0"/>
-                    <NODEREF NODE="420444a93f7a8dfc"/>
-                    <NODEREF NODE="6a8ed33b99783856"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (2)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="e740cc0b86653ae3"
-                    SUBCOMPONENT="2-bit-comparator" PIN="a larger (out)"/>
-                <SUBPIN ID="28ac0e0f4fc8d548"
-                    SUBCOMPONENT="2-bit-comparator (2)" PIN="a larger"/>
-                <SPLIT ID="e6f905ed650c823" POSX="560.0" POSY="-10.0"/>
-                <SPLIT ID="787673e1e0ab68d5" POSX="500.0" POSY="-10.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="e740cc0b86653ae3"/>
-                    <NODEREF NODE="e6f905ed650c823"/>
-                    <NODEREF NODE="787673e1e0ab68d5"/>
-                    <NODEREF NODE="28ac0e0f4fc8d548"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (3)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="1ac2201c64f0a594"
-                    SUBCOMPONENT="2-bit-comparator (2)" PIN="all equal so far"/>
-                <SUBPIN ID="b9d2928339dc077d"
-                    SUBCOMPONENT="2-bit-comparator (3)" PIN="all above equal"/>
-                <SPLIT ID="61e455b373d8220a" POSX="470.0" POSY="130.0"/>
-                <SPLIT ID="5dbeca9e7315d2ee" POSX="410.0" POSY="130.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="1ac2201c64f0a594"/>
-                    <NODEREF NODE="61e455b373d8220a"/>
-                    <NODEREF NODE="5dbeca9e7315d2ee"/>
-                    <NODEREF NODE="b9d2928339dc077d"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (4)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="d7481e28d28040af"
-                    SUBCOMPONENT="2-bit-comparator (2)" PIN="a larger (out)"/>
-                <SUBPIN ID="4e490fd3f88e2377"
-                    SUBCOMPONENT="2-bit-comparator (3)" PIN="a larger"/>
-                <SPLIT ID="215822606b9ce2f0" POSX="560.0" POSY="130.0"/>
-                <SPLIT ID="e472fd9922064523" POSX="500.0" POSY="130.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="d7481e28d28040af"/>
-                    <NODEREF NODE="215822606b9ce2f0"/>
-                    <NODEREF NODE="e472fd9922064523"/>
-                    <NODEREF NODE="4e490fd3f88e2377"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (5)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="8255409be4461db7"
-                    SUBCOMPONENT="2-bit-comparator (3)" PIN="all equal so far"/>
-                <SUBPIN ID="7347d65d9b937208"
-                    SUBCOMPONENT="2-bit-comparator (4)" PIN="all above equal"/>
-                <SPLIT ID="bdd39a4255452ddf" POSX="470.0" POSY="270.0"/>
-                <SPLIT ID="4430d0f0a33b9de0" POSX="410.0" POSY="270.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="8255409be4461db7"/>
-                    <NODEREF NODE="bdd39a4255452ddf"/>
-                    <NODEREF NODE="4430d0f0a33b9de0"/>
-                    <NODEREF NODE="7347d65d9b937208"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (6)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="37d439e117d7bfe4"
-                    SUBCOMPONENT="2-bit-comparator (3)" PIN="a larger (out)"/>
-                <SUBPIN ID="6a765824195ae6d8"
-                    SUBCOMPONENT="2-bit-comparator (4)" PIN="a larger"/>
-                <SPLIT ID="eec49575d5337eda" POSX="560.0" POSY="270.0"/>
-                <SPLIT ID="f1a320ad2caebfa8" POSX="500.0" POSY="270.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="37d439e117d7bfe4"/>
-                    <NODEREF NODE="eec49575d5337eda"/>
-                    <NODEREF NODE="f1a320ad2caebfa8"/>
-                    <NODEREF NODE="6a765824195ae6d8"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (7)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="e67d70eb5e3f1ea0"
-                    SUBCOMPONENT="2-bit-comparator (4)" PIN="all equal so far"/>
-                <SUBPIN ID="7668394c732126e3"
-                    SUBCOMPONENT="2-bit-comparator (5)" PIN="all above equal"/>
-                <SPLIT ID="23eee4e096955555" POSX="470.0" POSY="410.0"/>
-                <SPLIT ID="71ef7931873f7f8f" POSX="410.0" POSY="410.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="e67d70eb5e3f1ea0"/>
-                    <NODEREF NODE="23eee4e096955555"/>
-                    <NODEREF NODE="71ef7931873f7f8f"/>
-                    <NODEREF NODE="7668394c732126e3"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (8)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="7fbf8daef6397809"
-                    SUBCOMPONENT="2-bit-comparator (4)" PIN="a larger (out)"/>
-                <SUBPIN ID="467bf0a09ceddef8"
-                    SUBCOMPONENT="2-bit-comparator (5)" PIN="a larger"/>
-                <SPLIT ID="a60126a8c7acaeb7" POSX="560.0" POSY="410.0"/>
-                <SPLIT ID="380e3fced7a0e3c1" POSX="500.0" POSY="410.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="7fbf8daef6397809"/>
-                    <NODEREF NODE="a60126a8c7acaeb7"/>
-                    <NODEREF NODE="380e3fced7a0e3c1"/>
-                    <NODEREF NODE="467bf0a09ceddef8"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (9)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="627d15a47f8df373"
-                    SUBCOMPONENT="2-bit-comparator (5)" PIN="all equal so far"/>
-                <SUBPIN ID="d6bcf80fbe756a3b"
-                    SUBCOMPONENT="2-bit-comparator (8)" PIN="all above equal"/>
-                <SPLIT ID="703faab8f6de50df" POSX="470.0" POSY="550.0"/>
-                <SPLIT ID="48cf6b32c81eb1f9" POSX="410.0" POSY="550.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="627d15a47f8df373"/>
-                    <NODEREF NODE="703faab8f6de50df"/>
-                    <NODEREF NODE="48cf6b32c81eb1f9"/>
-                    <NODEREF NODE="d6bcf80fbe756a3b"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (10)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="31184944a613e3"
-                    SUBCOMPONENT="2-bit-comparator (5)" PIN="a larger (out)"/>
-                <SUBPIN ID="4aab8d2b4718c8a3"
-                    SUBCOMPONENT="2-bit-comparator (8)" PIN="a larger"/>
-                <SPLIT ID="e9f76741b64ee49c" POSX="560.0" POSY="550.0"/>
-                <SPLIT ID="788dcbf0b7164e0a" POSX="500.0" POSY="550.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="31184944a613e3"/>
-                    <NODEREF NODE="e9f76741b64ee49c"/>
-                    <NODEREF NODE="788dcbf0b7164e0a"/>
-                    <NODEREF NODE="4aab8d2b4718c8a3"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (11)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="5c4ceb9f72d1fa94"
-                    SUBCOMPONENT="2-bit-comparator (8)" PIN="all equal so far"/>
-                <SUBPIN ID="840c01a89c7de57d"
-                    SUBCOMPONENT="2-bit-comparator (6)" PIN="all above equal"/>
-                <SPLIT ID="aaafd349b18e034" POSX="470.0" POSY="690.0"/>
-                <SPLIT ID="b3d2e5036f3ce85a" POSX="410.0" POSY="690.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="5c4ceb9f72d1fa94"/>
-                    <NODEREF NODE="aaafd349b18e034"/>
-                    <NODEREF NODE="b3d2e5036f3ce85a"/>
-                    <NODEREF NODE="840c01a89c7de57d"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (12)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="6de0f8aadce27976"
-                    SUBCOMPONENT="2-bit-comparator (8)" PIN="a larger (out)"/>
-                <SUBPIN ID="791f9be3e07a2de7"
-                    SUBCOMPONENT="2-bit-comparator (6)" PIN="a larger"/>
-                <SPLIT ID="202bccc9046541de" POSX="560.0" POSY="690.0"/>
-                <SPLIT ID="ea6d5443b80cfc62" POSX="500.0" POSY="690.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="6de0f8aadce27976"/>
-                    <NODEREF NODE="202bccc9046541de"/>
-                    <NODEREF NODE="ea6d5443b80cfc62"/>
-                    <NODEREF NODE="791f9be3e07a2de7"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (13)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="9be297f5ef02f5aa"
-                    SUBCOMPONENT="2-bit-comparator (6)" PIN="all equal so far"/>
-                <SUBPIN ID="97e9075968497756"
-                    SUBCOMPONENT="2-bit-comparator (7)" PIN="all above equal"/>
-                <SPLIT ID="621119fa95f11a48" POSX="470.0" POSY="830.0"/>
-                <SPLIT ID="e2bbcaf4bdf51f2f" POSX="410.0" POSY="830.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="9be297f5ef02f5aa"/>
-                    <NODEREF NODE="621119fa95f11a48"/>
-                    <NODEREF NODE="e2bbcaf4bdf51f2f"/>
-                    <NODEREF NODE="97e9075968497756"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (14)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="84a0fe0cadfd1a07"
-                    SUBCOMPONENT="2-bit-comparator (6)" PIN="a larger (out)"/>
-                <SUBPIN ID="d65e552c044b3610"
-                    SUBCOMPONENT="2-bit-comparator (7)" PIN="a larger"/>
-                <SPLIT ID="ba3f410978c9e711" POSX="560.0" POSY="830.0"/>
-                <SPLIT ID="712e9638eb221de4" POSX="500.0" POSY="830.0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="84a0fe0cadfd1a07"/>
-                    <NODEREF NODE="ba3f410978c9e711"/>
-                    <NODEREF NODE="712e9638eb221de4"/>
-                    <NODEREF NODE="d65e552c044b3610"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
         <WIRE NAME="Wire (15)" COLOR="#000000">
             <STROKE/>
             <NODES>
@@ -766,34 +498,6 @@
                 </SPAN>
             </SPANS>
         </WIRE>
-        <WIRE NAME="Wire (31)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="5a22d21d4bde33f"
-                    SUBCOMPONENT="2-bit-comparator" PIN="all above equal"/>
-                <MAINPIN ID="ff7e561196684ca3" PIN="1"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="5a22d21d4bde33f"/>
-                    <NODEREF NODE="ff7e561196684ca3"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (32)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="77e79ff779935101"
-                    SUBCOMPONENT="2-bit-comparator" PIN="a larger"/>
-                <MAINPIN ID="9014376d2771a4a1" PIN="0"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="77e79ff779935101"/>
-                    <NODEREF NODE="9014376d2771a4a1"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
         <WIRE NAME="Wire (33)" COLOR="#000000">
             <STROKE/>
             <NODES>
@@ -819,34 +523,6 @@
                 <SPAN>
                     <NODEREF NODE="69179cf39484195f"/>
                     <NODEREF NODE="31739eb7580f1d7b"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (35)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="f0c764782cda8352"
-                    SUBCOMPONENT="2-bit-comparator (7)" PIN="all equal so far"/>
-                <MAINPIN ID="6633dab15944f0a5" PIN="equal"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="f0c764782cda8352"/>
-                    <NODEREF NODE="6633dab15944f0a5"/>
-                </SPAN>
-            </SPANS>
-        </WIRE>
-        <WIRE NAME="Wire (36)" COLOR="#000000">
-            <STROKE/>
-            <NODES>
-                <SUBPIN ID="61dda29ace0e1afd"
-                    SUBCOMPONENT="2-bit-comparator (7)" PIN="a larger (out)"/>
-                <MAINPIN ID="d2af8ac149767369" PIN="a larger"/>
-            </NODES>
-            <SPANS>
-                <SPAN>
-                    <NODEREF NODE="61dda29ace0e1afd"/>
-                    <NODEREF NODE="d2af8ac149767369"/>
                 </SPAN>
             </SPANS>
         </WIRE>
@@ -1013,6 +689,300 @@
                 <SPAN>
                     <NODEREF NODE="f41e885a58a6e82d"/>
                     <NODEREF NODE="fe0ee8c5080c5837"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="557077bceea5d637"
+                    SUBCOMPONENT="2-bit-comparator" PIN="all_equal_so_far"/>
+                <SUBPIN ID="f8f642851564475a"
+                    SUBCOMPONENT="2-bit-comparator (2)" PIN="all_above_equal"/>
+                <SPLIT ID="6b1420fafbb53d09" POSX="470.0" POSY="-10.0"/>
+                <SPLIT ID="9661a4ecebf9c6df" POSX="410.0" POSY="-10.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="557077bceea5d637"/>
+                    <NODEREF NODE="6b1420fafbb53d09"/>
+                    <NODEREF NODE="9661a4ecebf9c6df"/>
+                    <NODEREF NODE="f8f642851564475a"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (51)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="2f2b66594a4b326e"
+                    SUBCOMPONENT="2-bit-comparator" PIN="a_larger_(out)"/>
+                <SUBPIN ID="c17ad04fa3c98a01"
+                    SUBCOMPONENT="2-bit-comparator (2)" PIN="a_larger"/>
+                <SPLIT ID="6516289b799ce3d0" POSX="560.0" POSY="-10.0"/>
+                <SPLIT ID="217c10e045d2ecd1" POSX="500.0" POSY="-10.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="2f2b66594a4b326e"/>
+                    <NODEREF NODE="6516289b799ce3d0"/>
+                    <NODEREF NODE="217c10e045d2ecd1"/>
+                    <NODEREF NODE="c17ad04fa3c98a01"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (52)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="68a3115d6645329d"
+                    SUBCOMPONENT="2-bit-comparator (2)" PIN="all_equal_so_far"/>
+                <SUBPIN ID="49609069afec21f9"
+                    SUBCOMPONENT="2-bit-comparator (3)" PIN="all_above_equal"/>
+                <SPLIT ID="139bbf668c370c05" POSX="470.0" POSY="130.0"/>
+                <SPLIT ID="79dccc6f215da21" POSX="410.0" POSY="130.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="68a3115d6645329d"/>
+                    <NODEREF NODE="139bbf668c370c05"/>
+                    <NODEREF NODE="79dccc6f215da21"/>
+                    <NODEREF NODE="49609069afec21f9"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (53)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="aaf6e444a816f902"
+                    SUBCOMPONENT="2-bit-comparator (2)" PIN="a_larger_(out)"/>
+                <SUBPIN ID="cc598197cd577d94"
+                    SUBCOMPONENT="2-bit-comparator (3)" PIN="a_larger"/>
+                <SPLIT ID="19962717474f2a98" POSX="560.0" POSY="130.0"/>
+                <SPLIT ID="4ba7f930fdf2dc22" POSX="500.0" POSY="130.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="aaf6e444a816f902"/>
+                    <NODEREF NODE="19962717474f2a98"/>
+                    <NODEREF NODE="4ba7f930fdf2dc22"/>
+                    <NODEREF NODE="cc598197cd577d94"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (54)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="d67ee0a481a1865e"
+                    SUBCOMPONENT="2-bit-comparator (3)" PIN="all_equal_so_far"/>
+                <SUBPIN ID="b9a9f8d48e487747"
+                    SUBCOMPONENT="2-bit-comparator (4)" PIN="all_above_equal"/>
+                <SPLIT ID="dbda04b6012f773c" POSX="470.0" POSY="270.0"/>
+                <SPLIT ID="a820bc2389b3ca8c" POSX="410.0" POSY="270.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="d67ee0a481a1865e"/>
+                    <NODEREF NODE="dbda04b6012f773c"/>
+                    <NODEREF NODE="a820bc2389b3ca8c"/>
+                    <NODEREF NODE="b9a9f8d48e487747"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (55)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="2bf8cca16f278675"
+                    SUBCOMPONENT="2-bit-comparator (3)" PIN="a_larger_(out)"/>
+                <SUBPIN ID="cb81b3d08939362d"
+                    SUBCOMPONENT="2-bit-comparator (4)" PIN="a_larger"/>
+                <SPLIT ID="7f60f7243fc500e7" POSX="560.0" POSY="270.0"/>
+                <SPLIT ID="d7fafb9725556ffb" POSX="500.0" POSY="270.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="2bf8cca16f278675"/>
+                    <NODEREF NODE="7f60f7243fc500e7"/>
+                    <NODEREF NODE="d7fafb9725556ffb"/>
+                    <NODEREF NODE="cb81b3d08939362d"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (56)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="e3bcb174204e2c91"
+                    SUBCOMPONENT="2-bit-comparator (4)" PIN="all_equal_so_far"/>
+                <SUBPIN ID="8874bb6ce2d89e83"
+                    SUBCOMPONENT="2-bit-comparator (5)" PIN="all_above_equal"/>
+                <SPLIT ID="acb77d942981d256" POSX="470.0" POSY="410.0"/>
+                <SPLIT ID="79aae7f6a2b58270" POSX="410.0" POSY="410.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="e3bcb174204e2c91"/>
+                    <NODEREF NODE="acb77d942981d256"/>
+                    <NODEREF NODE="79aae7f6a2b58270"/>
+                    <NODEREF NODE="8874bb6ce2d89e83"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (57)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="e92a9e9a8ad2000"
+                    SUBCOMPONENT="2-bit-comparator (4)" PIN="a_larger_(out)"/>
+                <SUBPIN ID="453e163f884f522d"
+                    SUBCOMPONENT="2-bit-comparator (5)" PIN="a_larger"/>
+                <SPLIT ID="d3d12e0e4daf2686" POSX="560.0" POSY="410.0"/>
+                <SPLIT ID="9b5156a625572bce" POSX="500.0" POSY="410.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="e92a9e9a8ad2000"/>
+                    <NODEREF NODE="d3d12e0e4daf2686"/>
+                    <NODEREF NODE="9b5156a625572bce"/>
+                    <NODEREF NODE="453e163f884f522d"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (58)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="b50400e4d4bf7891"
+                    SUBCOMPONENT="2-bit-comparator (5)" PIN="all_equal_so_far"/>
+                <SUBPIN ID="98364b151ff44130"
+                    SUBCOMPONENT="2-bit-comparator (8)" PIN="all_above_equal"/>
+                <SPLIT ID="18bd3bed9c21ad3c" POSX="470.0" POSY="550.0"/>
+                <SPLIT ID="4e07ec777600225e" POSX="410.0" POSY="550.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="b50400e4d4bf7891"/>
+                    <NODEREF NODE="18bd3bed9c21ad3c"/>
+                    <NODEREF NODE="4e07ec777600225e"/>
+                    <NODEREF NODE="98364b151ff44130"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (59)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="2b419fdac847cb1b"
+                    SUBCOMPONENT="2-bit-comparator (5)" PIN="a_larger_(out)"/>
+                <SUBPIN ID="3327b36a98d2ca36"
+                    SUBCOMPONENT="2-bit-comparator (8)" PIN="a_larger"/>
+                <SPLIT ID="e6f54e62b081df7f" POSX="560.0" POSY="550.0"/>
+                <SPLIT ID="9598183466b0514c" POSX="500.0" POSY="550.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="2b419fdac847cb1b"/>
+                    <NODEREF NODE="e6f54e62b081df7f"/>
+                    <NODEREF NODE="9598183466b0514c"/>
+                    <NODEREF NODE="3327b36a98d2ca36"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (60)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="78f9cd55db7945f7"
+                    SUBCOMPONENT="2-bit-comparator (8)" PIN="all_equal_so_far"/>
+                <SUBPIN ID="436a9df32ba46b0d"
+                    SUBCOMPONENT="2-bit-comparator (6)" PIN="all_above_equal"/>
+                <SPLIT ID="6640a6f1299a6418" POSX="470.0" POSY="690.0"/>
+                <SPLIT ID="a926dd1861b61127" POSX="410.0" POSY="690.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="78f9cd55db7945f7"/>
+                    <NODEREF NODE="6640a6f1299a6418"/>
+                    <NODEREF NODE="a926dd1861b61127"/>
+                    <NODEREF NODE="436a9df32ba46b0d"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (61)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="85b73b734477dd81"
+                    SUBCOMPONENT="2-bit-comparator (8)" PIN="a_larger_(out)"/>
+                <SUBPIN ID="cb73411592200128"
+                    SUBCOMPONENT="2-bit-comparator (6)" PIN="a_larger"/>
+                <SPLIT ID="b16597eea15e8419" POSX="560.0" POSY="690.0"/>
+                <SPLIT ID="c09f6d5614e0f065" POSX="500.0" POSY="690.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="85b73b734477dd81"/>
+                    <NODEREF NODE="b16597eea15e8419"/>
+                    <NODEREF NODE="c09f6d5614e0f065"/>
+                    <NODEREF NODE="cb73411592200128"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (62)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="73a366647b01889a"
+                    SUBCOMPONENT="2-bit-comparator (6)" PIN="all_equal_so_far"/>
+                <SUBPIN ID="e43b7d6d33c09a1c"
+                    SUBCOMPONENT="2-bit-comparator (7)" PIN="all_above_equal"/>
+                <SPLIT ID="bc234b09fe9aaf53" POSX="470.0" POSY="830.0"/>
+                <SPLIT ID="99e6948f88150bdc" POSX="410.0" POSY="830.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="73a366647b01889a"/>
+                    <NODEREF NODE="bc234b09fe9aaf53"/>
+                    <NODEREF NODE="99e6948f88150bdc"/>
+                    <NODEREF NODE="e43b7d6d33c09a1c"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (63)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="33c642ee6c528d29"
+                    SUBCOMPONENT="2-bit-comparator (6)" PIN="a_larger_(out)"/>
+                <SUBPIN ID="783270470965d425"
+                    SUBCOMPONENT="2-bit-comparator (7)" PIN="a_larger"/>
+                <SPLIT ID="4b2dd7c0458110de" POSX="560.0" POSY="830.0"/>
+                <SPLIT ID="7820f25fd4c0f74a" POSX="500.0" POSY="830.0"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="33c642ee6c528d29"/>
+                    <NODEREF NODE="4b2dd7c0458110de"/>
+                    <NODEREF NODE="7820f25fd4c0f74a"/>
+                    <NODEREF NODE="783270470965d425"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (64)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="e81d3cea8596dc95"
+                    SUBCOMPONENT="2-bit-comparator (7)" PIN="all_equal_so_far"/>
+                <MAINPIN ID="d49bd626036fce9e" PIN="equal"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="e81d3cea8596dc95"/>
+                    <NODEREF NODE="d49bd626036fce9e"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (65)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="3e26a9e5c0843395"
+                    SUBCOMPONENT="2-bit-comparator (7)" PIN="a_larger_(out)"/>
+                <MAINPIN ID="9e9604d221f835cf" PIN="a larger"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="3e26a9e5c0843395"/>
+                    <NODEREF NODE="9e9604d221f835cf"/>
                 </SPAN>
             </SPANS>
         </WIRE>

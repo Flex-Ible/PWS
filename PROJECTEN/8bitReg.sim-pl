@@ -45,6 +45,7 @@ checker = mem[0d0];
         <ACTION EVENT="INIT">{
 mem[0b0] = 0;
 out = 0;
+checker = mem[0b0];
 }</ACTION>
     </INTERNALS>
 </SIMPLE>

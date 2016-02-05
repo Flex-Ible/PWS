@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPLEX NAME="10tick_delayer" PREFERREDNUMBERFORMAT="Hexadecimal" PREFERREDCYCLELENGTH="10">
+    <PARAMETERS/>
+    <FORMS/>
+    <IO>
+        <INPUT BITS="1" SIGNED="false" POSX="290.0" POSY="-690.0" NAME="in">
+            <LABEL POSX="0.0" POSY="-10.0" HALIGN="RIGHT" VALIGN="CENTER"/>
+        </INPUT>
+        <OUTPUT BITS="1" SIGNED="false" POSX="290.0" POSY="-670.0" NAME="out">
+            <LABEL POSX="-10.0" POSY="20.0" HALIGN="LEFT" VALIGN="CENTER"/>
+        </OUTPUT>
+    </IO>
+    <SUBCOMPONENTS>
+        <SUBCOMPONENT NAME="Delayer" DATA="Delayer.sim-pl" POSX="70.0"
+            POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (2)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (3)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (4)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (5)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (6)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (7)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (8)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (9)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+        <SUBCOMPONENT NAME="Delayer (10)" DATA="Delayer.sim-pl"
+            POSX="70.0" POSY="-540.0" ZOOM="1.0" FLIP="VERTICAL">
+            <PARAMETERVALS/>
+            <STUBS>
+                <STUB POSX="220.0" POSY="150.0" PIN="in"/>
+                <STUB POSX="220.0" POSY="130.0" PIN="out"/>
+            </STUBS>
+        </SUBCOMPONENT>
+    </SUBCOMPONENTS>
+    <WIRES>
+        <WIRE NAME="Wire" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="7923fa1b16a27d1c" SUBCOMPONENT="Delayer (7)" PIN="out"/>
+                <SUBPIN ID="27b469a38887c9a9" SUBCOMPONENT="Delayer (8)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="7923fa1b16a27d1c"/>
+                    <NODEREF NODE="27b469a38887c9a9"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (2)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="c63cebddb6b7607e" SUBCOMPONENT="Delayer (8)" PIN="out"/>
+                <SUBPIN ID="258fadf22653f044" SUBCOMPONENT="Delayer (2)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="c63cebddb6b7607e"/>
+                    <NODEREF NODE="258fadf22653f044"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (3)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="d67c2b729bc45db2" SUBCOMPONENT="Delayer (2)" PIN="out"/>
+                <SUBPIN ID="eface05cd83dd076" SUBCOMPONENT="Delayer (6)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="d67c2b729bc45db2"/>
+                    <NODEREF NODE="eface05cd83dd076"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (4)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="9ac4d4a0c9700fab" SUBCOMPONENT="Delayer (6)" PIN="out"/>
+                <SUBPIN ID="a98db4c9d9400122"
+                    SUBCOMPONENT="Delayer (10)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="9ac4d4a0c9700fab"/>
+                    <NODEREF NODE="a98db4c9d9400122"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (5)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="56d21d49c48ac40b"
+                    SUBCOMPONENT="Delayer (10)" PIN="out"/>
+                <SUBPIN ID="21339a62d16226bd" SUBCOMPONENT="Delayer (5)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="56d21d49c48ac40b"/>
+                    <NODEREF NODE="21339a62d16226bd"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (6)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="70abb4cf1d7ef0b3" SUBCOMPONENT="Delayer (5)" PIN="out"/>
+                <SUBPIN ID="8714c39729f0f4fb" SUBCOMPONENT="Delayer (4)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="70abb4cf1d7ef0b3"/>
+                    <NODEREF NODE="8714c39729f0f4fb"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (7)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="47f635b25edaee9d" SUBCOMPONENT="Delayer (4)" PIN="out"/>
+                <SUBPIN ID="d00b2a6464c817cc" SUBCOMPONENT="Delayer (9)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="47f635b25edaee9d"/>
+                    <NODEREF NODE="d00b2a6464c817cc"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (8)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="20a68d7ba93b0de8" SUBCOMPONENT="Delayer (9)" PIN="out"/>
+                <SUBPIN ID="407914d7cb9d3789" SUBCOMPONENT="Delayer (3)" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="20a68d7ba93b0de8"/>
+                    <NODEREF NODE="407914d7cb9d3789"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (9)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="23a97edfaab85734" SUBCOMPONENT="Delayer (3)" PIN="out"/>
+                <SUBPIN ID="5992ddd3cf7a8c6a" SUBCOMPONENT="Delayer" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="23a97edfaab85734"/>
+                    <NODEREF NODE="5992ddd3cf7a8c6a"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (10)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="ad7ea2206d718e30" SUBCOMPONENT="Delayer (7)" PIN="in"/>
+                <MAINPIN ID="9a760613208ab53c" PIN="in"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="ad7ea2206d718e30"/>
+                    <NODEREF NODE="9a760613208ab53c"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+        <WIRE NAME="Wire (11)" COLOR="#000000">
+            <STROKE/>
+            <NODES>
+                <SUBPIN ID="98d887af24094970" SUBCOMPONENT="Delayer" PIN="out"/>
+                <MAINPIN ID="aab1d16a7a3ec54f" PIN="out"/>
+            </NODES>
+            <SPANS>
+                <SPAN>
+                    <NODEREF NODE="98d887af24094970"/>
+                    <NODEREF NODE="aab1d16a7a3ec54f"/>
+                </SPAN>
+            </SPANS>
+        </WIRE>
+    </WIRES>
+</COMPLEX>

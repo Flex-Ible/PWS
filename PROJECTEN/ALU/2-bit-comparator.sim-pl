@@ -19,22 +19,22 @@
         <OUTPUT BITS="1" SIGNED="false" POSX="410.0" POSY="120.0" NAME="c">
             <LABEL POSX="10.0" POSY="0.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
-        <INPUT BITS="1" SIGNED="false" POSX="260.0" POSY="50.0" NAME="all above equal">
+        <INPUT BITS="1" SIGNED="false" POSX="260.0" POSY="50.0" NAME="all_above_equal">
             <LABEL POSX="30.0" POSY="-20.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <INPUT BITS="1" SIGNED="false" POSX="350.0" POSY="50.0" NAME="a larger">
+        <INPUT BITS="1" SIGNED="false" POSX="350.0" POSY="50.0" NAME="a_larger">
             <LABEL POSX="20.0" POSY="-20.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </INPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="410.0" POSY="170.0" NAME="a larger (out)">
+        <OUTPUT BITS="1" SIGNED="false" POSX="410.0" POSY="170.0" NAME="a_larger_(out)">
             <LABEL POSX="40.0" POSY="20.0" HALIGN="RIGHT" VALIGN="CENTER"/>
         </OUTPUT>
-        <OUTPUT BITS="1" SIGNED="false" POSX="320.0" POSY="170.0" NAME="all equal so far">
+        <OUTPUT BITS="1" SIGNED="false" POSX="320.0" POSY="170.0" NAME="all_equal_so_far">
             <LABEL POSX="-40.0" POSY="20.0" HALIGN="LEFT" VALIGN="CENTER"/>
         </OUTPUT>
     </IO>
     <SUBCOMPONENTS>
         <SUBCOMPONENT NAME="XOR"
-            DATA="../../COMPONENTEN/H1Poorten/XOR.xml" POSX="70.0"
+            DATA="..\..\COMPONENTEN\H1Poorten\XOR.xml" POSX="70.0"
             POSY="90.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -44,7 +44,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputAND (2)"
-            DATA="../../COMPONENTEN/H1Poorten/2-inputAND.xml"
+            DATA="..\..\COMPONENTEN\H1Poorten\2-inputAND.xml"
             POSX="190.0" POSY="120.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -54,7 +54,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="Inverter"
-            DATA="../../COMPONENTEN/H1Poorten/Inverter.xml" POSX="130.0"
+            DATA="..\..\COMPONENTEN\H1Poorten\Inverter.xml" POSX="130.0"
             POSY="110.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -63,7 +63,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="2inputOR"
-            DATA="../../COMPONENTEN/H1Poorten/2-inputOR.xml"
+            DATA="..\..\COMPONENTEN\H1Poorten\2-inputOR.xml"
             POSX="290.0" POSY="120.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -73,7 +73,7 @@
             </STUBS>
         </SUBCOMPONENT>
         <SUBCOMPONENT NAME="3-inputAND"
-            DATA="../../COMPONENTEN/H1Poorten/3-inputAND.xml"
+            DATA="..\..\COMPONENTEN\H1Poorten\3-inputAND.xml"
             POSX="160.0" POSY="30.0" ZOOM="1.0" FLIP="NONE">
             <PARAMETERVALS/>
             <STUBS>
@@ -144,7 +144,7 @@
             <STROKE/>
             <NODES>
                 <SUBPIN ID="a101a9e9af23840d" SUBCOMPONENT="2inputOR" PIN="v"/>
-                <MAINPIN ID="2ac7f49ac8901263" PIN="a larger"/>
+                <MAINPIN ID="2ac7f49ac8901263" PIN="a_larger"/>
             </NODES>
             <SPANS>
                 <SPAN>
@@ -208,7 +208,7 @@
             <NODES>
                 <SUBPIN ID="5729e48fcf5ebcac"
                     SUBCOMPONENT="2inputAND (2)" PIN="v"/>
-                <MAINPIN ID="f3ed79b3aa7c1480" PIN="all above equal"/>
+                <MAINPIN ID="f3ed79b3aa7c1480" PIN="all_above_equal"/>
                 <SPLIT ID="e1a3394c8623cc77" POSX="260.0" POSY="60.0"/>
                 <SUBPIN ID="3905573d81be564d" SUBCOMPONENT="3-inputAND" PIN="v"/>
             </NODES>
@@ -230,7 +230,7 @@
         <WIRE NAME="Wire (8)" COLOR="#000000">
             <STROKE/>
             <NODES>
-                <MAINPIN ID="c1ff7892f3d6ff79" PIN="a larger (out)"/>
+                <MAINPIN ID="c1ff7892f3d6ff79" PIN="a_larger_(out)"/>
                 <SUBPIN ID="87d883dd7c6edb7b" SUBCOMPONENT="2inputOR" PIN="Z"/>
             </NODES>
             <SPANS>
@@ -245,7 +245,7 @@
             <NODES>
                 <SUBPIN ID="48b2b7c6c341eb41"
                     SUBCOMPONENT="2inputAND (2)" PIN="Z"/>
-                <MAINPIN ID="bdbb471ca45f2a4d" PIN="all equal so far"/>
+                <MAINPIN ID="bdbb471ca45f2a4d" PIN="all_equal_so_far"/>
             </NODES>
             <SPANS>
                 <SPAN>
